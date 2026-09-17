@@ -1,7 +1,6 @@
 """
-InsightOS - AI Business Advisor View
-Executive AI Decision Intelligence partner powered by RAG and quantitative business telemetry.
-Synthesizes natural-language business questions into actionable 4-part C-suite decision briefings.
+InsightOS - Ask InsightOS (AI Business Advisor)
+Conversational business intelligence providing plain-English executive briefings and recommendations.
 """
 
 from typing import Dict, Any, List
@@ -9,119 +8,94 @@ import streamlit as st
 from database.db_manager import DatabaseManager
 from ai_analyst.rag_engine import BusinessRAGEngine
 from ai_analyst.business_advisor import BusinessAdvisor
-from ui.components import render_executive_header, render_callout
+from ui.components import render_welcome_banner
 
 
 def render_ai_advisor_view(db: DatabaseManager):
-    """Render the AI Business Advisor conversational decision interface."""
-    render_executive_header(
-        title="AI Business Analyst & Decision Engine",
-        subtitle="Conversational business intelligence powered by RAG, SQL telemetry, and predictive ML models.",
-        badge_text="Executive Decision Intelligence"
+    """Render friendly conversational AI business advisor view."""
+    render_welcome_banner(
+        title="💬 Ask InsightOS (Your AI Business Partner)",
+        subtitle="Ask any question about your sales, profits, customer cancellations, or growth. We crunch the database numbers and give you plain-English answers.",
+        badge_text="Executive Decision Advisor"
     )
 
-    # Initialize RAG & Advisor in session state
+    # Initialize RAG in session state
     if "rag_engine" not in st.session_state:
-        with st.spinner("Indexing relational schema, live metrics, and ML models into RAG knowledge base..."):
+        with st.spinner("Preparing business knowledge base..."):
             rag = BusinessRAGEngine(db)
-            # Pass any available ML artifacts
-            ml_artifacts = {}
-            if "churn_predictor" in st.session_state:
-                ml_artifacts["churn_features"] = st.session_state["churn_predictor"].get_feature_importances()
-            if "rfm_summary" in st.session_state:
-                ml_artifacts["rfm_summary"] = st.session_state["rfm_summary"]
-            if "anomaly_summary" in st.session_state:
-                ml_artifacts["anomaly_summary"] = st.session_state["anomaly_summary"]
-
-            rag.build_knowledge_base(ml_artifacts=ml_artifacts)
+            rag.build_knowledge_base()
             st.session_state["rag_engine"] = rag
 
     rag = st.session_state["rag_engine"]
     advisor = BusinessAdvisor(db, rag)
 
-    # Engine Configuration Sidebar / Top Bar
-    col_mode, col_api = st.columns([1.5, 2.0])
-    with col_mode:
+    # 1. Choose Engine
+    col_opt, col_key = st.columns([1.5, 2.0])
+    with col_opt:
         provider = st.selectbox(
-            "Intelligence Engine Provider:",
-            options=["Local Offline Intelligence (Zero API Key)", "OpenAI (GPT-4o-mini)", "Google Gemini (1.5-Flash)"],
+            "Intelligence Engine:",
+            options=["Instant Local Offline (Free • 0 API Key Needed)", "OpenAI (GPT-4o)", "Google Gemini (1.5-Flash)"],
             index=0
         )
-    with col_api:
+    with col_key:
         api_key = ""
         if "OpenAI" in provider:
-            api_key = st.text_input("OpenAI API Key:", type="password", placeholder="sk-...", help="Your key is kept in memory only.")
+            api_key = st.text_input("Enter OpenAI Key:", type="password", placeholder="sk-...")
             provider_key = "openai"
         elif "Gemini" in provider:
-            api_key = st.text_input("Gemini API Key:", type="password", placeholder="AIzaSy...", help="Your key is kept in memory only.")
+            api_key = st.text_input("Enter Gemini Key:", type="password", placeholder="AIzaSy...")
             provider_key = "gemini"
         else:
             provider_key = "local"
-            st.markdown("<div style='padding-top: 28px; font-size: 13px; color: #059669; font-weight: 600;'>● Running in offline deterministic mode with built-in quantitative RAG</div>", unsafe_allow_html=True)
+            st.markdown("<div style='padding-top: 28px; font-size: 13px; color: #059669; font-weight: 600;'>🟢 Running 100% offline using your local database metrics</div>", unsafe_allow_html=True)
 
-    st.markdown("<div style='height: 12px;'></div>", unsafe_allow_html=True)
+    st.markdown("<div style='height: 10px;'></div>", unsafe_allow_html=True)
 
-    # Suggested Prompts
-    st.markdown("<div style='font-size: 13px; font-weight: 600; text-transform: uppercase; color: #64748B; margin-bottom: 8px;'>Executive Inquiry Templates:</div>", unsafe_allow_html=True)
+    # 2. Suggested Human Questions
+    st.markdown("<div style='font-size: 13px; font-weight: 700; color: #64748B; margin-bottom: 8px;'>💡 QUICK QUESTIONS (CLICK ANY TO ASK):</div>", unsafe_allow_html=True)
 
-    s1, s2, s3, s4 = st.columns(4)
-    prompt_clicked = None
-    with s1:
-        if st.button("📉 Churn Drivers & Retention Plan", use_container_width=True):
-            prompt_clicked = "What is driving our customer churn rate and how can we mitigate account attrition?"
-    with s2:
-        if st.button("📊 Revenue Velocity & Trajectory", use_container_width=True):
-            prompt_clicked = "Analyze our revenue growth rate across regions and projected trajectory."
-    with s3:
-        if st.button("⚠️ Anomaly & Margin Leakage", use_container_width=True):
-            prompt_clicked = "Where is transaction margin leakage occurring and how can we prevent unauthorized discounting?"
-    with s4:
-        if st.button("🎯 90-Day Executive Strategic Plan", use_container_width=True):
-            prompt_clicked = "Synthesize an executive 90-day action plan for the CEO based on all telemetry."
+    q1, q2, q3, q4 = st.columns(4)
+    clicked_prompt = None
+    with q1:
+        if st.button("📉 Why are customers canceling?", use_container_width=True):
+            clicked_prompt = "Why are customers canceling and how do we stop them?"
+    with q2:
+        if st.button("💰 How do we grow revenue?", use_container_width=True):
+            clicked_prompt = "How can we increase our monthly revenue and profit margin?"
+    with q3:
+        if st.button("⚠️ Where is money leaking?", use_container_width=True):
+            clicked_prompt = "Where is money leaking from discounts and fulfillment issues?"
+    with q4:
+        if st.button("🎯 Give me a 30-day plan", use_container_width=True):
+            clicked_prompt = "Give me a simple 30-day action plan for my leadership team."
 
-    # Question Input
-    default_q = prompt_clicked if prompt_clicked else "What are our primary churn drivers and how can we improve retention?"
-    user_query = st.text_input("Ask a Natural Language Business Question:", value=default_q, key="nl_business_query")
+    # 3. Text Input
+    default_text = clicked_prompt if clicked_prompt else "Why are customers canceling and how do we stop them?"
+    user_q = st.text_input("Ask a question about your business:", value=default_text)
 
-    col_btn, col_empty = st.columns([1.0, 4.0])
-    with col_btn:
-        generate_btn = st.button("Generate Executive Briefing", type="primary", use_container_width=True)
-
-    if generate_btn or prompt_clicked:
-        with st.spinner("Retrieving RAG telemetry and synthesizing quantitative briefing..."):
-            response = advisor.answer_question(
-                question=user_query,
+    if st.button("Get Plain-English Answer", type="primary") or clicked_prompt:
+        with st.spinner("Analyzing numbers and formulating advice..."):
+            ans = advisor.answer_question(
+                question=user_q,
                 api_key=api_key if provider_key != "local" else None,
                 llm_provider=provider_key
             )
 
-            st.markdown("<div style='height: 16px;'></div>", unsafe_allow_html=True)
-
-            # Header with Mode Badge
+            st.markdown("<div style='height: 14px;'></div>", unsafe_allow_html=True)
             st.markdown(f"""
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-                <h3 style="margin: 0; color: #0F172A; font-weight: 700;">Executive Decision Report</h3>
-                <span class="badge-tag badge-blue">{response['mode']}</span>
+            <div class="human-card" style="border-left: 5px solid #2563EB;">
+                <div class="human-card-header">
+                    <div class="human-card-title">📋 Executive Decision Report</div>
+                    <span style="font-size: 11px; font-weight: 700; color: #2563EB; background: #EFF6FF; padding: 2px 8px; border-radius: 9999px;">
+                        {ans['mode']}
+                    </span>
+                </div>
+                <div style="font-size: 14px; line-height: 1.6; color: #1E293B;">
+                    {ans['briefing']}
+                </div>
             </div>
             """, unsafe_allow_html=True)
 
-            # Render Briefing inside clean container
-            st.markdown(f"""
-            <div class="content-box" style="border-left: 4px solid #1E293B;">
-                {response['briefing']}
-            </div>
-            """, unsafe_allow_html=True)
-
-            # Show Retrieved RAG Knowledge Snippets
-            with st.expander("Inspect Grounding Telemetry (Retrieved RAG Context)", expanded=False):
-                st.markdown("<div style='font-size: 13px; color: #64748B; margin-bottom: 8px;'>The following factual snippets were retrieved from the schema, database queries, and ML models:</div>", unsafe_allow_html=True)
-                for snippet in response["retrieved_context"]:
-                    st.markdown(f"""
-                    <div style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 6px; padding: 10px 14px; margin-bottom: 8px;">
-                        <div style="display: flex; justify-content: space-between; font-weight: 600; font-size: 12px; color: #334155;">
-                            <span>{snippet['topic']}</span>
-                            <span style="color: #2563EB;">Relevance: {snippet['relevance_score']}</span>
-                        </div>
-                        <div style="font-size: 13px; color: #475569; margin-top: 4px;">{snippet['content']}</div>
-                    </div>
-                    """, unsafe_allow_html=True)
+            with st.expander("🔍 See the exact database facts used to build this answer"):
+                for s in ans["retrieved_context"]:
+                    st.markdown(f"• **{s['topic']}**: {s['content']}")

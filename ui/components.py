@@ -1,64 +1,56 @@
 """
-InsightOS - Reusable UI Components
-Generates clean HTML metric cards, executive badge tags, callout banners, and data displays.
+InsightOS - Human-Centered UI Components
+Creates friendly, humanized metric cards, actionable takeaway boxes, and clear data guides.
 """
 
 from typing import Optional
 import streamlit as st
 
 
-def render_executive_header(title: str, subtitle: str, badge_text: Optional[str] = "InsightOS Enterprise"):
-    """Render top page header banner with crisp styling."""
-    badge_html = f'<span class="badge-tag badge-slate" style="float: right;">{badge_text}</span>' if badge_text else ""
+def render_welcome_banner(title: str, subtitle: str, badge_text: Optional[str] = None):
+    """Render friendly top welcoming banner."""
+    badge_html = f'<span style="background: #EFF6FF; color: #1D4ED8; font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 9999px; border: 1px solid #DBEAFE; float: right;">{badge_text}</span>' if badge_text else ""
     st.markdown(f"""
-    <div class="executive-header">
+    <div class="welcome-banner">
         {badge_html}
-        <h1 class="executive-title">{title}</h1>
-        <p class="executive-subtitle">{subtitle}</p>
+        <h1 class="welcome-title">{title}</h1>
+        <p class="welcome-desc">{subtitle}</p>
     </div>
     """, unsafe_allow_html=True)
 
 
-def render_kpi_card(
-    label: str,
+def render_human_kpi(
+    icon: str,
+    title: str,
     value: str,
-    delta: Optional[str] = None,
-    delta_type: str = "positive",
+    badge_text: Optional[str] = None,
+    badge_type: str = "good",
     subtext: Optional[str] = None
 ):
-    """Render an individual executive KPI card."""
-    delta_html = ""
-    if delta:
-        css_class = {
-            "positive": "kpi-delta-positive",
-            "negative": "kpi-delta-negative",
-            "neutral": "kpi-delta-neutral"
-        }.get(delta_type, "kpi-delta-neutral")
-        icon = "↑ " if delta_type == "positive" else ("↓ " if delta_type == "negative" else "• ")
-        delta_html = f'<div class="{css_class}">{icon}{delta}</div>'
+    """Render an individual friendly KPI card."""
+    badge_html = ""
+    if badge_text:
+        css = "metric-badge-good" if badge_type == "good" else "metric-badge-warning"
+        badge_html = f'<div class="{css}">{badge_text}</div>'
 
-    subtext_html = f'<div style="font-size: 11px; color: #94A3B8; margin-top: 4px;">{subtext}</div>' if subtext else ""
+    sub_html = f'<div class="metric-subtext">{subtext}</div>' if subtext else ""
 
     st.markdown(f"""
-    <div class="kpi-card">
-        <div class="kpi-label">{label}</div>
-        <div class="kpi-value">{value}</div>
-        {delta_html}
-        {subtext_html}
+    <div class="metric-card">
+        <div class="metric-icon-wrap">{icon}</div>
+        <div class="metric-title">{title}</div>
+        <div class="metric-num">{value}</div>
+        {badge_html}
+        {sub_html}
     </div>
     """, unsafe_allow_html=True)
 
 
-def render_callout(text: str, title: str = "Executive Insight", tone: str = "info"):
-    """Render custom executive callout box."""
-    border_color = "#2563EB" if tone == "info" else ("#059669" if tone == "success" else "#BE123C")
+def render_insight_takeaway(text: str, title: str = "💡 Key Business Takeaway"):
+    """Render clear plain English business takeaway box."""
     st.markdown(f"""
-    <div class="executive-callout" style="border-left-color: {border_color};">
-        <div style="font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: 0.04em; color: #334155; margin-bottom: 4px;">
-            {title}
-        </div>
-        <div style="font-size: 14px; color: #1E293B; line-height: 1.5;">
-            {text}
-        </div>
+    <div class="human-insight-box">
+        <div class="human-insight-title">{title}</div>
+        <div class="human-insight-body">{text}</div>
     </div>
     """, unsafe_allow_html=True)

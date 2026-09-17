@@ -1,164 +1,214 @@
 """
-InsightOS - Styling & Theme Tokens
-Bespoke CSS rules crafted for an executive, editorial look and feel.
-Explicitly avoids generic neon/glowing AI aesthetics in favor of crisp financial intelligence styling.
+InsightOS - Modern, Human-Centered UI Styling System
+Warm, welcoming, clean, and intuitive design inspired by modern SaaS (Linear, Notion, Stripe).
+Free from generic dark neon AI cliches; optimized for readability, warmth, and business clarity.
 """
 
 CUSTOM_CSS = """
 <style>
-/* Base typography and background */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+/* Modern Typography & Reset */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
 
 html, body, [class*="css"] {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    color: #0F172A;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #1E293B;
 }
 
-/* App container */
+/* Background canvas */
 .stApp {
     background-color: #F8FAFC;
 }
 
-/* Sidebar refinement */
+/* Clean, friendly sidebar */
 [data-testid="stSidebar"] {
     background-color: #FFFFFF;
     border-right: 1px solid #E2E8F0;
+    padding-top: 1.5rem;
 }
 
-[data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3 {
-    color: #0F172A;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-}
-
-/* Clean Header / Banner */
-.executive-header {
-    background: #FFFFFF;
-    padding: 24px 32px;
-    border-radius: 12px;
+/* User Greeting Banner */
+.welcome-banner {
+    background: linear-gradient(135deg, #FFFFFF 0%, #F1F5F9 100%);
     border: 1px solid #E2E8F0;
+    border-radius: 16px;
+    padding: 24px 28px;
     margin-bottom: 24px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.03), 0 2px 4px -2px rgba(0, 0, 0, 0.03);
 }
 
-.executive-title {
-    font-size: 26px;
-    font-weight: 700;
+.welcome-title {
+    font-size: 24px;
+    font-weight: 800;
     color: #0F172A;
     margin: 0;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.02em;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
-.executive-subtitle {
+.welcome-desc {
     font-size: 14px;
     color: #64748B;
     margin-top: 6px;
     margin-bottom: 0;
+    line-height: 1.5;
 }
 
-/* KPI Card Component */
-.kpi-card {
-    background-color: #FFFFFF;
+/* Friendly KPI Metric Card */
+.metric-card {
+    background: #FFFFFF;
     border: 1px solid #E2E8F0;
-    border-radius: 10px;
-    padding: 20px 22px;
-    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.03);
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    border-radius: 14px;
+    padding: 18px 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    transition: all 0.2s ease-in-out;
 }
 
-.kpi-card:hover {
-    box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.06);
+.metric-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px -2px rgba(15, 23, 42, 0.08);
     border-color: #CBD5E1;
 }
 
-.kpi-label {
-    font-size: 12px;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: #64748B;
-    margin-bottom: 8px;
+.metric-icon-wrap {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    background: #F1F5F9;
+    font-size: 18px;
+    margin-bottom: 12px;
 }
 
-.kpi-value {
-    font-size: 28px;
-    font-weight: 700;
+.metric-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: #64748B;
+    margin-bottom: 4px;
+}
+
+.metric-num {
+    font-size: 26px;
+    font-weight: 800;
     color: #0F172A;
     letter-spacing: -0.03em;
-    margin-bottom: 6px;
 }
 
-.kpi-delta-positive {
-    font-size: 13px;
-    font-weight: 600;
-    color: #059669; /* Emerald Green */
+.metric-badge-good {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #059669;
+    background: #ECFDF5;
+    padding: 2px 8px;
+    border-radius: 9999px;
+    margin-top: 6px;
+}
+
+.metric-badge-warning {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #E11D48;
+    background: #FFF1F2;
+    padding: 2px 8px;
+    border-radius: 9999px;
+    margin-top: 6px;
+}
+
+.metric-subtext {
+    font-size: 12px;
+    color: #94A3B8;
+    margin-top: 6px;
+}
+
+/* Human Insight Box (Explains WHY in plain English) */
+.human-insight-box {
+    background: #F8FAFC;
+    border-left: 4px solid #3B82F6;
+    border-radius: 0 12px 12px 0;
+    padding: 14px 18px;
+    margin: 14px 0;
+    border-top: 1px solid #E2E8F0;
+    border-right: 1px solid #E2E8F0;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.human-insight-title {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #2563EB;
+    margin-bottom: 4px;
     display: flex;
     align-items: center;
-    gap: 4px;
+    gap: 6px;
 }
 
-.kpi-delta-negative {
-    font-size: 13px;
-    font-weight: 600;
-    color: #BE123C; /* Crimson Red */
-    display: flex;
-    align-items: center;
-    gap: 4px;
+.human-insight-body {
+    font-size: 13.5px;
+    color: #334155;
+    line-height: 1.5;
 }
 
-.kpi-delta-neutral {
-    font-size: 13px;
-    font-weight: 500;
-    color: #64748B;
-}
-
-/* Content section box */
-.content-box {
+/* Card Container */
+.human-card {
     background: #FFFFFF;
     border: 1px solid #E2E8F0;
-    border-radius: 10px;
-    padding: 24px;
-    margin-bottom: 24px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+    border-radius: 14px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
 }
 
-.content-box-title {
-    font-size: 17px;
+.human-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #F1F5F9;
+}
+
+.human-card-title {
+    font-size: 16px;
     font-weight: 700;
     color: #0F172A;
-    margin-bottom: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    margin: 0;
 }
 
-/* Badges */
-.badge-tag {
+/* Persona Badge */
+.persona-pill {
     display: inline-block;
-    padding: 3px 9px;
-    border-radius: 6px;
-    font-size: 11px;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-size: 12px;
     font-weight: 600;
-    letter-spacing: 0.02em;
 }
+.persona-champion { background: #FEF3C7; color: #92400E; border: 1px solid #FDE68A; }
+.persona-loyal { background: #EFF6FF; color: #1E40AF; border: 1px solid #DBEAFE; }
+.persona-atrisk { background: #FFF1F2; color: #9F1239; border: 1px solid #FECDD3; }
+.persona-hibernating { background: #F1F5F9; color: #475569; border: 1px solid #E2E8F0; }
 
-.badge-blue { background-color: #EFF6FF; color: #1D4ED8; border: 1px solid #DBEAFE; }
-.badge-green { background-color: #ECFDF5; color: #047857; border: 1px solid #A7F3D0; }
-.badge-red { background-color: #FFF1F2; color: #BE123C; border: 1px solid #FECDD3; }
-.badge-amber { background-color: #FFFBEB; color: #B45309; border: 1px solid #FDE68A; }
-.badge-slate { background-color: #F1F5F9; color: #334155; border: 1px solid #E2E8F0; }
-
-/* Clean Tabs */
+/* Friendly Navigation Buttons */
 .stTabs [data-baseweb="tab-list"] {
-    gap: 8px;
+    gap: 6px;
     background-color: transparent;
-    border-bottom: 1px solid #E2E8F0;
-    padding-bottom: 4px;
+    border-bottom: 2px solid #E2E8F0;
+    padding-bottom: 2px;
 }
 
 .stTabs [data-baseweb="tab"] {
-    border-radius: 6px;
-    padding: 8px 16px;
+    border-radius: 8px 8px 0 0;
+    padding: 10px 18px;
     font-size: 14px;
     font-weight: 600;
     color: #64748B;
@@ -167,18 +217,21 @@ html, body, [class*="css"] {
 }
 
 .stTabs [aria-selected="true"] {
-    background-color: #0F172A !important;
-    color: #FFFFFF !important;
+    background-color: #FFFFFF !important;
+    color: #2563EB !important;
+    border-bottom: 2px solid #2563EB !important;
+    font-weight: 700 !important;
 }
 
 /* Button override */
 .stButton > button {
-    border-radius: 6px;
+    border-radius: 8px;
     font-weight: 600;
+    font-size: 13.5px;
     border: 1px solid #CBD5E1;
     background-color: #FFFFFF;
-    color: #0F172A;
-    padding: 6px 16px;
+    color: #1E293B;
+    padding: 8px 18px;
     transition: all 0.15s ease;
 }
 
@@ -186,37 +239,33 @@ html, body, [class*="css"] {
     background-color: #F8FAFC;
     border-color: #94A3B8;
     color: #0F172A;
+    transform: translateY(-1px);
 }
 
 .stButton > button[kind="primary"] {
-    background-color: #0F172A;
+    background: #0F172A;
     color: #FFFFFF;
     border-color: #0F172A;
 }
 
 .stButton > button[kind="primary"]:hover {
-    background-color: #1E293B;
+    background: #1E293B;
     border-color: #1E293B;
 }
 
-/* Callout Box */
-.executive-callout {
-    border-left: 4px solid #2563EB;
-    background-color: #F8FAFC;
-    padding: 16px 20px;
-    border-radius: 0 8px 8px 0;
-    margin: 16px 0;
-    border-top: 1px solid #E2E8F0;
-    border-right: 1px solid #E2E8F0;
-    border-bottom: 1px solid #E2E8F0;
+/* Dataframe clean styling */
+[data-testid="stDataFrame"] {
+    border-radius: 10px;
+    border: 1px solid #E2E8F0;
+    overflow: hidden;
 }
 </style>
 """
 
-# Plotly styling template for editorial feel
+# Plotly styling template with warm, readable, human-crafted colors
 PLOTLY_TEMPLATE = {
     "layout": {
-        "font": {"family": "Inter, sans-serif", "color": "#1E293B"},
+        "font": {"family": "Plus Jakarta Sans, sans-serif", "color": "#334155"},
         "paper_bgcolor": "#FFFFFF",
         "plot_bgcolor": "#FFFFFF",
         "xaxis": {
@@ -231,7 +280,7 @@ PLOTLY_TEMPLATE = {
             "tickfont": {"size": 11, "color": "#64748B"},
             "title": {"font": {"size": 12, "color": "#475569"}}
         },
-        "margin": {"l": 40, "r": 20, "t": 40, "b": 40},
-        "colorway": ["#1E293B", "#2563EB", "#059669", "#D97706", "#BE123C", "#8B5CF6", "#0D9488"]
+        "margin": {"l": 40, "r": 20, "t": 35, "b": 35},
+        "colorway": ["#3B82F6", "#10B981", "#6366F1", "#F59E0B", "#F43F5E", "#8B5CF6", "#06B6D4"]
     }
 }

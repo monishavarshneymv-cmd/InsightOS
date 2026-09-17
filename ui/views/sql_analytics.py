@@ -1,7 +1,6 @@
 """
-InsightOS - SQL Analytics Studio & Interactive Query Console
-Provides prebuilt enterprise analytical queries (CTEs, Window Functions, Complex Joins, CASE statements)
-and a live SQL execution laboratory. Compatible with both PostgreSQL and SQLite.
+InsightOS - Smart SQL Insights
+Friendly, business-focused query answers with instant results and optional code inspection.
 """
 
 import time
@@ -9,111 +8,104 @@ import streamlit as st
 import pandas as pd
 from database.db_manager import DatabaseManager
 from database.analytics_queries import QUERY_CATALOG
-from ui.components import render_executive_header, render_callout
+from ui.components import render_welcome_banner, render_insight_takeaway
 
 
 def render_sql_analytics_view(db: DatabaseManager):
-    """Render the SQL analytics workbench interface."""
-    render_executive_header(
-        title="SQL-Based Business Analytics Studio",
-        subtitle="Advanced SQL query execution engine utilizing CTEs, Window Functions (DENSE_RANK, LAG, SUM OVER), Joins, and CASE statements.",
-        badge_text="PostgreSQL / ANSI SQL Compatible"
+    """Render friendly SQL analytics view."""
+    render_welcome_banner(
+        title="⚡ Smart SQL Business Insights",
+        subtitle="We turned complex PostgreSQL queries (Window Functions, CTEs, and Joins) into instant answers to critical business questions.",
+        badge_text="PostgreSQL Analytics Engine"
     )
 
-    tab_catalog, tab_console = st.tabs(["Prebuilt Analytical Query Catalog", "Interactive SQL Console"])
+    tab_answers, tab_sandbox = st.tabs([
+        "💡 Business Questions Answered",
+        "🛠️ Custom SQL Sandbox (For Analysts)"
+    ])
 
-    # 1. Prebuilt Query Catalog Tab
-    with tab_catalog:
-        st.markdown("""
-        <div style="font-size: 14px; color: #475569; margin-bottom: 16px;">
-            Select a verified enterprise SQL query from our curated library. Each query is architected for PostgreSQL performance standards.
-        </div>
-        """, unsafe_allow_html=True)
+    with tab_answers:
+        # User-friendly dropdown mapping
+        friendly_questions = [
+            "📈 How is our monthly revenue growing, and what is our dollar change? (Window Function: LAG)",
+            "👑 Who are our most valuable enterprise accounts in each region? (Window Function: DENSE_RANK)",
+            "📊 How does revenue accumulate across product lines over time? (Window Function: SUM OVER)",
+            "🏆 How are our sales reps performing against their quotas? (CTEs & Tiered Commissions)",
+            "💰 Which customer tier and product category yields the best profit? (Multi-Table Joins)",
+            "⏱️ Are fulfillment delays causing customer refund requests? (CASE Statement Analysis)",
+            "🎯 Which top accounts drive over 80% of our business? (Pareto Subquery)"
+        ]
 
-        query_titles = [f"[{q['category']}] {q['title']}" for q in QUERY_CATALOG]
-        selected_idx = st.selectbox("Select Business Analysis Query:", range(len(QUERY_CATALOG)), format_func=lambda x: query_titles[x])
-        query_item = QUERY_CATALOG[selected_idx]
+        selected_q_idx = st.selectbox("👉 Choose a business question to answer:", range(len(QUERY_CATALOG)), format_func=lambda x: friendly_questions[x])
+        query_data = QUERY_CATALOG[selected_q_idx]
 
-        # Query Details Header
-        col_meta1, col_meta2 = st.columns([2.0, 1.0])
-        with col_meta1:
-            st.markdown(f"### {query_item['title']}")
-            st.markdown(f"**Business Inquiry:** {query_item['business_question']}")
-        with col_meta2:
-            st.markdown(f"""
-            <div style="text-align: right; margin-top: 10px;">
-                <span class="badge-tag badge-blue" style="font-size: 12px;">{query_item['category']}</span>
+        # Execute query immediately
+        start_t = time.perf_counter()
+        try:
+            result_df = db.execute_query(query_data["sql"])
+            exec_time = (time.perf_counter() - start_t) * 1000
+        except Exception as e:
+            st.error(f"Error running query: {e}")
+            return
+
+        # Friendly Takeaway Header
+        st.markdown(f"""
+        <div class="human-card">
+            <div class="human-card-header">
+                <div class="human-card-title">{query_data['title']}</div>
+                <span style="font-size: 11px; font-weight: 700; color: #2563EB; background: #EFF6FF; padding: 2px 8px; border-radius: 9999px;">
+                    Retrieved in {exec_time:.1f} ms
+                </span>
             </div>
-            """, unsafe_allow_html=True)
-
-        # Technical explanation callout
-        render_callout(query_item["explanation"], title="SQL Architecture & Technique", tone="info")
-
-        # Code Block
-        st.code(query_item["sql"], language="sql")
-
-        # Execution Button
-        if st.button("Execute Query", type="primary", key="btn_exec_catalog"):
-            start_t = time.perf_counter()
-            try:
-                res_df = db.execute_query(query_item["sql"])
-                duration_ms = (time.perf_counter() - start_t) * 1000
-
-                st.success(f"Query completed in {duration_ms:.1f} ms — Retrieved {len(res_df):,} rows.")
-                st.dataframe(res_df, use_container_width=True)
-
-                # Download CSV
-                csv_data = res_df.to_csv(index=False).encode("utf-8")
-                st.download_button(
-                    label="Download Result Set (CSV)",
-                    data=csv_data,
-                    file_name=f"{query_item['id']}_results.csv",
-                    mime="text/csv"
-                )
-            except Exception as e:
-                st.error(f"SQL Execution Error: {str(e)}")
-
-    # 2. Interactive SQL Console Tab
-    with tab_console:
-        st.markdown("""
-        <div style="font-size: 14px; color: #475569; margin-bottom: 14px;">
-            Execute custom SQL queries against the active database. Schema includes <code>customers</code>, <code>products</code>, <code>sales_reps</code>, and <code>transactions</code>.
-        </div>
+            <div style="font-size: 14px; color: #475569; margin-bottom: 12px;">
+                <strong>What this answers:</strong> {query_data['business_question']}
+            </div>
         """, unsafe_allow_html=True)
 
-        default_sql = """-- Write custom ANSI SQL query below:
-SELECT 
-    c.segment,
-    COUNT(t.transaction_id) AS total_orders,
+        # Show Table
+        st.dataframe(result_df, use_container_width=True)
+
+        render_insight_takeaway(
+            text=f"<strong>Why this SQL is powerful:</strong> {query_data['explanation']}",
+            title="🧠 How the Database Solved This"
+        )
+
+        # Optional Code Inspector (Hidden by default so non-technical users aren't overwhelmed)
+        with st.expander("🔍 Click to inspect the PostgreSQL query code"):
+            st.code(query_data["sql"], language="sql")
+
+        st.markdown("</div>", unsafe_allow_html=True)
+
+        # Download button
+        csv_file = result_df.to_csv(index=False).encode("utf-8")
+        st.download_button(
+            label="📥 Download These Results as CSV",
+            data=csv_file,
+            file_name=f"{query_data['id']}_report.csv",
+            mime="text/csv"
+        )
+
+    with tab_sandbox:
+        st.markdown("<div style='font-size: 14px; color: #64748B; margin-bottom: 12px;'>Write and execute any custom SQL query directly on the live database:</div>", unsafe_allow_html=True)
+
+        sample_sql = """SELECT 
+    c.segment AS customer_tier,
+    COUNT(t.transaction_id) AS orders_count,
     ROUND(SUM(t.total_amount), 2) AS total_revenue,
-    ROUND(AVG(t.total_amount), 2) AS avg_deal_size
+    ROUND(AVG(t.total_amount), 2) AS average_deal_size
 FROM transactions t
 JOIN customers c ON t.customer_id = c.customer_id
 WHERE t.payment_status = 'Completed'
 GROUP BY c.segment
 ORDER BY total_revenue DESC;"""
 
-        user_sql = st.text_area("SQL Query Input:", value=default_sql, height=180)
-
-        col_run, col_hint = st.columns([1.0, 3.0])
-        with col_run:
-            run_custom = st.button("Run Custom SQL", type="primary", key="btn_exec_custom")
-
-        if run_custom:
-            start_t = time.perf_counter()
+        user_sql = st.text_area("SQL Editor:", value=sample_sql, height=180)
+        if st.button("Run My Query", type="primary"):
             try:
+                t0 = time.perf_counter()
                 custom_df = db.execute_query(user_sql)
-                duration_ms = (time.perf_counter() - start_t) * 1000
-
-                st.success(f"Returned {len(custom_df):,} rows in {duration_ms:.1f} ms.")
+                ms = (time.perf_counter() - t0) * 1000
+                st.success(f"Success! Retrieved {len(custom_df):,} rows in {ms:.1f} ms.")
                 st.dataframe(custom_df, use_container_width=True)
-
-                csv_custom = custom_df.to_csv(index=False).encode("utf-8")
-                st.download_button(
-                    label="Export Custom Query Results (CSV)",
-                    data=csv_custom,
-                    file_name="custom_sql_results.csv",
-                    mime="text/csv"
-                )
-            except Exception as e:
-                st.error(f"Query Execution Failure: {str(e)}")
+            except Exception as err:
+                st.error(f"SQL Error: {err}")
