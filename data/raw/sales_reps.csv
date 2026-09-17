@@ -1,0 +1,9 @@
+rep_id,name,region,quota,commission_rate
+REP-01,Marcus Vance,North America,650000,0.08
+REP-02,Elena Rostova,EMEA,550000,0.075
+REP-03,Kenji Takahashi,APAC,480000,0.07
+REP-04,Sofia Hernandez,LATAM,380000,0.07
+REP-05,David Sterling,North America,700000,0.085
+REP-06,Claire Dubois,EMEA,500000,0.07
+REP-07,Aarav Sharma,APAC,520000,0.075
+REP-08,Mateo Rossi,LATAM,350000,0.065

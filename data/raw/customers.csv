@@ -1,0 +1,1201 @@
+customer_id,company_name,segment,region,country,join_date,contract_type,payment_method,paperless_billing,tenure_months,monthly_charges,total_charges,support_tickets,satisfaction_score,churn
+CUST-0001,Vivienne Enterprises,Mid-Market,North America,Canada,2024-05-26,One-Year,Credit Card,0,28,1072.62,28792.8,1,4,0
+CUST-0002,Nathan Technologies,Mid-Market,North America,United States,2023-09-14,Month-to-Month,Bank Wire,1,36,984.99,35619.0,1,3,0
+CUST-0003,Hassan Solutions,SMB,EMEA,United Kingdom,2026-04-15,One-Year,Bank Wire,1,5,404.45,2114.71,1,3,0
+CUST-0004,Kavita Enterprises,Mid-Market,North America,United States,2026-06-08,One-Year,Automated ACH,1,3,1606.78,4837.8,0,4,0
+CUST-0005,Mei Enterprises,SMB,EMEA,France,2025-07-02,Month-to-Month,Credit Card,1,14,526.74,7732.18,2,3,0
+CUST-0006,Hassan Enterprises,SMB,North America,Canada,2024-12-15,Month-to-Month,Bank Wire,1,21,347.53,7445.42,2,5,0
+CUST-0007,William Enterprises,Mid-Market,EMEA,Germany,2024-09-20,Month-to-Month,Bank Wire,0,24,1274.59,31018.42,0,3,1
+CUST-0008,Siddharth Ventures,Mid-Market,EMEA,United Kingdom,2026-03-20,One-Year,Credit Card,1,6,833.36,5206.73,1,3,0
+CUST-0009,Tara Capital,Mid-Market,North America,Canada,2025-08-03,Month-to-Month,Bank Wire,1,13,1221.11,15971.85,4,3,0
+CUST-0010,Ingrid Systems,Mid-Market,North America,Canada,2025-04-21,One-Year,Bank Wire,1,17,1005.12,16420.05,1,4,0
+CUST-0011,Vivienne Logistics,SMB,APAC,South Korea,2023-11-20,Month-to-Month,Automated ACH,1,34,474.02,16875.9,1,4,0
+CUST-0012,Alexander Enterprises,SMB,EMEA,France,2023-09-23,Month-to-Month,Credit Card,1,36,237.8,8949.3,0,5,1
+CUST-0013,Yuki Health,Mid-Market,LATAM,Brazil,2024-11-23,Two-Year,Bank Wire,1,22,1040.8,23147.12,3,3,1
+CUST-0014,Evelyn Capital,SMB,APAC,Japan,2024-01-16,Month-to-Month,Automated ACH,0,32,490.62,16220.55,4,5,0
+CUST-0015,Julian Ventures,Enterprise,North America,United States,2025-04-10,One-Year,Automated ACH,1,17,2466.56,40362.28,1,4,1
+CUST-0016,William Solutions,Mid-Market,LATAM,Brazil,2024-09-08,Month-to-Month,Bank Wire,1,24,819.76,20126.61,1,3,0
+CUST-0017,Gabriella Health,Mid-Market,North America,Canada,2024-09-11,Month-to-Month,Bank Wire,1,24,699.58,15985.74,3,2,1
+CUST-0018,Siddharth Ventures,Enterprise,EMEA,United Kingdom,2025-01-05,Month-to-Month,Bank Wire,1,20,2223.85,43722.8,0,5,0
+CUST-0019,Rania Ventures,Mid-Market,North America,Canada,2025-03-22,One-Year,Automated ACH,1,18,1159.71,20338.29,3,3,0
+CUST-0020,Patrick Media,SMB,North America,United States,2023-12-21,Month-to-Month,Credit Card,1,33,563.82,18928.62,1,5,0
+CUST-0021,Vivienne Enterprises,SMB,North America,Canada,2025-11-18,Month-to-Month,Bank Wire,1,10,404.13,4009.73,2,2,1
+CUST-0022,Ingrid Solutions,Mid-Market,North America,United States,2024-11-09,Month-to-Month,Credit Card,1,22,917.95,19214.96,2,5,1
+CUST-0023,Carlos Ventures,Mid-Market,North America,Canada,2023-12-20,Two-Year,Bank Wire,1,33,856.29,27947.93,2,4,0
+CUST-0024,Olga Health,Enterprise,North America,Canada,2023-12-23,Month-to-Month,Bank Wire,1,33,2406.69,75933.86,3,4,1
+CUST-0025,Kavita Technologies,Mid-Market,North America,Canada,2024-09-11,Month-to-Month,Automated ACH,1,24,1267.79,29471.02,0,4,0
+CUST-0026,Umar Enterprises,Mid-Market,EMEA,Germany,2025-12-03,Month-to-Month,Credit Card,1,9,1245.43,11118.33,1,3,0
+CUST-0027,Tara Systems,Mid-Market,EMEA,France,2023-09-11,Month-to-Month,Bank Wire,1,36,1181.73,43161.27,1,2,1
+CUST-0028,Olga Capital,Enterprise,LATAM,Brazil,2025-09-03,Two-Year,Automated ACH,1,12,2547.95,29698.36,4,4,1
+CUST-0029,Ingrid Logistics,Startup,LATAM,Brazil,2025-10-11,Month-to-Month,Credit Card,1,11,293.97,3169.81,2,4,0
+CUST-0030,Vivienne Dynamics,Startup,North America,Canada,2024-01-28,Two-Year,Bank Wire,1,32,229.64,7059.71,2,5,0
+CUST-0031,Siddharth Logistics,SMB,North America,United States,2024-01-25,One-Year,Automated ACH,1,32,457.49,14275.33,1,4,0
+CUST-0032,Beatrice Enterprises,Enterprise,EMEA,France,2025-12-11,One-Year,Credit Card,1,9,2628.89,24230.76,1,5,0
+CUST-0033,Siddharth Media,Enterprise,EMEA,United Kingdom,2024-08-06,Two-Year,Credit Card,0,25,2301.85,58021.06,4,4,0
+CUST-0034,Evelyn Media,Mid-Market,North America,Canada,2024-10-02,Two-Year,Bank Wire,1,23,1132.67,26525.72,0,3,0
+CUST-0035,William Enterprises,Startup,North America,Canada,2026-03-28,Month-to-Month,Automated ACH,0,5,266.08,1393.75,0,3,1
+CUST-0036,Feng Media,SMB,North America,Canada,2025-04-12,One-Year,Automated ACH,1,17,494.52,8210.8,0,3,1
+CUST-0037,Xavier Enterprises,Startup,North America,United States,2023-09-26,Month-to-Month,Automated ACH,1,36,332.95,12370.4,4,3,1
+CUST-0038,Hassan Ventures,Mid-Market,North America,United States,2026-03-13,Two-Year,Automated ACH,1,6,947.18,5763.49,1,5,0
+CUST-0039,Mei Dynamics,Enterprise,North America,United States,2023-09-25,Month-to-Month,Automated ACH,1,36,2360.37,81645.79,3,2,1
+CUST-0040,Nathan Capital,Mid-Market,EMEA,France,2023-09-17,Month-to-Month,Automated ACH,1,36,1053.0,36180.86,0,5,0
+CUST-0041,Nathan Technologies,Mid-Market,EMEA,Germany,2026-01-18,Two-Year,Automated ACH,1,8,1079.19,8774.58,3,5,0
+CUST-0042,Dmitri Health,Mid-Market,EMEA,Netherlands,2026-01-28,Month-to-Month,Bank Wire,1,7,905.66,6618.79,0,4,0
+CUST-0043,William Logistics,Mid-Market,EMEA,France,2024-11-26,Month-to-Month,Bank Wire,1,22,1023.71,22761.84,3,4,1
+CUST-0044,Kavita Solutions,Mid-Market,North America,United States,2024-11-01,Two-Year,Automated ACH,1,22,1003.69,21164.36,2,4,0
+CUST-0045,Rania Systems,SMB,North America,United States,2025-07-17,One-Year,Bank Wire,1,14,421.21,6182.31,4,4,0
+CUST-0046,Umar Enterprises,SMB,EMEA,Germany,2025-08-11,One-Year,Bank Wire,1,13,305.2,3771.42,4,3,0
+CUST-0047,Zara Enterprises,Enterprise,APAC,Singapore,2025-05-03,One-Year,Bank Wire,1,16,2303.6,38141.48,4,4,0
+CUST-0048,Olga Logistics,Startup,APAC,Australia,2025-07-10,One-Year,Credit Card,1,14,336.05,4860.22,2,5,0
+CUST-0049,Siddharth Solutions,Mid-Market,APAC,South Korea,2023-12-08,Month-to-Month,Credit Card,1,33,1232.08,40745.24,0,3,0
+CUST-0050,Vivienne Ventures,SMB,North America,United States,2024-12-19,Month-to-Month,Bank Wire,1,21,424.96,8601.44,1,5,0
+CUST-0051,Hassan Media,Enterprise,EMEA,Germany,2025-09-09,Month-to-Month,Credit Card,1,12,2296.5,28475.38,1,4,1
+CUST-0052,Mei Systems,Startup,LATAM,Brazil,2023-11-08,One-Year,Credit Card,0,34,301.95,10059.55,4,3,0
+CUST-0053,Mei Media,Mid-Market,EMEA,Germany,2026-05-12,Month-to-Month,Bank Wire,1,4,1410.87,5744.58,1,4,1
+CUST-0054,Mei Logistics,Startup,APAC,Singapore,2025-04-08,Month-to-Month,Bank Wire,1,17,264.52,4284.19,4,3,0
+CUST-0055,Vivienne Media,Enterprise,North America,Canada,2024-09-19,Month-to-Month,Bank Wire,1,24,2204.99,54302.18,5,5,0
+CUST-0056,Mei Health,Mid-Market,APAC,South Korea,2023-10-01,Month-to-Month,Credit Card,1,36,1078.04,40563.32,2,5,0
+CUST-0057,Hassan Enterprises,SMB,APAC,Japan,2023-09-26,Month-to-Month,Bank Wire,1,36,303.38,10513.45,5,3,0
+CUST-0058,William Enterprises,Mid-Market,EMEA,Germany,2024-05-22,One-Year,Bank Wire,1,28,838.59,24062.66,2,5,1
+CUST-0059,Dmitri Logistics,SMB,LATAM,Brazil,2023-09-24,One-Year,Automated ACH,1,36,412.0,15486.79,1,4,0
+CUST-0060,Gabriella Enterprises,Enterprise,EMEA,Germany,2025-01-01,Month-to-Month,Credit Card,1,20,1228.9,25306.07,1,3,0
+CUST-0061,Tara Technologies,SMB,North America,Canada,2024-12-24,One-Year,Bank Wire,0,21,453.81,9837.19,3,2,0
+CUST-0062,Dmitri Media,Startup,LATAM,Chile,2024-04-16,One-Year,Credit Card,1,29,212.74,6456.63,5,3,0
+CUST-0063,Ingrid Systems,Mid-Market,APAC,South Korea,2025-03-03,One-Year,Bank Wire,1,18,1292.37,24273.71,0,4,0
+CUST-0064,Ingrid Solutions,SMB,North America,Canada,2023-09-12,Month-to-Month,Bank Wire,0,36,535.73,18672.67,3,2,1
+CUST-0065,Gabriella Capital,Mid-Market,APAC,Australia,2025-06-05,One-Year,Bank Wire,1,15,1364.22,21380.18,4,4,0
+CUST-0066,Carlos Ventures,SMB,EMEA,Netherlands,2026-03-14,One-Year,Credit Card,1,6,540.94,3340.72,1,2,1
+CUST-0067,Carlos Health,Mid-Market,North America,United States,2024-07-11,Month-to-Month,Credit Card,1,26,913.9,24941.47,3,3,1
+CUST-0068,Siddharth Capital,Mid-Market,North America,Canada,2025-06-16,Month-to-Month,Credit Card,1,15,938.53,14419.88,0,3,1
+CUST-0069,Zara Logistics,Mid-Market,North America,Canada,2026-02-01,Two-Year,Credit Card,1,7,1062.08,7137.57,2,4,1
+CUST-0070,Gabriella Health,Mid-Market,North America,United States,2023-09-11,One-Year,Bank Wire,0,36,1268.57,45912.2,2,3,0
+CUST-0071,Xavier Logistics,Enterprise,EMEA,Netherlands,2023-10-03,One-Year,Credit Card,1,36,2076.95,72410.18,2,5,0
+CUST-0072,Beatrice Health,Enterprise,LATAM,Mexico,2025-11-19,Month-to-Month,Bank Wire,1,10,1814.98,17339.61,2,4,1
+CUST-0073,Evelyn Systems,Startup,LATAM,Brazil,2025-03-23,One-Year,Credit Card,1,18,247.85,4514.13,1,5,0
+CUST-0074,Zara Dynamics,Mid-Market,North America,Canada,2023-10-15,Two-Year,Bank Wire,1,35,1115.32,39464.16,3,3,0
+CUST-0075,Yuki Enterprises,SMB,LATAM,Brazil,2023-09-25,One-Year,Bank Wire,1,36,343.92,11855.0,3,3,0
+CUST-0076,Alexander Media,Mid-Market,EMEA,Netherlands,2025-06-17,Month-to-Month,Bank Wire,0,15,1109.61,15930.42,2,3,1
+CUST-0077,Hassan Health,Mid-Market,APAC,Singapore,2025-07-07,Month-to-Month,Bank Wire,1,14,1249.57,16868.11,4,3,1
+CUST-0078,Beatrice Logistics,Mid-Market,APAC,Australia,2024-04-16,One-Year,Credit Card,0,29,777.75,22555.81,1,4,0
+CUST-0079,Patrick Solutions,Startup,North America,United States,2025-11-28,Month-to-Month,Bank Wire,1,9,262.05,2467.39,1,3,1
+CUST-0080,Tara Systems,SMB,LATAM,Chile,2025-05-07,Month-to-Month,Automated ACH,1,16,531.51,8633.01,3,3,1
+CUST-0081,Ingrid Logistics,SMB,LATAM,Mexico,2026-04-05,Two-Year,Credit Card,1,5,366.36,1799.02,2,4,0
+CUST-0082,Dmitri Logistics,Mid-Market,North America,Canada,2024-11-14,One-Year,Credit Card,1,22,1196.63,25837.56,2,5,0
+CUST-0083,Kavita Enterprises,Startup,LATAM,Mexico,2025-04-25,One-Year,Credit Card,1,17,235.64,3880.73,3,5,0
+CUST-0084,Liam Systems,SMB,APAC,South Korea,2025-05-19,Month-to-Month,Bank Wire,1,16,298.47,4957.39,2,3,0
+CUST-0085,Patrick Enterprises,SMB,North America,United States,2023-11-23,One-Year,Credit Card,1,34,270.9,9664.0,1,4,0
+CUST-0086,Dmitri Solutions,SMB,LATAM,Chile,2024-04-15,Two-Year,Bank Wire,1,29,491.26,14126.14,3,5,0
+CUST-0087,Patrick Solutions,Mid-Market,North America,United States,2023-11-13,One-Year,Automated ACH,0,34,930.5,30929.11,4,4,0
+CUST-0088,Nathan Capital,Mid-Market,LATAM,Chile,2025-11-21,Month-to-Month,Bank Wire,1,10,1249.88,13122.37,4,3,1
+CUST-0089,Patrick Logistics,Mid-Market,North America,Canada,2026-04-03,One-Year,Bank Wire,0,5,1396.22,7239.12,2,5,1
+CUST-0090,Xavier Ventures,Startup,EMEA,Germany,2024-10-14,Month-to-Month,Credit Card,1,23,254.92,6045.74,3,5,0
+CUST-0091,Mei Logistics,Enterprise,EMEA,United Kingdom,2026-01-02,Month-to-Month,Bank Wire,0,8,2947.18,22633.66,3,4,1
+CUST-0092,Olga Technologies,Startup,EMEA,Netherlands,2023-09-29,Month-to-Month,Automated ACH,1,36,242.89,8851.82,1,3,1
+CUST-0093,Mei Enterprises,Startup,APAC,South Korea,2023-11-12,One-Year,Automated ACH,0,34,149.0,4830.89,2,2,0
+CUST-0094,Carlos Ventures,Startup,EMEA,France,2025-03-03,Month-to-Month,Automated ACH,1,18,249.7,4586.24,3,2,1
+CUST-0095,Dmitri Solutions,Startup,North America,Canada,2025-03-25,Month-to-Month,Bank Wire,1,18,200.21,3578.8,3,3,0
+CUST-0096,Hassan Dynamics,Enterprise,North America,United States,2024-02-28,One-Year,Bank Wire,1,31,3217.69,99725.12,0,3,0
+CUST-0097,Tara Logistics,Mid-Market,North America,Canada,2023-09-12,Month-to-Month,Automated ACH,0,36,573.45,21010.86,2,4,0
+CUST-0098,Feng Enterprises,Startup,North America,Canada,2025-03-17,One-Year,Credit Card,1,18,287.5,5353.69,1,2,1
+CUST-0099,Gabriella Media,Mid-Market,APAC,Japan,2023-09-15,Month-to-Month,Bank Wire,1,36,1351.77,46337.3,1,4,1
+CUST-0100,William Media,Startup,North America,United States,2025-02-01,One-Year,Automated ACH,1,19,234.22,4583.18,4,4,0
+CUST-0101,Umar Capital,SMB,North America,United States,2025-08-02,One-Year,Automated ACH,1,13,374.07,4686.28,0,2,0
+CUST-0102,Dmitri Technologies,Enterprise,North America,Canada,2023-09-22,One-Year,Bank Wire,1,36,1708.37,63023.36,2,3,0
+CUST-0103,Feng Ventures,Mid-Market,North America,Canada,2023-09-25,Two-Year,Bank Wire,0,36,670.36,24089.15,3,4,0
+CUST-0104,Julian Capital,Startup,APAC,South Korea,2023-09-29,One-Year,Bank Wire,1,36,233.64,8557.73,2,4,0
+CUST-0105,Mei Dynamics,Enterprise,North America,Canada,2024-10-10,Month-to-Month,Bank Wire,1,23,2127.14,47760.61,1,2,1
+CUST-0106,Mei Capital,Mid-Market,North America,United States,2024-04-11,Two-Year,Credit Card,0,29,1007.11,28392.41,0,4,0
+CUST-0107,Carlos Solutions,SMB,APAC,Australia,2023-09-30,Month-to-Month,Automated ACH,1,36,577.21,20764.23,2,4,1
+CUST-0108,Dmitri Ventures,Mid-Market,APAC,Singapore,2026-07-08,One-Year,Credit Card,0,2,1031.09,2045.5,2,4,0
+CUST-0109,Yuki Logistics,SMB,APAC,Japan,2023-09-14,Month-to-Month,Automated ACH,1,36,378.41,13446.39,5,3,1
+CUST-0110,Olga Solutions,Enterprise,LATAM,Mexico,2024-11-05,Month-to-Month,Automated ACH,1,22,2655.11,55845.49,0,3,1
+CUST-0111,Ingrid Ventures,Enterprise,LATAM,Mexico,2025-01-19,One-Year,Credit Card,1,20,2901.24,59688.92,1,4,0
+CUST-0112,Hassan Logistics,Enterprise,APAC,Singapore,2024-04-06,One-Year,Credit Card,1,29,1501.9,42392.17,0,5,0
+CUST-0113,Zara Logistics,Mid-Market,APAC,Japan,2026-01-16,Two-Year,Credit Card,1,8,1055.2,8112.32,6,2,0
+CUST-0114,Alexander Logistics,SMB,North America,United States,2025-01-25,Month-to-Month,Bank Wire,1,20,516.3,10352.94,0,4,0
+CUST-0115,Yuki Enterprises,Mid-Market,EMEA,France,2024-06-26,Month-to-Month,Bank Wire,1,27,1057.77,29208.79,4,2,1
+CUST-0116,William Dynamics,Enterprise,North America,United States,2024-05-15,Two-Year,Credit Card,1,28,1787.18,51103.92,1,5,0
+CUST-0117,Olga Enterprises,SMB,APAC,Australia,2023-10-01,Month-to-Month,Credit Card,1,36,465.92,17128.97,3,5,0
+CUST-0118,Mei Systems,Mid-Market,EMEA,Netherlands,2024-12-13,Month-to-Month,Credit Card,0,21,1342.19,28611.36,3,3,0
+CUST-0119,Zara Dynamics,Mid-Market,EMEA,Germany,2025-05-18,Month-to-Month,Automated ACH,1,16,1387.77,22714.16,2,2,1
+CUST-0120,Kavita Media,Mid-Market,North America,Canada,2025-10-18,One-Year,Credit Card,1,11,1093.13,11525.85,2,4,0
+CUST-0121,Nathan Enterprises,SMB,APAC,Australia,2023-09-16,Month-to-Month,Automated ACH,1,36,432.67,15840.93,2,4,0
+CUST-0122,Nathan Capital,Startup,APAC,South Korea,2024-05-07,Month-to-Month,Bank Wire,1,28,221.3,5950.78,1,3,0
+CUST-0123,Rania Ventures,Mid-Market,North America,Canada,2025-06-21,Month-to-Month,Credit Card,1,15,1066.71,15646.34,4,5,1
+CUST-0124,Hassan Media,SMB,APAC,Japan,2023-09-12,Two-Year,Bank Wire,1,36,392.88,14430.37,3,3,0
+CUST-0125,Julian Capital,Startup,North America,United States,2025-07-06,One-Year,Bank Wire,1,14,232.55,3409.31,5,2,1
+CUST-0126,Carlos Dynamics,Mid-Market,North America,Canada,2026-01-15,Month-to-Month,Credit Card,1,8,933.5,7518.48,2,4,0
+CUST-0127,Carlos Technologies,SMB,North America,United States,2025-10-14,Month-to-Month,Credit Card,1,11,557.23,6076.93,3,3,1
+CUST-0128,Gabriella Dynamics,Enterprise,North America,Canada,2023-12-11,One-Year,Credit Card,1,33,2400.88,75627.43,3,3,0
+CUST-0129,Mei Systems,Mid-Market,North America,United States,2025-09-16,One-Year,Automated ACH,1,12,1182.81,13654.34,1,4,0
+CUST-0130,Patrick Media,Mid-Market,North America,Canada,2024-10-20,One-Year,Automated ACH,1,23,1109.19,24419.68,2,3,0
+CUST-0131,Yuki Technologies,Startup,North America,Canada,2024-09-17,One-Year,Credit Card,1,24,245.71,5848.5,2,4,0
+CUST-0132,Dmitri Media,Enterprise,North America,Canada,2025-05-06,Month-to-Month,Credit Card,1,16,2276.86,36199.2,1,2,1
+CUST-0133,Dmitri Ventures,Mid-Market,North America,Canada,2023-09-21,Two-Year,Credit Card,1,36,1172.69,43395.19,0,3,1
+CUST-0134,Carlos Dynamics,Startup,EMEA,Germany,2025-02-13,Month-to-Month,Automated ACH,1,19,158.41,2903.75,2,3,0
+CUST-0135,Dmitri Logistics,SMB,North America,United States,2025-01-31,One-Year,Bank Wire,0,19,540.87,10408.02,2,5,0
+CUST-0136,Olga Systems,SMB,APAC,South Korea,2025-02-06,One-Year,Automated ACH,1,19,501.29,9973.09,1,4,0
+CUST-0137,Kavita Logistics,Mid-Market,North America,Canada,2024-09-18,One-Year,Credit Card,1,24,852.2,19581.9,3,5,0
+CUST-0138,Olga Solutions,SMB,North America,Canada,2024-02-28,One-Year,Automated ACH,1,31,508.53,15912.74,2,5,0
+CUST-0139,Mei Solutions,Mid-Market,EMEA,United Kingdom,2024-05-05,One-Year,Bank Wire,1,28,1174.25,32883.5,1,3,0
+CUST-0140,Beatrice Solutions,Startup,North America,Canada,2024-10-25,One-Year,Bank Wire,1,23,219.35,5013.65,3,4,0
+CUST-0141,Olga Dynamics,Mid-Market,EMEA,Germany,2025-08-14,Month-to-Month,Automated ACH,1,13,1302.66,16176.53,2,3,1
+CUST-0142,Vivienne Capital,SMB,North America,United States,2025-03-14,Month-to-Month,Credit Card,1,18,417.33,7817.18,1,5,0
+CUST-0143,Evelyn Capital,Startup,North America,United States,2023-11-23,Two-Year,Credit Card,1,34,259.38,8902.74,0,2,0
+CUST-0144,Carlos Health,SMB,EMEA,France,2025-10-31,One-Year,Automated ACH,0,10,427.23,4448.51,2,5,1
+CUST-0145,Carlos Media,Mid-Market,EMEA,United Kingdom,2023-10-28,Two-Year,Bank Wire,1,35,1111.81,37714.84,5,3,1
+CUST-0146,Evelyn Logistics,Mid-Market,North America,United States,2024-11-09,Two-Year,Automated ACH,1,22,1288.13,27876.27,4,3,0
+CUST-0147,Zara Systems,Enterprise,North America,Canada,2025-06-19,Two-Year,Automated ACH,1,15,3374.14,48919.32,4,4,1
+CUST-0148,Olga Technologies,Startup,North America,United States,2025-06-05,Month-to-Month,Credit Card,1,15,259.52,3906.04,2,5,1
+CUST-0149,Julian Solutions,Mid-Market,APAC,Singapore,2023-11-14,Two-Year,Credit Card,1,34,790.76,26568.24,5,5,0
+CUST-0150,Rania Media,SMB,LATAM,Brazil,2023-09-29,Two-Year,Bank Wire,1,36,561.79,19963.97,1,4,0
+CUST-0151,Dmitri Dynamics,Enterprise,APAC,Australia,2025-04-20,Month-to-Month,Automated ACH,1,17,2137.93,36117.56,2,5,1
+CUST-0152,Hassan Solutions,Mid-Market,APAC,Japan,2024-07-17,One-Year,Bank Wire,0,26,1082.8,27800.64,3,4,0
+CUST-0153,Alexander Capital,SMB,LATAM,Chile,2024-05-05,Month-to-Month,Bank Wire,0,28,456.22,12738.97,3,3,1
+CUST-0154,Evelyn Solutions,Startup,North America,United States,2025-09-22,Month-to-Month,Automated ACH,1,12,273.43,3355.72,0,5,0
+CUST-0155,Rania Media,Mid-Market,North America,Canada,2023-09-30,Month-to-Month,Credit Card,1,36,1171.81,42004.24,2,5,0
+CUST-0156,Dmitri Solutions,SMB,EMEA,United Kingdom,2024-12-08,Month-to-Month,Bank Wire,1,21,394.31,8375.58,0,4,0
+CUST-0157,Hassan Systems,Mid-Market,North America,United States,2025-11-10,Month-to-Month,Credit Card,1,10,983.42,10314.43,3,4,0
+CUST-0158,Siddharth Technologies,Enterprise,North America,Canada,2023-10-21,Two-Year,Bank Wire,1,35,2337.21,84162.51,3,3,0
+CUST-0159,Liam Ventures,SMB,APAC,Japan,2024-03-08,One-Year,Bank Wire,1,30,472.4,13943.19,2,3,0
+CUST-0160,Vivienne Logistics,Startup,APAC,South Korea,2025-01-10,One-Year,Automated ACH,1,20,340.15,6990.89,2,4,0
+CUST-0161,Olga Technologies,SMB,North America,United States,2024-06-28,Month-to-Month,Bank Wire,1,27,361.74,10075.04,1,5,0
+CUST-0162,Patrick Health,Mid-Market,North America,United States,2025-01-01,Month-to-Month,Credit Card,1,20,1165.09,23999.32,5,5,0
+CUST-0163,Nathan Media,Mid-Market,APAC,South Korea,2024-04-25,One-Year,Credit Card,0,29,1355.37,39381.5,1,4,1
+CUST-0164,Carlos Media,Mid-Market,North America,United States,2025-12-11,Month-to-Month,Bank Wire,1,9,814.87,7294.17,3,3,1
+CUST-0165,Xavier Media,Mid-Market,North America,Canada,2025-07-23,One-Year,Automated ACH,1,14,1315.75,18300.66,3,5,0
+CUST-0166,Vivienne Technologies,Mid-Market,North America,Canada,2026-01-25,One-Year,Bank Wire,1,7,774.21,5608.43,6,5,1
+CUST-0167,William Solutions,Mid-Market,North America,United States,2024-08-08,Month-to-Month,Bank Wire,1,25,950.72,24017.79,2,4,1
+CUST-0168,William Solutions,Mid-Market,LATAM,Mexico,2024-10-25,One-Year,Credit Card,1,23,1375.62,32112.46,3,4,0
+CUST-0169,Hassan Enterprises,Mid-Market,North America,United States,2025-02-12,Two-Year,Bank Wire,1,19,1465.63,28415.15,0,4,0
+CUST-0170,Gabriella Systems,Mid-Market,North America,Canada,2023-09-29,Two-Year,Credit Card,0,36,1085.12,38849.9,0,4,0
+CUST-0171,Carlos Capital,Mid-Market,EMEA,United Kingdom,2024-10-18,Two-Year,Automated ACH,1,23,1043.78,25032.82,2,4,0
+CUST-0172,Vivienne Logistics,Enterprise,APAC,Singapore,2025-04-19,One-Year,Bank Wire,1,17,2497.54,41867.57,3,3,0
+CUST-0173,Tara Capital,SMB,EMEA,Germany,2024-08-26,Month-to-Month,Bank Wire,1,25,353.8,8826.13,3,4,1
+CUST-0174,Nathan Media,Enterprise,APAC,Japan,2023-09-23,One-Year,Credit Card,1,36,2842.87,100752.03,1,4,0
+CUST-0175,Zara Dynamics,SMB,EMEA,Germany,2023-09-29,Month-to-Month,Automated ACH,1,36,384.9,13335.62,4,5,1
+CUST-0176,Evelyn Health,Startup,North America,Canada,2024-04-23,Month-to-Month,Automated ACH,0,29,323.28,9699.44,0,3,1
+CUST-0177,Ingrid Ventures,Enterprise,EMEA,France,2025-11-12,One-Year,Bank Wire,1,10,2213.5,22338.22,0,3,0
+CUST-0178,Tara Logistics,SMB,North America,Canada,2024-09-09,Month-to-Month,Automated ACH,1,24,323.97,8124.04,3,4,0
+CUST-0179,Zara Systems,SMB,North America,United States,2023-09-20,One-Year,Bank Wire,0,36,457.81,16556.28,3,3,0
+CUST-0180,Vivienne Health,Mid-Market,EMEA,Netherlands,2025-02-22,One-Year,Bank Wire,1,19,921.03,17437.35,4,3,0
+CUST-0181,Kavita Systems,SMB,North America,Canada,2025-04-14,Two-Year,Bank Wire,1,17,548.26,9377.88,2,4,0
+CUST-0182,Kavita Ventures,Mid-Market,EMEA,France,2024-10-23,Month-to-Month,Bank Wire,1,23,1069.81,24889.52,1,3,1
+CUST-0183,Hassan Logistics,Enterprise,APAC,Australia,2025-10-17,One-Year,Credit Card,1,11,2234.53,24109.23,2,5,0
+CUST-0184,Alexander Enterprises,Mid-Market,LATAM,Chile,2023-11-25,Month-to-Month,Bank Wire,1,34,1106.19,37591.26,4,3,0
+CUST-0185,Vivienne Solutions,SMB,North America,United States,2023-09-20,Month-to-Month,Bank Wire,1,36,496.04,17684.68,1,4,0
+CUST-0186,Beatrice Media,Mid-Market,North America,United States,2024-04-21,Month-to-Month,Credit Card,1,29,922.1,26151.85,3,5,0
+CUST-0187,Umar Systems,Mid-Market,North America,United States,2025-03-31,Two-Year,Credit Card,1,17,599.91,9835.68,1,4,1
+CUST-0188,Umar Dynamics,Enterprise,North America,United States,2024-11-22,One-Year,Automated ACH,1,22,2409.76,51153.59,2,3,0
+CUST-0189,Rania Logistics,Enterprise,North America,Canada,2025-02-05,One-Year,Bank Wire,1,19,2806.18,55067.77,1,5,0
+CUST-0190,Siddharth Solutions,Mid-Market,EMEA,France,2025-08-23,Month-to-Month,Credit Card,0,13,1087.59,14257.01,0,3,1
+CUST-0191,Yuki Technologies,Startup,EMEA,France,2025-04-30,Two-Year,Credit Card,1,16,263.61,4028.53,0,3,0
+CUST-0192,Patrick Logistics,Enterprise,EMEA,Netherlands,2026-02-28,Month-to-Month,Credit Card,1,6,2561.32,14892.72,2,4,1
+CUST-0193,Olga Capital,SMB,North America,Canada,2023-09-20,One-Year,Credit Card,1,36,547.83,20408.94,2,3,0
+CUST-0194,Yuki Technologies,SMB,EMEA,Germany,2025-05-04,Month-to-Month,Bank Wire,0,16,448.77,7151.36,1,2,1
+CUST-0195,Siddharth Capital,SMB,EMEA,France,2024-10-21,Two-Year,Bank Wire,1,23,448.76,10777.16,0,4,0
+CUST-0196,Julian Health,Mid-Market,EMEA,Netherlands,2023-09-22,One-Year,Automated ACH,1,36,1068.61,37653.59,1,5,0
+CUST-0197,Tara Dynamics,SMB,North America,Canada,2025-09-28,One-Year,Bank Wire,1,11,379.14,4259.85,6,2,1
+CUST-0198,Liam Solutions,Mid-Market,EMEA,Netherlands,2025-01-08,Month-to-Month,Credit Card,1,20,1282.43,24646.32,4,3,1
+CUST-0199,Yuki Systems,SMB,North America,United States,2024-11-10,Month-to-Month,Bank Wire,1,22,431.45,9330.82,0,4,0
+CUST-0200,Patrick Enterprises,Enterprise,EMEA,Germany,2025-09-05,Two-Year,Bank Wire,1,12,2714.33,33811.8,3,5,0
+CUST-0201,Patrick Solutions,Mid-Market,EMEA,France,2024-01-11,Month-to-Month,Automated ACH,1,32,1297.22,40399.46,2,3,1
+CUST-0202,Yuki Technologies,Mid-Market,LATAM,Brazil,2023-09-28,Two-Year,Bank Wire,0,36,1210.13,44819.17,1,5,0
+CUST-0203,Feng Health,Mid-Market,APAC,Japan,2023-09-14,Month-to-Month,Automated ACH,1,36,930.96,35153.76,2,4,0
+CUST-0204,Siddharth Dynamics,Startup,EMEA,Germany,2026-04-06,Month-to-Month,Automated ACH,1,5,162.35,830.51,2,4,1
+CUST-0205,Vivienne Health,SMB,EMEA,United Kingdom,2025-01-30,Month-to-Month,Credit Card,1,19,474.63,9118.03,4,4,0
+CUST-0206,Vivienne Media,Enterprise,APAC,Australia,2023-10-12,Month-to-Month,Automated ACH,1,35,2490.84,90978.9,1,4,0
+CUST-0207,Alexander Health,SMB,North America,Canada,2025-08-13,Month-to-Month,Credit Card,1,13,550.3,7263.84,4,4,1
+CUST-0208,Xavier Ventures,Mid-Market,North America,United States,2024-01-26,Month-to-Month,Credit Card,0,32,1175.47,38380.72,2,4,0
+CUST-0209,Julian Enterprises,Mid-Market,EMEA,France,2025-09-15,Month-to-Month,Bank Wire,1,12,1430.64,17592.98,2,4,0
+CUST-0210,Umar Capital,SMB,North America,Canada,2025-01-30,One-Year,Bank Wire,1,19,451.19,8790.99,0,3,0
+CUST-0211,Carlos Dynamics,Enterprise,North America,Canada,2024-03-13,Month-to-Month,Automated ACH,0,30,1848.55,53804.77,3,3,1
+CUST-0212,Siddharth Logistics,Enterprise,North America,Canada,2024-04-24,One-Year,Credit Card,0,29,2334.13,67320.74,3,2,0
+CUST-0213,Beatrice Solutions,Mid-Market,North America,Canada,2023-10-02,One-Year,Credit Card,1,36,990.73,33960.61,1,5,0
+CUST-0214,Ingrid Technologies,Enterprise,APAC,Japan,2023-09-22,One-Year,Credit Card,1,36,2947.1,110278.08,4,5,0
+CUST-0215,Patrick Technologies,SMB,North America,United States,2025-07-30,One-Year,Credit Card,0,13,225.34,2892.64,1,5,0
+CUST-0216,Mei Solutions,Mid-Market,APAC,South Korea,2025-01-04,Two-Year,Automated ACH,1,20,1075.89,22293.06,6,4,0
+CUST-0217,Dmitri Logistics,Mid-Market,LATAM,Mexico,2025-09-29,Two-Year,Automated ACH,1,11,1473.15,16980.03,1,5,0
+CUST-0218,Olga Dynamics,SMB,North America,Canada,2025-06-17,Month-to-Month,Bank Wire,1,15,512.49,7975.79,2,5,0
+CUST-0219,Zara Enterprises,SMB,North America,Canada,2025-03-26,Month-to-Month,Bank Wire,1,18,434.44,7778.04,1,5,1
+CUST-0220,William Technologies,Mid-Market,North America,United States,2025-01-18,One-Year,Automated ACH,1,20,1450.91,27973.94,2,3,0
+CUST-0221,Julian Ventures,SMB,APAC,Australia,2024-08-04,One-Year,Bank Wire,1,25,441.89,10653.15,1,4,0
+CUST-0222,William Dynamics,Mid-Market,North America,Canada,2025-09-05,Two-Year,Automated ACH,0,12,917.28,11146.05,2,3,1
+CUST-0223,Nathan Dynamics,Startup,EMEA,France,2024-12-05,Month-to-Month,Credit Card,1,21,254.57,5296.93,3,3,1
+CUST-0224,Julian Media,Mid-Market,North America,Canada,2024-11-19,Month-to-Month,Credit Card,1,22,1202.16,27544.41,0,2,0
+CUST-0225,Siddharth Media,Mid-Market,LATAM,Chile,2025-06-12,Month-to-Month,Bank Wire,1,15,1257.26,19655.17,2,3,0
+CUST-0226,Liam Enterprises,Enterprise,EMEA,Germany,2026-03-09,One-Year,Credit Card,0,6,2661.24,15469.52,1,4,0
+CUST-0227,Zara Systems,Mid-Market,EMEA,Germany,2025-06-14,Month-to-Month,Automated ACH,1,15,1041.48,15137.95,2,4,1
+CUST-0228,Yuki Enterprises,Startup,APAC,South Korea,2025-12-29,One-Year,Bank Wire,0,8,247.39,1989.43,3,4,1
+CUST-0229,Zara Health,Mid-Market,North America,Canada,2023-09-22,One-Year,Credit Card,1,36,1063.79,40139.72,0,5,0
+CUST-0230,Patrick Capital,Mid-Market,LATAM,Mexico,2025-08-22,One-Year,Bank Wire,1,13,941.76,11950.0,3,3,0
+CUST-0231,Tara Systems,Enterprise,EMEA,France,2024-05-20,Month-to-Month,Credit Card,1,28,2175.83,61231.77,3,3,1
+CUST-0232,William Capital,Startup,North America,Canada,2025-05-05,One-Year,Credit Card,1,16,301.68,4755.53,2,5,0
+CUST-0233,Evelyn Dynamics,Mid-Market,EMEA,United Kingdom,2025-08-21,Two-Year,Credit Card,1,13,1011.43,13033.4,2,5,0
+CUST-0234,Vivienne Ventures,Enterprise,North America,United States,2025-08-07,Month-to-Month,Bank Wire,1,13,2607.86,35373.21,3,3,0
+CUST-0235,Patrick Solutions,Enterprise,North America,Canada,2025-06-08,One-Year,Credit Card,1,15,2120.99,31821.9,1,3,0
+CUST-0236,Xavier Media,Enterprise,APAC,Singapore,2024-12-23,One-Year,Bank Wire,1,21,2759.24,56509.45,4,4,1
+CUST-0237,Liam Health,Mid-Market,APAC,Japan,2023-09-21,Month-to-Month,Bank Wire,1,36,1335.1,47102.21,2,5,0
+CUST-0238,Carlos Technologies,Mid-Market,North America,Canada,2024-07-14,Month-to-Month,Bank Wire,1,26,1041.51,27078.88,3,4,1
+CUST-0239,Nathan Capital,Startup,EMEA,United Kingdom,2023-10-02,Month-to-Month,Automated ACH,1,36,227.57,8247.23,2,5,1
+CUST-0240,Ingrid Technologies,Startup,LATAM,Chile,2025-07-07,One-Year,Bank Wire,0,14,231.52,3181.15,4,4,0
+CUST-0241,Gabriella Systems,Startup,North America,Canada,2023-09-24,Month-to-Month,Bank Wire,0,36,266.76,9496.91,2,3,1
+CUST-0242,Siddharth Capital,SMB,North America,United States,2025-05-03,One-Year,Credit Card,0,16,492.47,7527.85,3,3,1
+CUST-0243,Nathan Ventures,SMB,APAC,Australia,2025-08-04,Two-Year,Bank Wire,1,13,491.63,6090.56,4,4,0
+CUST-0244,Ingrid Solutions,SMB,EMEA,France,2024-02-18,Month-to-Month,Credit Card,1,31,603.89,17944.98,3,4,1
+CUST-0245,Umar Health,Enterprise,APAC,Japan,2025-01-21,Month-to-Month,Automated ACH,1,20,2112.14,41776.53,5,4,0
+CUST-0246,Liam Enterprises,Mid-Market,North America,Canada,2025-09-28,Month-to-Month,Bank Wire,1,11,1315.02,14391.22,2,4,1
+CUST-0247,Siddharth Dynamics,Enterprise,North America,United States,2023-09-16,Month-to-Month,Credit Card,1,36,2192.31,78017.42,2,3,1
+CUST-0248,Julian Media,SMB,North America,United States,2023-09-16,Two-Year,Automated ACH,1,36,588.56,20488.07,1,5,0
+CUST-0249,Mei Logistics,Mid-Market,North America,Canada,2025-08-19,Month-to-Month,Credit Card,1,13,954.71,12391.66,2,4,1
+CUST-0250,Carlos Capital,SMB,North America,United States,2024-09-12,One-Year,Bank Wire,1,24,502.0,11812.65,4,5,0
+CUST-0251,Mei Capital,SMB,APAC,South Korea,2025-04-15,Month-to-Month,Credit Card,0,17,620.52,10708.17,3,3,1
+CUST-0252,Umar Logistics,Mid-Market,North America,United States,2025-03-21,Two-Year,Automated ACH,1,18,933.04,17122.15,5,4,0
+CUST-0253,Patrick Systems,Mid-Market,APAC,Australia,2025-01-30,Month-to-Month,Bank Wire,1,19,1056.4,20256.71,2,2,1
+CUST-0254,Siddharth Logistics,Startup,EMEA,United Kingdom,2025-03-12,Two-Year,Bank Wire,1,18,250.31,4654.84,1,3,0
+CUST-0255,Carlos Media,SMB,EMEA,Germany,2025-09-15,Month-to-Month,Bank Wire,1,12,298.11,3533.32,2,4,0
+CUST-0256,Olga Systems,Mid-Market,EMEA,Netherlands,2025-04-03,Month-to-Month,Bank Wire,0,17,942.39,16343.66,4,3,1
+CUST-0257,Siddharth Systems,Enterprise,EMEA,United Kingdom,2026-02-12,One-Year,Bank Wire,1,7,2305.78,15404.93,5,4,0
+CUST-0258,Vivienne Media,Startup,LATAM,Mexico,2024-10-14,Month-to-Month,Bank Wire,1,23,222.34,5240.06,1,2,1
+CUST-0259,Siddharth Systems,Mid-Market,EMEA,Germany,2025-08-11,Month-to-Month,Credit Card,1,13,1074.01,13474.5,0,4,1
+CUST-0260,Alexander Solutions,Startup,North America,Canada,2024-10-25,Month-to-Month,Automated ACH,1,23,269.89,6090.7,2,5,0
+CUST-0261,Olga Ventures,Mid-Market,EMEA,France,2024-09-13,One-Year,Credit Card,1,24,978.74,22420.23,1,4,0
+CUST-0262,Xavier Enterprises,SMB,North America,Canada,2026-03-30,One-Year,Automated ACH,1,5,397.71,1991.73,1,4,0
+CUST-0263,Siddharth Logistics,Startup,North America,Canada,2025-11-14,One-Year,Credit Card,1,10,293.63,2982.49,3,4,0
+CUST-0264,Mei Technologies,Mid-Market,APAC,Singapore,2025-03-13,Month-to-Month,Credit Card,1,18,1383.82,25537.27,4,2,1
+CUST-0265,Carlos Systems,Mid-Market,North America,United States,2023-09-27,Month-to-Month,Bank Wire,0,36,904.62,32656.58,1,5,1
+CUST-0266,Vivienne Capital,SMB,EMEA,Netherlands,2025-04-14,Month-to-Month,Credit Card,1,17,513.15,8874.98,0,5,0
+CUST-0267,Julian Systems,Mid-Market,EMEA,Germany,2023-09-26,Month-to-Month,Bank Wire,1,36,766.68,27630.36,3,3,0
+CUST-0268,Nathan Systems,Mid-Market,North America,Canada,2023-09-18,One-Year,Credit Card,1,36,1008.5,38120.94,1,4,0
+CUST-0269,Siddharth Logistics,Enterprise,EMEA,Germany,2024-12-12,One-Year,Automated ACH,0,21,2165.01,45395.23,1,3,0
+CUST-0270,Gabriella Media,SMB,LATAM,Chile,2026-04-07,One-Year,Credit Card,0,5,421.25,2103.87,2,4,0
+CUST-0271,Carlos Systems,Mid-Market,North America,United States,2023-10-25,Month-to-Month,Bank Wire,1,35,795.15,28012.96,2,2,1
+CUST-0272,Zara Solutions,SMB,EMEA,United Kingdom,2023-09-25,One-Year,Automated ACH,1,36,470.29,17476.63,2,3,0
+CUST-0273,Beatrice Solutions,Enterprise,EMEA,Netherlands,2025-10-02,One-Year,Bank Wire,0,11,2580.72,28245.22,1,2,0
+CUST-0274,Liam Enterprises,SMB,North America,United States,2025-04-18,Month-to-Month,Credit Card,1,17,539.18,9497.0,2,5,1
+CUST-0275,Umar Media,SMB,North America,United States,2023-09-27,One-Year,Credit Card,1,36,328.26,11931.82,5,3,0
+CUST-0276,Feng Capital,Mid-Market,LATAM,Mexico,2024-08-20,Two-Year,Credit Card,0,25,1075.33,27730.56,4,3,0
+CUST-0277,Evelyn Media,Startup,LATAM,Mexico,2024-03-27,One-Year,Bank Wire,1,30,217.36,6404.79,5,4,0
+CUST-0278,Hassan Media,SMB,EMEA,France,2024-03-19,Month-to-Month,Credit Card,0,30,434.02,12490.78,4,4,0
+CUST-0279,Rania Health,Mid-Market,EMEA,France,2024-03-16,Month-to-Month,Bank Wire,1,30,517.8,15895.51,1,5,0
+CUST-0280,Yuki Solutions,Startup,EMEA,France,2025-03-01,One-Year,Bank Wire,1,18,231.55,4047.8,2,3,0
+CUST-0281,Ingrid Capital,Mid-Market,APAC,Australia,2025-06-20,One-Year,Credit Card,1,15,1269.61,19391.8,3,5,0
+CUST-0282,Beatrice Technologies,Enterprise,North America,Canada,2024-01-26,Month-to-Month,Bank Wire,0,32,2339.17,72625.19,0,5,0
+CUST-0283,Xavier Logistics,Enterprise,APAC,Australia,2025-02-16,Month-to-Month,Bank Wire,1,19,1905.02,36790.83,0,3,0
+CUST-0284,Vivienne Logistics,SMB,North America,Canada,2025-04-01,Month-to-Month,Credit Card,1,17,296.62,4790.96,0,4,0
+CUST-0285,Patrick Enterprises,Mid-Market,North America,United States,2024-02-16,Month-to-Month,Credit Card,1,31,1285.64,41800.37,0,2,1
+CUST-0286,Nathan Logistics,Mid-Market,EMEA,Germany,2025-08-30,One-Year,Bank Wire,1,12,1264.24,14866.33,2,4,0
+CUST-0287,Mei Logistics,Enterprise,EMEA,Germany,2024-11-08,Month-to-Month,Credit Card,1,22,2309.84,51946.8,1,4,1
+CUST-0288,Vivienne Logistics,SMB,LATAM,Chile,2023-09-27,Month-to-Month,Bank Wire,1,36,397.44,14436.0,3,4,0
+CUST-0289,Mei Capital,SMB,LATAM,Mexico,2023-09-26,Month-to-Month,Bank Wire,1,36,673.53,24489.57,2,3,0
+CUST-0290,Umar Health,SMB,APAC,Japan,2025-05-04,Two-Year,Bank Wire,1,16,383.38,5943.09,0,5,0
+CUST-0291,Mei Health,Mid-Market,EMEA,Germany,2025-04-22,Month-to-Month,Credit Card,1,17,1130.73,19969.63,0,5,0
+CUST-0292,Alexander Capital,Mid-Market,LATAM,Brazil,2025-10-04,Month-to-Month,Credit Card,1,11,833.52,9142.14,4,3,0
+CUST-0293,Zara Enterprises,Enterprise,North America,United States,2024-07-23,Month-to-Month,Bank Wire,1,26,2159.12,56174.23,3,4,0
+CUST-0294,Vivienne Dynamics,SMB,APAC,South Korea,2025-09-20,One-Year,Credit Card,1,12,364.51,4191.98,0,5,0
+CUST-0295,Carlos Dynamics,Mid-Market,LATAM,Brazil,2025-05-13,One-Year,Automated ACH,1,16,1127.68,18301.17,3,3,0
+CUST-0296,Julian Media,Enterprise,EMEA,Germany,2025-12-19,Two-Year,Bank Wire,1,9,2020.51,17375.43,3,5,0
+CUST-0297,William Logistics,SMB,North America,United States,2025-04-20,One-Year,Bank Wire,1,17,479.58,8415.8,2,5,0
+CUST-0298,Ingrid Logistics,SMB,North America,Canada,2023-12-29,One-Year,Bank Wire,1,33,575.39,18554.91,2,3,0
+CUST-0299,Carlos Health,Mid-Market,EMEA,United Kingdom,2026-04-04,Month-to-Month,Credit Card,1,5,1123.57,5543.52,0,2,1
+CUST-0300,Ingrid Enterprises,Mid-Market,APAC,Japan,2025-12-05,Month-to-Month,Automated ACH,1,9,1056.83,9079.63,3,1,1
+CUST-0301,Liam Media,Startup,LATAM,Brazil,2024-12-25,One-Year,Automated ACH,1,21,274.62,5720.52,3,4,0
+CUST-0302,Kavita Ventures,Mid-Market,North America,Canada,2024-10-25,One-Year,Bank Wire,1,23,1294.21,28435.28,2,3,1
+CUST-0303,Hassan Dynamics,Enterprise,LATAM,Mexico,2023-09-19,Two-Year,Automated ACH,1,36,1664.83,57454.93,1,4,0
+CUST-0304,Olga Technologies,SMB,North America,Canada,2024-09-18,One-Year,Bank Wire,1,24,320.33,8050.68,0,3,0
+CUST-0305,Zara Ventures,Enterprise,APAC,Singapore,2025-01-12,Month-to-Month,Credit Card,1,20,1549.3,31585.46,1,4,1
+CUST-0306,Alexander Capital,SMB,North America,Canada,2024-11-03,Month-to-Month,Bank Wire,0,22,396.37,8650.22,1,3,0
+CUST-0307,Beatrice Logistics,Enterprise,EMEA,United Kingdom,2025-12-14,Two-Year,Credit Card,1,9,2297.62,20414.91,3,4,0
+CUST-0308,Yuki Enterprises,SMB,EMEA,Germany,2025-03-14,Month-to-Month,Credit Card,1,18,476.74,8979.68,0,4,1
+CUST-0309,Hassan Health,Startup,North America,Canada,2025-11-09,One-Year,Credit Card,1,10,242.99,2374.49,2,3,0
+CUST-0310,Carlos Ventures,Enterprise,North America,United States,2024-09-22,Month-to-Month,Bank Wire,1,24,3066.31,72548.56,1,2,1
+CUST-0311,Zara Ventures,Mid-Market,EMEA,Netherlands,2026-02-16,Month-to-Month,Automated ACH,1,7,1047.2,7480.46,6,2,1
+CUST-0312,Umar Technologies,Enterprise,North America,Canada,2024-06-07,Month-to-Month,Bank Wire,1,27,2275.12,62516.65,6,3,0
+CUST-0313,Ingrid Logistics,Startup,North America,Canada,2025-07-07,One-Year,Bank Wire,1,14,271.95,3923.0,3,4,0
+CUST-0314,Evelyn Enterprises,Enterprise,North America,United States,2025-12-09,Month-to-Month,Credit Card,1,9,2444.92,22185.43,2,4,1
+CUST-0315,Ingrid Enterprises,Enterprise,North America,United States,2024-05-10,Month-to-Month,Bank Wire,0,28,2482.78,71807.45,1,5,1
+CUST-0316,Kavita Enterprises,Enterprise,North America,Canada,2025-03-08,Month-to-Month,Credit Card,1,18,2494.7,44378.0,1,4,0
+CUST-0317,Nathan Logistics,Mid-Market,North America,United States,2026-01-06,Two-Year,Bank Wire,1,8,782.55,6101.25,5,2,0
+CUST-0318,Julian Solutions,Enterprise,North America,Canada,2023-10-25,Month-to-Month,Credit Card,1,35,2205.65,79492.05,1,3,1
+CUST-0319,Hassan Dynamics,SMB,APAC,South Korea,2024-09-16,Month-to-Month,Automated ACH,1,24,434.66,10500.33,4,3,1
+CUST-0320,Kavita Media,Mid-Market,North America,United States,2023-09-26,Month-to-Month,Automated ACH,1,36,1379.39,51190.75,2,3,0
+CUST-0321,Patrick Dynamics,Startup,North America,United States,2025-07-21,Month-to-Month,Bank Wire,1,14,203.82,2936.58,1,1,1
+CUST-0322,Yuki Technologies,SMB,APAC,Singapore,2024-09-02,Month-to-Month,Automated ACH,0,24,550.1,12771.62,2,3,0
+CUST-0323,Hassan Systems,Startup,North America,Canada,2026-04-20,One-Year,Bank Wire,1,5,264.38,1274.59,0,4,1
+CUST-0324,Gabriella Solutions,Mid-Market,EMEA,Germany,2025-06-22,Month-to-Month,Credit Card,1,15,966.21,14461.25,2,4,1
+CUST-0325,Kavita Systems,Mid-Market,North America,United States,2024-02-25,Two-Year,Automated ACH,1,31,872.54,25755.57,2,5,0
+CUST-0326,Tara Logistics,Startup,APAC,Australia,2025-11-10,One-Year,Credit Card,1,10,285.25,2805.88,5,4,1
+CUST-0327,Kavita Logistics,Startup,LATAM,Chile,2023-09-08,One-Year,Credit Card,1,36,267.24,9819.96,3,4,0
+CUST-0328,Siddharth Systems,SMB,APAC,Singapore,2026-02-14,Month-to-Month,Credit Card,1,7,418.9,2837.79,2,4,0
+CUST-0329,Alexander Systems,Enterprise,North America,United States,2024-04-20,Two-Year,Automated ACH,1,29,2551.51,74478.82,5,3,0
+CUST-0330,Patrick Logistics,Mid-Market,North America,United States,2024-04-20,Month-to-Month,Automated ACH,1,29,1309.52,38769.65,3,5,1
+CUST-0331,Vivienne Capital,Mid-Market,North America,Canada,2024-02-08,Month-to-Month,Bank Wire,1,31,1268.12,37351.17,0,2,0
+CUST-0332,Mei Solutions,Startup,APAC,Singapore,2025-04-10,Two-Year,Bank Wire,1,17,272.53,4785.35,0,4,0
+CUST-0333,Tara Ventures,SMB,North America,United States,2024-02-29,Month-to-Month,Bank Wire,0,31,484.1,14368.1,3,3,0
+CUST-0334,Feng Media,Mid-Market,North America,United States,2025-11-19,Month-to-Month,Automated ACH,0,10,971.42,9912.86,4,5,0
+CUST-0335,Nathan Logistics,Enterprise,EMEA,Netherlands,2024-11-23,Month-to-Month,Automated ACH,1,22,1946.65,43058.04,1,2,1
+CUST-0336,Yuki Dynamics,Mid-Market,North America,Canada,2023-09-30,Month-to-Month,Credit Card,0,36,993.91,34541.28,2,2,1
+CUST-0337,Liam Technologies,SMB,North America,Canada,2024-10-07,One-Year,Bank Wire,1,23,490.64,10913.26,2,3,0
+CUST-0338,Julian Enterprises,Mid-Market,EMEA,United Kingdom,2024-09-15,Month-to-Month,Automated ACH,1,24,1168.07,28431.38,0,4,0
+CUST-0339,Mei Logistics,Mid-Market,North America,Canada,2025-03-12,Month-to-Month,Credit Card,1,18,917.0,17062.38,2,2,1
+CUST-0340,Tara Technologies,Enterprise,North America,United States,2025-08-12,One-Year,Credit Card,1,13,1834.94,23204.22,3,3,1
+CUST-0341,Beatrice Media,Startup,APAC,South Korea,2025-01-04,Two-Year,Credit Card,0,20,258.36,5154.93,3,5,0
+CUST-0342,Carlos Media,Mid-Market,APAC,Japan,2025-12-05,One-Year,Credit Card,1,9,877.74,7599.7,3,3,1
+CUST-0343,Zara Solutions,Startup,North America,United States,2025-03-01,Month-to-Month,Bank Wire,1,18,262.46,4810.79,3,2,1
+CUST-0344,Gabriella Logistics,Mid-Market,APAC,Australia,2024-05-07,Two-Year,Bank Wire,1,28,1322.62,36653.23,3,3,1
+CUST-0345,Kavita Health,SMB,EMEA,United Kingdom,2025-10-03,One-Year,Automated ACH,1,11,438.58,4655.35,2,5,1
+CUST-0346,Tara Systems,Startup,EMEA,United Kingdom,2025-06-06,One-Year,Automated ACH,0,15,320.57,4991.34,2,5,0
+CUST-0347,Nathan Health,SMB,North America,Canada,2024-07-14,Month-to-Month,Bank Wire,1,26,496.0,13036.12,1,3,1
+CUST-0348,Xavier Media,SMB,North America,Canada,2025-09-21,One-Year,Automated ACH,0,12,505.25,5772.12,1,5,0
+CUST-0349,Julian Health,Startup,North America,Canada,2024-06-08,Month-to-Month,Automated ACH,1,27,270.36,7645.89,2,5,0
+CUST-0350,Olga Capital,SMB,North America,Canada,2024-02-28,Month-to-Month,Bank Wire,0,31,435.01,13810.23,3,3,1
+CUST-0351,Zara Dynamics,Mid-Market,APAC,Japan,2024-08-23,Month-to-Month,Credit Card,1,25,1242.87,31943.36,2,3,1
+CUST-0352,Rania Systems,Startup,North America,United States,2023-09-27,Two-Year,Bank Wire,1,36,225.27,8448.73,1,5,0
+CUST-0353,Xavier Ventures,Mid-Market,North America,Canada,2025-08-03,Two-Year,Credit Card,1,13,1100.81,14294.48,1,3,0
+CUST-0354,Olga Logistics,SMB,LATAM,Mexico,2023-09-22,Month-to-Month,Automated ACH,1,36,427.4,15895.49,0,4,1
+CUST-0355,Carlos Health,Enterprise,North America,United States,2023-12-14,One-Year,Bank Wire,1,33,2334.66,74925.94,1,3,0
+CUST-0356,Gabriella Health,Startup,EMEA,United Kingdom,2025-11-27,One-Year,Credit Card,1,9,153.48,1336.18,3,4,0
+CUST-0357,Alexander Ventures,SMB,North America,Canada,2025-02-02,One-Year,Credit Card,1,19,476.56,8917.65,3,5,0
+CUST-0358,Ingrid Ventures,SMB,EMEA,Netherlands,2026-06-19,One-Year,Credit Card,0,3,483.83,1433.23,5,5,0
+CUST-0359,Vivienne Systems,SMB,EMEA,France,2024-04-15,Month-to-Month,Automated ACH,1,29,375.59,11285.85,1,4,1
+CUST-0360,Ingrid Health,Startup,North America,United States,2023-09-08,Two-Year,Automated ACH,1,36,237.35,8390.44,1,4,0
+CUST-0361,Evelyn Technologies,Mid-Market,EMEA,France,2023-09-20,Month-to-Month,Credit Card,1,36,1185.73,44798.2,0,2,1
+CUST-0362,Gabriella Capital,SMB,EMEA,Germany,2025-07-04,One-Year,Automated ACH,1,14,532.73,7463.68,2,5,0
+CUST-0363,Feng Dynamics,Mid-Market,North America,United States,2025-09-29,Month-to-Month,Automated ACH,1,11,1205.86,12844.07,4,3,1
+CUST-0364,William Capital,Mid-Market,EMEA,Germany,2024-09-04,Two-Year,Credit Card,0,24,902.83,21389.88,2,4,0
+CUST-0365,Tara Health,Mid-Market,EMEA,United Kingdom,2025-04-05,One-Year,Automated ACH,1,17,1090.06,19252.67,0,5,0
+CUST-0366,Rania Enterprises,Mid-Market,APAC,South Korea,2025-12-08,Month-to-Month,Automated ACH,1,9,1155.57,10088.43,4,5,0
+CUST-0367,Nathan Systems,Enterprise,APAC,South Korea,2025-12-29,Month-to-Month,Bank Wire,1,8,2119.62,17782.15,2,5,0
+CUST-0368,Kavita Technologies,Mid-Market,North America,Canada,2025-05-31,Month-to-Month,Automated ACH,1,15,1267.99,19521.15,1,2,1
+CUST-0369,Carlos Logistics,Mid-Market,EMEA,Netherlands,2025-03-11,Month-to-Month,Bank Wire,1,18,968.67,17214.8,3,3,1
+CUST-0370,Alexander Capital,Enterprise,APAC,Singapore,2025-12-21,One-Year,Bank Wire,1,9,1960.52,17370.04,3,2,1
+CUST-0371,Evelyn Enterprises,Enterprise,North America,Canada,2025-03-25,Month-to-Month,Bank Wire,1,18,3035.61,55167.55,3,4,0
+CUST-0372,Kavita Media,Mid-Market,APAC,Singapore,2023-09-18,Month-to-Month,Bank Wire,0,36,1116.6,41878.69,1,5,0
+CUST-0373,Mei Technologies,Mid-Market,North America,United States,2025-08-23,One-Year,Bank Wire,1,13,1204.71,15896.99,7,3,1
+CUST-0374,Beatrice Media,SMB,APAC,Australia,2024-07-10,Month-to-Month,Automated ACH,1,26,381.34,10067.1,1,3,1
+CUST-0375,Alexander Technologies,Mid-Market,EMEA,Netherlands,2023-11-29,One-Year,Credit Card,1,34,1068.97,37054.41,1,3,0
+CUST-0376,Vivienne Technologies,SMB,North America,United States,2023-09-25,One-Year,Credit Card,1,36,396.72,14851.23,3,5,0
+CUST-0377,Rania Systems,SMB,North America,United States,2025-09-07,Month-to-Month,Bank Wire,1,12,400.63,4818.69,2,5,0
+CUST-0378,Gabriella Capital,Enterprise,EMEA,France,2024-04-13,One-Year,Bank Wire,0,29,1824.03,52000.82,1,5,0
+CUST-0379,Alexander Technologies,SMB,EMEA,United Kingdom,2024-07-08,One-Year,Automated ACH,1,26,323.25,8047.35,4,4,0
+CUST-0380,Yuki Enterprises,Mid-Market,APAC,Singapore,2024-08-19,Month-to-Month,Bank Wire,1,25,1249.84,32415.04,3,4,1
+CUST-0381,Julian Capital,Mid-Market,APAC,Australia,2023-09-30,Month-to-Month,Automated ACH,1,36,981.68,36584.46,2,5,1
+CUST-0382,William Logistics,Startup,North America,Canada,2024-03-23,Two-Year,Bank Wire,1,30,298.21,8662.59,6,5,0
+CUST-0383,Mei Media,SMB,LATAM,Mexico,2025-12-29,Two-Year,Automated ACH,1,8,405.19,3337.76,4,5,0
+CUST-0384,Dmitri Logistics,Startup,EMEA,United Kingdom,2024-04-25,Month-to-Month,Automated ACH,1,29,247.02,7212.97,4,3,1
+CUST-0385,Olga Logistics,SMB,EMEA,France,2023-09-12,Two-Year,Credit Card,0,36,537.29,19309.71,1,5,0
+CUST-0386,Patrick Enterprises,Enterprise,APAC,South Korea,2023-09-25,One-Year,Bank Wire,0,36,2986.88,107794.54,2,3,0
+CUST-0387,Yuki Systems,Startup,EMEA,Germany,2023-09-12,Two-Year,Credit Card,1,36,288.43,10506.25,4,4,0
+CUST-0388,Nathan Ventures,Enterprise,EMEA,Netherlands,2025-12-04,Two-Year,Credit Card,1,9,2895.17,27188.35,1,5,1
+CUST-0389,Rania Solutions,Enterprise,APAC,Singapore,2025-09-07,Month-to-Month,Bank Wire,1,12,2140.99,25709.68,3,4,1
+CUST-0390,Siddharth Media,Enterprise,North America,United States,2025-09-08,One-Year,Credit Card,0,12,2300.25,27456.89,3,5,0
+CUST-0391,Dmitri Solutions,Enterprise,APAC,Japan,2024-07-16,Month-to-Month,Credit Card,0,26,2322.15,62137.57,0,3,1
+CUST-0392,Umar Health,SMB,APAC,Singapore,2025-02-10,Two-Year,Bank Wire,1,19,309.88,5724.58,0,4,0
+CUST-0393,Olga Capital,SMB,EMEA,Netherlands,2026-04-09,One-Year,Bank Wire,1,5,412.51,2005.16,1,3,0
+CUST-0394,Kavita Capital,Mid-Market,APAC,Australia,2025-04-14,One-Year,Bank Wire,1,17,1009.69,16547.57,2,4,0
+CUST-0395,Xavier Media,Enterprise,North America,United States,2025-01-13,Month-to-Month,Automated ACH,1,20,1864.02,36676.21,2,4,1
+CUST-0396,Zara Media,SMB,North America,United States,2023-09-19,Month-to-Month,Credit Card,1,36,442.27,16660.26,0,2,1
+CUST-0397,Alexander Dynamics,SMB,APAC,South Korea,2023-10-18,Two-Year,Automated ACH,0,35,405.49,14464.38,3,5,0
+CUST-0398,Feng Logistics,Mid-Market,North America,Canada,2024-02-18,Month-to-Month,Credit Card,1,31,1342.32,40564.29,3,4,1
+CUST-0399,Mei Capital,SMB,LATAM,Mexico,2025-01-21,Month-to-Month,Credit Card,1,20,588.03,11524.11,3,3,0
+CUST-0400,Xavier Dynamics,Mid-Market,APAC,Singapore,2026-05-01,One-Year,Credit Card,0,4,1151.87,4438.23,3,3,0
+CUST-0401,Xavier Logistics,SMB,EMEA,France,2023-09-09,Month-to-Month,Credit Card,1,36,355.41,13008.63,1,3,1
+CUST-0402,Nathan Dynamics,SMB,North America,Canada,2025-08-07,Month-to-Month,Bank Wire,1,13,480.81,5973.38,2,4,1
+CUST-0403,Ingrid Logistics,Mid-Market,LATAM,Chile,2025-06-23,One-Year,Bank Wire,1,15,1336.64,19111.89,3,3,1
+CUST-0404,Olga Enterprises,SMB,EMEA,Germany,2024-02-13,Month-to-Month,Credit Card,1,31,382.07,12076.47,0,3,0
+CUST-0405,Xavier Technologies,Mid-Market,LATAM,Mexico,2024-04-05,Two-Year,Bank Wire,1,29,1343.34,37059.53,1,3,0
+CUST-0406,Ingrid Ventures,SMB,EMEA,Netherlands,2025-03-06,One-Year,Credit Card,1,18,396.85,7176.6,4,3,0
+CUST-0407,Umar Ventures,Mid-Market,APAC,Singapore,2026-02-14,Two-Year,Bank Wire,0,7,1331.99,9543.12,1,3,0
+CUST-0408,Dmitri Media,SMB,North America,Canada,2024-10-23,Month-to-Month,Automated ACH,1,23,277.42,6359.18,3,4,1
+CUST-0409,Evelyn Technologies,SMB,North America,Canada,2025-05-31,Two-Year,Credit Card,1,15,324.2,4858.4,0,3,0
+CUST-0410,Tara Dynamics,Mid-Market,North America,Canada,2024-09-22,One-Year,Automated ACH,1,24,923.09,22249.6,1,3,0
+CUST-0411,Mei Enterprises,SMB,North America,United States,2023-09-23,Month-to-Month,Bank Wire,1,36,390.79,14111.35,4,5,1
+CUST-0412,Siddharth Technologies,Mid-Market,North America,Canada,2024-11-06,One-Year,Credit Card,0,22,1356.58,30389.58,1,4,0
+CUST-0413,Kavita Media,Mid-Market,LATAM,Brazil,2024-10-10,One-Year,Bank Wire,1,23,867.89,20501.42,5,5,0
+CUST-0414,Rania Dynamics,Mid-Market,North America,United States,2023-11-12,Month-to-Month,Credit Card,0,34,1391.59,45740.37,1,4,1
+CUST-0415,Zara Dynamics,Mid-Market,EMEA,United Kingdom,2025-09-02,One-Year,Automated ACH,1,12,1007.25,11608.27,1,3,1
+CUST-0416,Siddharth Media,SMB,EMEA,United Kingdom,2024-08-24,Month-to-Month,Credit Card,1,25,357.04,8545.08,3,5,0
+CUST-0417,Feng Health,Startup,EMEA,Germany,2025-05-12,Month-to-Month,Credit Card,1,16,288.93,4399.54,2,4,1
+CUST-0418,William Enterprises,SMB,EMEA,United Kingdom,2024-03-13,Month-to-Month,Automated ACH,1,30,359.49,10787.76,4,3,1
+CUST-0419,Julian Health,SMB,EMEA,France,2023-10-19,Month-to-Month,Automated ACH,1,35,382.28,12919.97,1,2,0
+CUST-0420,Hassan Logistics,Startup,APAC,Australia,2026-04-16,Month-to-Month,Automated ACH,0,5,262.15,1358.87,2,5,1
+CUST-0421,Vivienne Capital,SMB,LATAM,Brazil,2024-11-09,Month-to-Month,Bank Wire,1,22,494.02,10753.32,4,4,1
+CUST-0422,Siddharth Enterprises,Mid-Market,North America,Canada,2025-02-04,Two-Year,Bank Wire,1,19,1118.49,21499.71,1,4,0
+CUST-0423,Ingrid Ventures,Startup,North America,United States,2025-08-06,Month-to-Month,Credit Card,1,13,269.05,3346.33,0,5,1
+CUST-0424,Dmitri Ventures,Startup,EMEA,Netherlands,2026-04-09,Month-to-Month,Credit Card,1,5,276.2,1397.51,4,3,1
+CUST-0425,Gabriella Capital,SMB,EMEA,France,2025-02-15,One-Year,Bank Wire,1,19,326.84,6401.04,2,4,0
+CUST-0426,Nathan Logistics,SMB,North America,United States,2024-06-07,One-Year,Credit Card,0,27,485.1,12618.72,2,3,1
+CUST-0427,Yuki Capital,Mid-Market,APAC,South Korea,2025-06-30,Month-to-Month,Credit Card,1,14,1344.3,19020.88,1,4,0
+CUST-0428,Ingrid Logistics,Mid-Market,APAC,Singapore,2025-05-05,Month-to-Month,Bank Wire,1,16,1328.47,21270.78,2,4,1
+CUST-0429,Alexander Systems,Startup,EMEA,Germany,2024-06-12,Month-to-Month,Automated ACH,1,27,149.0,4084.92,1,3,0
+CUST-0430,Evelyn Capital,Enterprise,North America,Canada,2023-09-17,One-Year,Bank Wire,1,36,2397.64,87719.2,1,4,0
+CUST-0431,Umar Logistics,Mid-Market,APAC,Singapore,2024-10-22,One-Year,Credit Card,0,23,1241.49,27544.02,4,2,1
+CUST-0432,Yuki Solutions,Mid-Market,LATAM,Brazil,2025-04-10,Month-to-Month,Bank Wire,1,17,944.82,16332.72,2,3,1
+CUST-0433,Rania Capital,Startup,North America,Canada,2025-05-24,Two-Year,Bank Wire,1,16,245.8,3941.21,2,3,0
+CUST-0434,Ingrid Health,Mid-Market,EMEA,Germany,2023-09-21,Month-to-Month,Credit Card,0,36,1103.64,39797.24,4,3,0
+CUST-0435,Mei Ventures,SMB,EMEA,France,2023-09-22,One-Year,Credit Card,1,36,390.62,14064.9,2,5,0
+CUST-0436,Evelyn Solutions,Mid-Market,North America,United States,2023-09-25,Month-to-Month,Bank Wire,1,36,1127.79,41482.7,2,4,0
+CUST-0437,Dmitri Ventures,SMB,North America,Canada,2023-09-18,One-Year,Credit Card,1,36,302.74,11059.13,0,5,0
+CUST-0438,Nathan Technologies,SMB,North America,United States,2025-01-20,Month-to-Month,Credit Card,0,20,483.99,9337.97,4,3,0
+CUST-0439,Feng Health,Startup,LATAM,Chile,2023-11-13,Two-Year,Credit Card,0,34,324.23,11275.13,1,5,0
+CUST-0440,Julian Enterprises,Startup,North America,Canada,2024-06-24,Month-to-Month,Credit Card,1,27,198.17,5394.81,2,3,1
+CUST-0441,Zara Logistics,Enterprise,EMEA,France,2025-04-04,Month-to-Month,Credit Card,1,17,1867.17,30884.27,0,4,0
+CUST-0442,Mei Logistics,Mid-Market,North America,United States,2025-12-05,One-Year,Automated ACH,1,9,1168.18,10174.47,0,3,0
+CUST-0443,Umar Systems,Enterprise,North America,United States,2025-06-03,Month-to-Month,Credit Card,0,15,1964.81,30642.1,0,4,0
+CUST-0444,Zara Media,Startup,EMEA,France,2025-05-03,One-Year,Bank Wire,1,16,246.33,4055.4,0,3,1
+CUST-0445,Mei Capital,Mid-Market,EMEA,United Kingdom,2023-09-25,Month-to-Month,Bank Wire,0,36,1168.19,41143.37,2,4,1
+CUST-0446,Siddharth Media,SMB,North America,United States,2025-03-01,Month-to-Month,Credit Card,1,18,513.19,9121.98,0,5,0
+CUST-0447,Gabriella Capital,Enterprise,North America,United States,2025-03-06,One-Year,Bank Wire,1,18,2451.72,44416.36,1,3,0
+CUST-0448,Umar Health,SMB,LATAM,Mexico,2023-11-19,One-Year,Credit Card,1,34,420.09,14367.46,2,1,0
+CUST-0449,Patrick Health,Mid-Market,LATAM,Chile,2025-05-03,Month-to-Month,Bank Wire,0,16,854.99,13158.76,3,4,1
+CUST-0450,Hassan Solutions,Enterprise,APAC,Singapore,2025-09-06,Month-to-Month,Bank Wire,1,12,1667.15,20400.03,1,4,0
+CUST-0451,Xavier Technologies,SMB,North America,United States,2025-05-21,Month-to-Month,Credit Card,1,16,343.31,5362.83,3,5,1
+CUST-0452,Liam Enterprises,Startup,EMEA,Netherlands,2024-01-19,One-Year,Credit Card,1,32,198.43,6411.65,3,3,0
+CUST-0453,Zara Logistics,Enterprise,EMEA,Netherlands,2023-09-12,Two-Year,Credit Card,1,36,2553.61,94540.4,3,5,0
+CUST-0454,Rania Dynamics,SMB,EMEA,Germany,2026-04-09,Month-to-Month,Bank Wire,1,5,386.46,2028.3,3,4,0
+CUST-0455,Zara Media,Mid-Market,North America,Canada,2023-09-27,One-Year,Credit Card,1,36,911.44,31467.1,3,3,0
+CUST-0456,Julian Dynamics,Mid-Market,LATAM,Mexico,2025-06-16,Month-to-Month,Automated ACH,1,15,1277.16,18973.41,4,5,1
+CUST-0457,Alexander Health,SMB,North America,United States,2025-09-06,Month-to-Month,Automated ACH,1,12,500.11,6275.41,2,2,1
+CUST-0458,Siddharth Systems,Startup,North America,Canada,2023-09-15,One-Year,Bank Wire,1,36,264.64,9789.6,4,3,1
+CUST-0459,William Solutions,Mid-Market,APAC,Japan,2024-12-18,Month-to-Month,Credit Card,0,21,1115.02,23829.67,2,4,1
+CUST-0460,Hassan Capital,Mid-Market,North America,Canada,2024-09-27,One-Year,Bank Wire,1,24,1115.27,26495.95,4,4,0
+CUST-0461,Yuki Capital,Mid-Market,North America,United States,2025-09-11,Month-to-Month,Credit Card,1,12,888.61,10925.8,2,4,0
+CUST-0462,Gabriella Solutions,SMB,APAC,Singapore,2024-11-18,Month-to-Month,Bank Wire,1,22,462.35,10292.33,3,3,1
+CUST-0463,Evelyn Enterprises,SMB,North America,United States,2025-08-02,One-Year,Bank Wire,0,13,430.71,5855.67,3,4,0
+CUST-0464,Patrick Capital,Startup,EMEA,Netherlands,2025-09-04,Two-Year,Credit Card,0,12,262.92,3286.29,2,3,1
+CUST-0465,Ingrid Media,Enterprise,North America,United States,2025-08-28,Month-to-Month,Automated ACH,1,12,2440.93,28843.85,0,5,0
+CUST-0466,William Logistics,SMB,EMEA,United Kingdom,2023-09-19,Month-to-Month,Bank Wire,1,36,321.31,11427.69,1,3,1
+CUST-0467,Dmitri Capital,Enterprise,North America,Canada,2025-04-17,Month-to-Month,Credit Card,1,17,2761.74,46320.1,5,1,1
+CUST-0468,Patrick Media,Mid-Market,North America,Canada,2023-09-21,Month-to-Month,Bank Wire,1,36,1326.09,48101.55,1,4,0
+CUST-0469,Hassan Enterprises,SMB,EMEA,Germany,2025-11-09,Month-to-Month,Automated ACH,1,10,493.09,4917.58,3,4,1
+CUST-0470,Alexander Logistics,Startup,North America,United States,2025-06-04,One-Year,Credit Card,1,15,171.78,2525.17,2,5,0
+CUST-0471,Siddharth Systems,SMB,North America,United States,2025-08-22,Month-to-Month,Bank Wire,0,13,545.62,6806.71,3,5,1
+CUST-0472,Yuki Capital,SMB,North America,Canada,2025-10-27,Month-to-Month,Bank Wire,1,10,517.61,5366.25,5,3,1
+CUST-0473,Umar Ventures,Startup,EMEA,Germany,2023-09-24,Month-to-Month,Credit Card,1,36,158.86,5854.23,1,5,0
+CUST-0474,Carlos Media,SMB,EMEA,Netherlands,2025-11-17,Two-Year,Credit Card,0,10,549.63,5453.33,3,4,0
+CUST-0475,Umar Systems,Enterprise,North America,United States,2025-11-11,Month-to-Month,Bank Wire,1,10,2128.17,20786.84,1,3,1
+CUST-0476,Vivienne Media,SMB,North America,Canada,2025-12-10,One-Year,Credit Card,1,9,313.33,2726.15,3,5,1
+CUST-0477,Alexander Logistics,Startup,EMEA,France,2025-08-31,One-Year,Bank Wire,1,12,257.76,2968.02,2,4,0
+CUST-0478,Patrick Dynamics,Mid-Market,North America,Canada,2026-04-18,Month-to-Month,Credit Card,1,5,1395.1,7276.56,1,4,1
+CUST-0479,Mei Health,Mid-Market,North America,Canada,2025-08-19,Month-to-Month,Automated ACH,1,13,1528.68,20197.86,4,5,1
+CUST-0480,Kavita Solutions,Mid-Market,EMEA,France,2023-11-28,Two-Year,Credit Card,1,34,1127.53,38710.12,1,4,0
+CUST-0481,Vivienne Systems,Startup,North America,Canada,2025-12-06,One-Year,Automated ACH,1,9,304.11,2700.26,0,4,0
+CUST-0482,Ingrid Logistics,Mid-Market,North America,United States,2023-09-09,Two-Year,Bank Wire,1,36,1185.83,40590.89,2,4,1
+CUST-0483,Patrick Solutions,SMB,North America,Canada,2025-09-03,Month-to-Month,Bank Wire,1,12,663.32,7889.58,5,4,0
+CUST-0484,Siddharth Media,SMB,North America,United States,2025-08-03,Month-to-Month,Bank Wire,1,13,417.35,5383.36,2,5,1
+CUST-0485,Hassan Dynamics,Mid-Market,APAC,Australia,2024-09-04,One-Year,Bank Wire,1,24,979.74,22499.06,5,4,0
+CUST-0486,Evelyn Health,SMB,North America,Canada,2023-09-25,One-Year,Credit Card,1,36,496.47,17251.21,4,5,0
+CUST-0487,Siddharth Technologies,Mid-Market,North America,United States,2023-09-29,One-Year,Credit Card,1,36,1377.28,47850.1,2,4,0
+CUST-0488,Patrick Ventures,SMB,North America,Canada,2025-12-06,Two-Year,Credit Card,1,9,432.98,3830.67,1,4,0
+CUST-0489,Zara Logistics,Enterprise,North America,Canada,2025-07-09,Month-to-Month,Automated ACH,1,14,2631.15,36399.88,1,3,1
+CUST-0490,Alexander Enterprises,Mid-Market,LATAM,Chile,2024-10-03,Two-Year,Bank Wire,0,23,954.56,21294.43,3,4,0
+CUST-0491,Yuki Enterprises,Mid-Market,EMEA,Germany,2025-12-30,Two-Year,Automated ACH,1,8,1010.0,8264.42,1,4,0
+CUST-0492,Yuki Dynamics,Mid-Market,EMEA,France,2026-03-12,Month-to-Month,Automated ACH,0,6,1123.68,6551.81,3,5,1
+CUST-0493,Dmitri Ventures,Enterprise,EMEA,France,2026-05-25,Month-to-Month,Bank Wire,1,3,2656.82,7579.05,2,5,1
+CUST-0494,Beatrice Systems,SMB,APAC,South Korea,2025-11-17,Month-to-Month,Bank Wire,1,10,408.27,3915.88,4,3,1
+CUST-0495,Umar Capital,Enterprise,LATAM,Chile,2025-03-15,One-Year,Credit Card,1,18,2402.55,41627.76,2,5,0
+CUST-0496,Hassan Capital,SMB,LATAM,Chile,2023-09-08,Two-Year,Credit Card,1,36,399.19,14195.18,3,2,0
+CUST-0497,Yuki Logistics,Mid-Market,North America,United States,2026-04-06,One-Year,Credit Card,1,5,981.71,4941.29,5,5,1
+CUST-0498,Siddharth Capital,Mid-Market,North America,Canada,2025-09-03,Two-Year,Credit Card,1,12,1184.03,13718.21,4,3,1
+CUST-0499,Julian Health,Enterprise,EMEA,Netherlands,2023-09-13,One-Year,Credit Card,0,36,1969.61,71754.95,3,3,0
+CUST-0500,Liam Systems,SMB,North America,United States,2025-12-04,One-Year,Bank Wire,1,9,471.35,4354.88,2,5,0
+CUST-0501,Evelyn Systems,SMB,North America,Canada,2025-07-21,Month-to-Month,Credit Card,1,14,499.8,7303.54,4,5,1
+CUST-0502,Feng Technologies,Enterprise,North America,Canada,2023-10-02,One-Year,Automated ACH,1,36,1616.2,58333.44,1,2,0
+CUST-0503,Xavier Systems,Mid-Market,North America,Canada,2025-01-03,Month-to-Month,Automated ACH,1,20,1226.83,24515.51,1,4,1
+CUST-0504,Carlos Solutions,Mid-Market,APAC,Japan,2023-11-09,Two-Year,Credit Card,1,34,1519.87,52752.67,2,5,0
+CUST-0505,Umar Health,SMB,EMEA,United Kingdom,2024-10-25,Two-Year,Automated ACH,1,23,576.26,13552.42,2,3,0
+CUST-0506,Siddharth Media,SMB,North America,United States,2025-07-19,One-Year,Credit Card,1,14,389.31,5595.47,3,4,0
+CUST-0507,Tara Capital,Startup,EMEA,Netherlands,2026-01-15,One-Year,Credit Card,1,8,305.78,2484.78,0,3,0
+CUST-0508,Siddharth Systems,Startup,North America,Canada,2023-09-16,Two-Year,Bank Wire,1,36,277.19,10242.47,0,5,0
+CUST-0509,Nathan Capital,Mid-Market,EMEA,Germany,2026-02-02,Two-Year,Bank Wire,0,7,907.27,6317.55,1,5,0
+CUST-0510,Mei Technologies,SMB,EMEA,France,2025-04-09,Month-to-Month,Automated ACH,1,17,486.52,8671.47,2,3,0
+CUST-0511,Gabriella Capital,Startup,North America,Canada,2024-01-15,One-Year,Automated ACH,1,32,213.7,6522.29,4,2,0
+CUST-0512,Liam Logistics,Startup,North America,Canada,2024-01-24,Month-to-Month,Automated ACH,1,32,297.45,9423.02,1,5,0
+CUST-0513,Gabriella Enterprises,Enterprise,EMEA,Netherlands,2023-10-11,One-Year,Automated ACH,1,35,1416.62,50287.02,3,4,0
+CUST-0514,Beatrice Systems,Startup,North America,United States,2025-09-12,Month-to-Month,Automated ACH,1,12,221.28,2753.03,5,4,1
+CUST-0515,Zara Ventures,SMB,APAC,Japan,2024-06-09,Month-to-Month,Bank Wire,1,27,369.81,10024.74,1,4,0
+CUST-0516,Evelyn Capital,Enterprise,EMEA,Germany,2025-05-04,One-Year,Bank Wire,1,16,2484.04,40122.74,2,4,0
+CUST-0517,Rania Enterprises,SMB,North America,Canada,2024-10-23,Month-to-Month,Bank Wire,1,23,629.88,13834.32,1,4,1
+CUST-0518,Mei Health,SMB,North America,Canada,2024-07-25,One-Year,Credit Card,1,26,475.3,12228.44,6,5,0
+CUST-0519,Tara Ventures,Mid-Market,EMEA,Germany,2023-11-24,One-Year,Bank Wire,0,34,1087.19,35447.42,0,4,0
+CUST-0520,William Media,Enterprise,North America,Canada,2023-09-22,One-Year,Bank Wire,1,36,2166.85,81810.61,2,4,0
+CUST-0521,Umar Solutions,Enterprise,EMEA,Netherlands,2025-09-15,Month-to-Month,Bank Wire,1,12,2705.05,33605.69,2,4,0
+CUST-0522,Dmitri Technologies,Startup,North America,United States,2023-09-24,Month-to-Month,Credit Card,1,36,297.58,10659.38,2,5,1
+CUST-0523,Alexander Capital,Mid-Market,North America,United States,2025-03-10,One-Year,Credit Card,1,18,1310.9,24757.85,1,5,0
+CUST-0524,Xavier Technologies,Mid-Market,North America,United States,2023-10-02,Month-to-Month,Automated ACH,1,36,955.53,32861.73,1,4,0
+CUST-0525,Vivienne Technologies,SMB,North America,Canada,2024-12-05,Month-to-Month,Bank Wire,1,21,472.76,10308.6,3,2,1
+CUST-0526,Mei Ventures,Startup,LATAM,Chile,2024-09-24,Two-Year,Credit Card,1,24,224.72,5171.09,3,4,0
+CUST-0527,Gabriella Dynamics,Startup,LATAM,Chile,2023-10-03,Month-to-Month,Automated ACH,1,36,288.61,10379.5,2,3,0
+CUST-0528,Yuki Logistics,Mid-Market,North America,Canada,2023-12-23,Month-to-Month,Automated ACH,1,33,1075.83,36609.68,0,3,1
+CUST-0529,Vivienne Health,Startup,APAC,Japan,2026-01-12,Month-to-Month,Bank Wire,1,8,217.84,1679.5,1,4,0
+CUST-0530,Yuki Media,Mid-Market,EMEA,Germany,2025-02-06,Month-to-Month,Automated ACH,0,19,1246.6,23281.05,2,5,1
+CUST-0531,Siddharth Logistics,SMB,North America,United States,2023-12-11,One-Year,Automated ACH,1,33,441.37,14864.0,3,3,0
+CUST-0532,Rania Logistics,SMB,North America,United States,2024-08-10,Two-Year,Bank Wire,1,25,448.2,11707.66,3,4,0
+CUST-0533,Dmitri Logistics,SMB,North America,United States,2025-06-30,Month-to-Month,Automated ACH,0,14,334.89,4596.26,3,3,1
+CUST-0534,Yuki Health,Enterprise,North America,United States,2025-09-17,Month-to-Month,Automated ACH,1,12,1899.16,23030.59,1,3,1
+CUST-0535,Umar Ventures,SMB,EMEA,Germany,2026-03-10,Month-to-Month,Automated ACH,1,6,448.71,2785.45,1,5,0
+CUST-0536,Patrick Capital,Mid-Market,North America,Canada,2025-02-20,Month-to-Month,Bank Wire,1,19,1035.31,20593.09,1,3,0
+CUST-0537,Ingrid Media,SMB,North America,United States,2024-08-26,Month-to-Month,Automated ACH,1,25,489.29,12375.44,1,3,0
+CUST-0538,Xavier Capital,Mid-Market,APAC,Singapore,2024-04-06,Month-to-Month,Credit Card,1,29,1018.34,28979.31,1,5,0
+CUST-0539,Umar Systems,Mid-Market,EMEA,United Kingdom,2024-11-12,Month-to-Month,Automated ACH,0,22,973.43,20870.91,1,3,1
+CUST-0540,Siddharth Media,SMB,LATAM,Brazil,2025-12-05,One-Year,Automated ACH,1,9,462.92,4141.1,1,5,0
+CUST-0541,Julian Health,Mid-Market,EMEA,Netherlands,2024-12-25,One-Year,Automated ACH,1,21,1132.35,24126.77,0,3,0
+CUST-0542,Carlos Dynamics,Mid-Market,North America,United States,2025-06-14,Month-to-Month,Bank Wire,1,15,1081.26,16563.77,3,3,0
+CUST-0543,Gabriella Solutions,SMB,North America,Canada,2025-11-29,One-Year,Credit Card,1,9,417.61,3613.47,3,4,0
+CUST-0544,Olga Capital,SMB,North America,Canada,2025-05-09,One-Year,Bank Wire,1,16,423.19,6462.22,4,3,0
+CUST-0545,Feng Capital,Enterprise,EMEA,Germany,2025-12-17,Month-to-Month,Credit Card,1,9,2317.85,20463.29,2,3,1
+CUST-0546,Zara Solutions,Enterprise,North America,United States,2025-09-18,Two-Year,Bank Wire,1,12,1794.1,20479.02,4,5,0
+CUST-0547,Patrick Solutions,SMB,EMEA,United Kingdom,2025-02-09,Month-to-Month,Credit Card,1,19,423.44,7973.07,1,5,0
+CUST-0548,Carlos Systems,Startup,EMEA,Germany,2025-05-17,One-Year,Credit Card,0,16,243.19,3715.52,1,3,0
+CUST-0549,Evelyn Technologies,Enterprise,EMEA,United Kingdom,2025-03-25,One-Year,Automated ACH,1,18,1779.73,33381.85,2,4,0
+CUST-0550,Beatrice Enterprises,Enterprise,North America,United States,2024-02-21,One-Year,Credit Card,1,31,1880.37,59966.23,3,3,0
+CUST-0551,Feng Solutions,Startup,APAC,Australia,2026-02-17,One-Year,Bank Wire,0,7,292.75,2114.88,0,4,0
+CUST-0552,Zara Media,Mid-Market,APAC,Japan,2026-03-17,Month-to-Month,Automated ACH,1,6,1061.14,6311.93,4,2,1
+CUST-0553,Gabriella Ventures,SMB,EMEA,United Kingdom,2025-02-04,One-Year,Bank Wire,1,19,506.12,9717.04,3,4,0
+CUST-0554,Xavier Health,Mid-Market,North America,Canada,2024-10-09,Two-Year,Bank Wire,1,23,1213.14,28076.98,3,5,0
+CUST-0555,Rania Solutions,Startup,EMEA,Germany,2025-10-15,One-Year,Automated ACH,1,11,309.64,3243.91,2,2,1
+CUST-0556,Vivienne Enterprises,SMB,APAC,Singapore,2023-09-20,Month-to-Month,Bank Wire,1,36,381.56,13925.04,4,5,0
+CUST-0557,Alexander Ventures,SMB,EMEA,France,2025-01-16,Month-to-Month,Credit Card,1,20,421.94,8112.92,1,2,1
+CUST-0558,Kavita Capital,SMB,North America,United States,2024-01-25,Month-to-Month,Bank Wire,1,32,353.82,11793.43,1,4,0
+CUST-0559,Beatrice Logistics,Startup,EMEA,Netherlands,2023-09-16,Two-Year,Credit Card,1,36,252.7,9486.37,2,4,0
+CUST-0560,Beatrice Dynamics,SMB,North America,Canada,2025-04-25,Month-to-Month,Credit Card,1,17,387.42,6841.7,3,5,1
+CUST-0561,Liam Enterprises,SMB,LATAM,Mexico,2025-05-15,Two-Year,Credit Card,0,16,423.36,6821.84,1,4,0
+CUST-0562,Mei Logistics,SMB,EMEA,France,2023-09-23,One-Year,Bank Wire,1,36,496.21,18537.1,1,4,0
+CUST-0563,Liam Solutions,Mid-Market,APAC,Australia,2026-04-11,Month-to-Month,Bank Wire,1,5,1216.55,5901.54,3,4,1
+CUST-0564,Carlos Solutions,Startup,EMEA,Netherlands,2025-07-20,Month-to-Month,Automated ACH,1,14,266.34,3737.57,3,5,0
+CUST-0565,Zara Capital,SMB,North America,United States,2026-02-03,One-Year,Bank Wire,1,7,456.24,3180.7,2,4,0
+CUST-0566,Xavier Dynamics,Startup,North America,Canada,2025-03-05,Two-Year,Automated ACH,1,18,362.57,6780.25,2,3,1
+CUST-0567,Dmitri Dynamics,Enterprise,APAC,Australia,2024-05-06,Month-to-Month,Automated ACH,1,28,1898.92,51535.03,2,5,0
+CUST-0568,Ingrid Dynamics,SMB,North America,Canada,2024-12-18,Month-to-Month,Bank Wire,1,21,516.41,10977.94,1,2,0
+CUST-0569,Rania Enterprises,Mid-Market,North America,Canada,2025-04-17,Month-to-Month,Credit Card,1,17,1425.39,23613.3,1,4,0
+CUST-0570,Carlos Health,Mid-Market,EMEA,France,2023-10-02,Month-to-Month,Credit Card,1,36,1174.66,40621.31,2,3,1
+CUST-0571,Beatrice Enterprises,SMB,North America,United States,2025-07-06,One-Year,Credit Card,1,14,459.58,6341.23,1,3,1
+CUST-0572,Kavita Ventures,Startup,EMEA,United Kingdom,2025-01-01,One-Year,Credit Card,1,20,223.94,4614.22,1,4,0
+CUST-0573,Xavier Solutions,SMB,North America,Canada,2025-07-02,One-Year,Credit Card,0,14,349.94,4724.61,0,3,0
+CUST-0574,Umar Health,Enterprise,LATAM,Mexico,2024-09-06,Month-to-Month,Automated ACH,1,24,2070.66,49633.75,4,3,1
+CUST-0575,Carlos Solutions,Mid-Market,North America,Canada,2023-09-28,Month-to-Month,Bank Wire,1,36,909.21,32757.58,1,3,0
+CUST-0576,Mei Enterprises,SMB,North America,United States,2024-09-10,Month-to-Month,Credit Card,1,24,512.04,11973.98,1,4,0
+CUST-0577,Feng Solutions,Mid-Market,North America,Canada,2023-09-11,One-Year,Automated ACH,1,36,1371.27,50784.13,0,2,0
+CUST-0578,Siddharth Ventures,SMB,North America,United States,2024-11-04,One-Year,Credit Card,1,22,507.49,11123.37,4,4,1
+CUST-0579,Siddharth Enterprises,Mid-Market,APAC,Singapore,2023-12-20,Month-to-Month,Bank Wire,1,33,1251.21,42410.3,1,5,0
+CUST-0580,Mei Capital,Enterprise,EMEA,United Kingdom,2026-03-17,Two-Year,Automated ACH,1,6,2142.62,12213.17,0,3,1
+CUST-0581,Evelyn Logistics,Mid-Market,EMEA,France,2025-05-07,Month-to-Month,Bank Wire,0,16,1039.49,16298.76,3,4,0
+CUST-0582,William Health,SMB,LATAM,Mexico,2025-06-13,Two-Year,Credit Card,1,15,456.46,6854.04,3,3,0
+CUST-0583,Evelyn Health,Enterprise,North America,United States,2025-12-04,Two-Year,Bank Wire,0,9,2762.52,25771.86,1,5,0
+CUST-0584,Hassan Media,SMB,EMEA,Netherlands,2023-12-10,Month-to-Month,Bank Wire,1,33,502.6,16855.3,0,5,0
+CUST-0585,Patrick Logistics,SMB,North America,Canada,2025-11-10,Two-Year,Bank Wire,0,10,361.76,3679.12,5,4,0
+CUST-0586,Evelyn Technologies,Enterprise,North America,United States,2024-09-12,One-Year,Automated ACH,1,24,2653.83,61381.31,2,3,0
+CUST-0587,Nathan Solutions,SMB,APAC,South Korea,2025-03-12,One-Year,Credit Card,1,18,296.91,5267.05,2,5,0
+CUST-0588,Feng Media,SMB,EMEA,Netherlands,2024-09-20,One-Year,Bank Wire,0,24,378.66,9157.23,3,5,0
+CUST-0589,Beatrice Technologies,Enterprise,EMEA,France,2025-04-10,Two-Year,Bank Wire,1,17,2239.01,38163.69,5,4,0
+CUST-0590,Zara Health,Mid-Market,EMEA,United Kingdom,2024-08-09,Month-to-Month,Credit Card,1,25,1176.9,30777.14,1,4,0
+CUST-0591,Carlos Dynamics,SMB,APAC,Australia,2025-09-12,One-Year,Bank Wire,1,12,447.2,5584.31,2,4,1
+CUST-0592,Tara Capital,Mid-Market,North America,Canada,2023-10-02,One-Year,Credit Card,1,36,731.33,27078.28,3,4,0
+CUST-0593,Ingrid Technologies,SMB,EMEA,Germany,2023-09-12,Two-Year,Automated ACH,1,36,392.33,13822.78,1,4,0
+CUST-0594,Carlos Logistics,Mid-Market,EMEA,France,2025-02-05,Month-to-Month,Automated ACH,1,19,836.82,15281.96,4,4,1
+CUST-0595,Feng Systems,Mid-Market,APAC,South Korea,2025-11-16,Month-to-Month,Credit Card,1,10,1294.5,13332.54,0,4,0
+CUST-0596,Beatrice Capital,SMB,LATAM,Brazil,2025-12-17,Two-Year,Automated ACH,1,9,437.05,3887.49,2,5,0
+CUST-0597,William Solutions,Mid-Market,EMEA,Germany,2025-04-02,Two-Year,Bank Wire,1,17,1245.45,21849.18,4,2,1
+CUST-0598,Beatrice Logistics,Mid-Market,EMEA,Netherlands,2024-03-08,Two-Year,Automated ACH,1,30,942.83,28803.96,1,4,0
+CUST-0599,Mei Solutions,Enterprise,North America,Canada,2025-09-27,Month-to-Month,Credit Card,0,11,1754.08,19647.74,3,5,1
+CUST-0600,Beatrice Enterprises,Mid-Market,LATAM,Chile,2024-10-14,One-Year,Credit Card,1,23,1036.55,23293.09,2,4,0
+CUST-0601,Dmitri Health,Mid-Market,EMEA,Netherlands,2023-09-12,One-Year,Credit Card,1,36,1551.54,54151.43,3,2,0
+CUST-0602,Kavita Logistics,SMB,North America,United States,2024-05-28,Month-to-Month,Bank Wire,1,28,472.4,13155.7,3,4,1
+CUST-0603,Hassan Health,Enterprise,North America,United States,2025-09-20,Month-to-Month,Credit Card,0,12,1443.56,16832.18,3,3,1
+CUST-0604,Umar Enterprises,Enterprise,EMEA,United Kingdom,2024-02-11,Month-to-Month,Credit Card,0,31,2265.06,70680.77,4,5,0
+CUST-0605,Feng Enterprises,Mid-Market,EMEA,France,2024-09-06,Two-Year,Credit Card,0,24,1305.02,30620.1,1,2,0
+CUST-0606,Nathan Capital,Mid-Market,North America,United States,2025-10-21,Month-to-Month,Bank Wire,1,11,951.43,10942.55,4,3,1
+CUST-0607,Ingrid Logistics,Startup,North America,Canada,2023-09-27,One-Year,Bank Wire,1,36,209.5,7273.41,0,2,0
+CUST-0608,Zara Media,Startup,North America,United States,2025-11-29,Month-to-Month,Bank Wire,1,9,204.7,1884.22,3,3,1
+CUST-0609,Zara Solutions,Enterprise,North America,Canada,2023-09-13,Month-to-Month,Bank Wire,1,36,2585.35,89830.02,0,3,0
+CUST-0610,Kavita Media,Mid-Market,EMEA,Netherlands,2024-10-15,Two-Year,Automated ACH,1,23,1200.7,27726.92,0,3,0
+CUST-0611,Alexander Media,Enterprise,LATAM,Mexico,2026-02-02,Two-Year,Bank Wire,1,7,2117.45,14674.84,1,3,0
+CUST-0612,Vivienne Enterprises,Enterprise,North America,Canada,2025-12-07,One-Year,Bank Wire,1,9,2048.64,18538.2,1,3,0
+CUST-0613,Mei Ventures,Startup,North America,Canada,2025-11-01,One-Year,Credit Card,0,10,281.65,2799.03,4,4,0
+CUST-0614,Gabriella Logistics,SMB,North America,United States,2025-06-06,Month-to-Month,Bank Wire,1,15,490.07,7456.47,3,4,1
+CUST-0615,Patrick Dynamics,Startup,LATAM,Mexico,2026-04-20,Month-to-Month,Bank Wire,1,5,208.77,996.13,3,5,0
+CUST-0616,Dmitri Ventures,Startup,APAC,South Korea,2025-05-08,Month-to-Month,Credit Card,0,16,280.66,4282.59,2,3,0
+CUST-0617,Evelyn Solutions,Startup,EMEA,Netherlands,2026-03-02,Month-to-Month,Credit Card,1,6,272.65,1582.28,3,4,1
+CUST-0618,Beatrice Health,Mid-Market,APAC,Japan,2023-09-28,Two-Year,Bank Wire,1,36,710.75,24599.8,1,4,0
+CUST-0619,Umar Systems,Mid-Market,North America,United States,2025-03-01,Two-Year,Credit Card,1,18,768.77,13313.13,3,4,0
+CUST-0620,William Systems,SMB,EMEA,France,2024-04-05,Month-to-Month,Bank Wire,1,29,533.85,14805.45,3,4,1
+CUST-0621,Ingrid Logistics,SMB,APAC,Singapore,2025-08-06,Month-to-Month,Bank Wire,1,13,468.08,5861.94,2,5,1
+CUST-0622,Vivienne Systems,Enterprise,North America,United States,2024-03-16,Month-to-Month,Bank Wire,0,30,1260.82,38606.59,0,5,0
+CUST-0623,Tara Health,SMB,North America,Canada,2024-10-21,Month-to-Month,Bank Wire,1,23,464.27,10399.78,0,3,1
+CUST-0624,Feng Systems,SMB,EMEA,Germany,2025-05-06,Two-Year,Credit Card,1,16,461.81,7276.54,2,4,0
+CUST-0625,Alexander Dynamics,Startup,North America,United States,2023-11-29,One-Year,Automated ACH,0,34,188.91,6427.78,2,5,0
+CUST-0626,Olga Ventures,Enterprise,North America,United States,2023-09-29,One-Year,Automated ACH,1,36,2392.97,83358.55,1,5,0
+CUST-0627,William Technologies,Mid-Market,North America,Canada,2025-06-11,Month-to-Month,Credit Card,0,15,1085.81,16210.84,3,3,0
+CUST-0628,Dmitri Technologies,Enterprise,LATAM,Brazil,2026-07-19,One-Year,Bank Wire,0,2,2303.78,4709.57,0,2,0
+CUST-0629,Tara Systems,SMB,North America,United States,2025-04-15,Month-to-Month,Bank Wire,1,17,270.31,4474.47,3,3,1
+CUST-0630,Nathan Ventures,Enterprise,North America,United States,2025-05-07,One-Year,Automated ACH,1,16,2596.54,43322.28,3,4,0
+CUST-0631,Olga Logistics,Mid-Market,North America,United States,2025-07-18,One-Year,Automated ACH,1,14,1237.78,16682.92,3,4,0
+CUST-0632,Xavier Systems,Enterprise,North America,United States,2023-09-19,Month-to-Month,Bank Wire,1,36,2279.38,85228.46,1,3,1
+CUST-0633,Umar Logistics,SMB,APAC,Singapore,2023-09-16,Two-Year,Bank Wire,0,36,474.02,17046.31,0,5,0
+CUST-0634,Gabriella Systems,Mid-Market,EMEA,Netherlands,2024-08-05,Month-to-Month,Automated ACH,1,25,792.8,19689.68,0,4,0
+CUST-0635,Hassan Systems,Startup,LATAM,Chile,2023-09-20,Two-Year,Bank Wire,1,36,333.22,12318.14,2,5,0
+CUST-0636,Beatrice Media,SMB,EMEA,Netherlands,2024-06-07,Two-Year,Credit Card,1,27,476.18,12932.06,4,5,0
+CUST-0637,Alexander Media,Mid-Market,LATAM,Brazil,2025-06-17,One-Year,Bank Wire,1,15,1249.8,18381.13,2,3,0
+CUST-0638,Xavier Solutions,Startup,APAC,Japan,2024-08-14,One-Year,Automated ACH,1,25,248.47,6391.8,2,2,0
+CUST-0639,Liam Solutions,Startup,EMEA,United Kingdom,2023-10-31,Month-to-Month,Credit Card,1,35,250.06,8574.07,2,5,0
+CUST-0640,Zara Health,SMB,EMEA,Germany,2023-10-01,One-Year,Bank Wire,0,36,274.26,9887.91,2,3,0
+CUST-0641,William Capital,Mid-Market,APAC,Japan,2026-03-07,One-Year,Bank Wire,1,6,1181.77,7132.31,2,4,0
+CUST-0642,Carlos Dynamics,Enterprise,EMEA,Germany,2024-09-17,Month-to-Month,Bank Wire,1,24,2460.47,61644.5,2,4,1
+CUST-0643,Tara Ventures,Mid-Market,APAC,Singapore,2025-02-16,One-Year,Credit Card,1,19,919.26,17243.8,1,3,1
+CUST-0644,Olga Solutions,Mid-Market,EMEA,United Kingdom,2024-04-13,One-Year,Credit Card,1,29,1366.64,40111.92,4,3,1
+CUST-0645,William Enterprises,Enterprise,North America,Canada,2023-09-21,Two-Year,Bank Wire,0,36,2156.23,74592.0,3,5,0
+CUST-0646,Ingrid Enterprises,Enterprise,EMEA,Netherlands,2025-07-18,One-Year,Credit Card,1,14,2113.33,30975.93,3,5,0
+CUST-0647,Siddharth Logistics,Mid-Market,EMEA,Netherlands,2024-10-07,Month-to-Month,Bank Wire,1,23,1077.29,25525.93,1,4,0
+CUST-0648,Rania Capital,SMB,North America,Canada,2025-03-01,Month-to-Month,Credit Card,1,18,520.7,9693.06,0,3,1
+CUST-0649,Olga Solutions,Startup,North America,United States,2025-11-12,Month-to-Month,Bank Wire,1,10,266.21,2787.41,2,3,1
+CUST-0650,Zara Technologies,Mid-Market,North America,Canada,2024-09-22,One-Year,Bank Wire,1,24,1256.79,29204.62,2,3,0
+CUST-0651,Feng Logistics,Enterprise,North America,United States,2023-09-23,One-Year,Credit Card,1,36,2205.6,77060.49,3,4,0
+CUST-0652,Xavier Technologies,Enterprise,EMEA,France,2025-06-10,One-Year,Bank Wire,1,15,2099.38,32814.68,3,3,0
+CUST-0653,Mei Solutions,Startup,APAC,South Korea,2025-07-20,Month-to-Month,Credit Card,0,14,287.42,3955.99,0,4,0
+CUST-0654,Xavier Health,Startup,EMEA,France,2025-10-28,Two-Year,Credit Card,1,10,241.53,2431.06,2,5,0
+CUST-0655,Olga Capital,Startup,EMEA,Netherlands,2025-07-20,One-Year,Bank Wire,1,14,258.83,3666.21,4,4,0
+CUST-0656,Hassan Solutions,Enterprise,North America,Canada,2023-09-13,Month-to-Month,Credit Card,1,36,2847.49,105247.62,1,5,1
+CUST-0657,Gabriella Technologies,SMB,North America,Canada,2025-08-21,Two-Year,Bank Wire,1,13,395.75,5197.83,2,4,0
+CUST-0658,Rania Technologies,Mid-Market,APAC,Australia,2023-09-11,Two-Year,Bank Wire,1,36,868.1,30578.6,1,5,0
+CUST-0659,Liam Health,Enterprise,LATAM,Chile,2025-06-01,Two-Year,Credit Card,1,15,2883.59,43005.16,3,4,0
+CUST-0660,Feng Media,Enterprise,EMEA,Netherlands,2026-01-02,One-Year,Bank Wire,1,8,2437.65,20453.6,3,3,0
+CUST-0661,Rania Capital,Enterprise,North America,Canada,2026-05-07,One-Year,Bank Wire,1,4,1078.4,4297.26,5,4,1
+CUST-0662,Tara Logistics,Mid-Market,North America,Canada,2026-02-04,Month-to-Month,Automated ACH,0,7,1172.68,8047.8,3,4,1
+CUST-0663,Siddharth Solutions,Enterprise,North America,United States,2024-09-18,Two-Year,Automated ACH,1,24,1882.3,45870.05,2,5,0
+CUST-0664,Julian Media,Enterprise,North America,United States,2025-01-31,Month-to-Month,Automated ACH,1,19,1860.96,36226.52,3,4,1
+CUST-0665,Tara Solutions,SMB,EMEA,France,2026-01-05,Two-Year,Automated ACH,1,8,509.26,4168.99,4,3,0
+CUST-0666,Alexander Health,Enterprise,North America,United States,2025-09-08,Two-Year,Bank Wire,1,12,2555.43,29968.05,1,5,0
+CUST-0667,Nathan Capital,Mid-Market,North America,Canada,2026-02-17,One-Year,Automated ACH,1,7,1004.38,6745.57,3,4,1
+CUST-0668,Zara Logistics,SMB,EMEA,France,2024-08-07,One-Year,Bank Wire,1,25,410.8,10128.81,2,4,0
+CUST-0669,Siddharth Systems,Enterprise,North America,United States,2025-05-09,Month-to-Month,Automated ACH,1,16,2692.35,44890.77,5,3,1
+CUST-0670,Feng Enterprises,SMB,North America,United States,2024-03-06,Two-Year,Credit Card,0,30,456.58,13732.54,0,4,0
+CUST-0671,Siddharth Dynamics,Mid-Market,EMEA,United Kingdom,2023-10-01,Month-to-Month,Bank Wire,1,36,1334.48,47312.06,0,5,0
+CUST-0672,Xavier Capital,Startup,North America,Canada,2024-11-07,One-Year,Automated ACH,1,22,251.18,5418.03,2,3,0
+CUST-0673,Yuki Enterprises,SMB,North America,United States,2023-09-24,Month-to-Month,Bank Wire,1,36,451.57,16566.72,1,4,0
+CUST-0674,Dmitri Enterprises,SMB,North America,Canada,2025-02-23,Month-to-Month,Bank Wire,1,19,451.79,8663.99,0,4,0
+CUST-0675,Patrick Enterprises,Enterprise,APAC,Japan,2023-12-11,Month-to-Month,Bank Wire,1,33,1952.74,65096.37,4,5,1
+CUST-0676,Tara Ventures,Enterprise,North America,Canada,2023-09-29,Two-Year,Automated ACH,0,36,2431.53,86203.12,1,3,0
+CUST-0677,Feng Dynamics,Mid-Market,APAC,Singapore,2026-02-17,Month-to-Month,Credit Card,1,7,1353.63,9207.25,2,4,1
+CUST-0678,Gabriella Health,Startup,North America,United States,2024-07-26,Two-Year,Automated ACH,0,26,205.25,5323.01,1,4,0
+CUST-0679,Xavier Systems,Enterprise,North America,United States,2025-05-14,Two-Year,Credit Card,1,16,2305.12,36541.05,5,4,0
+CUST-0680,Zara Capital,Mid-Market,North America,United States,2023-09-18,One-Year,Credit Card,1,36,1155.26,39678.78,2,4,0
+CUST-0681,Kavita Solutions,Mid-Market,North America,Canada,2024-01-08,Month-to-Month,Automated ACH,1,32,971.17,31245.0,1,3,1
+CUST-0682,Julian Media,Startup,North America,United States,2025-05-30,Month-to-Month,Credit Card,1,15,247.67,3900.33,2,4,1
+CUST-0683,Patrick Enterprises,Enterprise,North America,United States,2025-01-13,Month-to-Month,Credit Card,1,20,2349.1,48980.1,2,4,1
+CUST-0684,Feng Enterprises,Mid-Market,North America,United States,2025-10-03,Two-Year,Credit Card,1,11,966.28,10549.05,2,5,1
+CUST-0685,Patrick Health,SMB,APAC,Australia,2025-03-31,One-Year,Credit Card,1,17,483.6,8306.01,2,4,1
+CUST-0686,Mei Solutions,SMB,EMEA,Germany,2026-01-17,Month-to-Month,Credit Card,1,8,505.1,4219.57,2,4,0
+CUST-0687,Alexander Enterprises,Mid-Market,APAC,Japan,2025-05-25,Two-Year,Bank Wire,1,16,1128.77,17433.15,0,4,0
+CUST-0688,Umar Systems,SMB,North America,United States,2023-09-17,One-Year,Automated ACH,1,36,382.39,13989.18,2,2,1
+CUST-0689,Patrick Dynamics,SMB,North America,Canada,2025-03-09,One-Year,Automated ACH,1,18,378.57,6766.84,3,3,0
+CUST-0690,Dmitri Media,Mid-Market,EMEA,Netherlands,2024-05-29,Month-to-Month,Credit Card,0,28,1205.14,33079.32,2,4,1
+CUST-0691,Xavier Logistics,Mid-Market,EMEA,Germany,2023-11-20,One-Year,Bank Wire,1,34,1287.86,44488.18,2,3,0
+CUST-0692,William Dynamics,SMB,EMEA,Netherlands,2026-01-15,One-Year,Bank Wire,1,8,465.46,3899.02,0,4,0
+CUST-0693,Umar Capital,Mid-Market,APAC,Australia,2024-10-27,One-Year,Bank Wire,1,23,996.62,23631.83,4,3,0
+CUST-0694,Tara Technologies,Mid-Market,APAC,Australia,2025-11-08,Month-to-Month,Bank Wire,1,10,965.09,9806.51,1,5,0
+CUST-0695,Hassan Ventures,Startup,EMEA,United Kingdom,2023-10-01,Two-Year,Bank Wire,1,36,277.41,10025.13,1,4,0
+CUST-0696,Beatrice Solutions,SMB,EMEA,Netherlands,2025-06-11,Month-to-Month,Credit Card,1,15,387.49,6094.69,2,5,0
+CUST-0697,Mei Systems,SMB,North America,United States,2025-09-19,One-Year,Bank Wire,1,12,351.24,4346.16,0,3,0
+CUST-0698,William Capital,Mid-Market,North America,Canada,2024-12-13,Month-to-Month,Credit Card,0,21,1232.84,24790.16,1,4,1
+CUST-0699,Siddharth Ventures,Mid-Market,North America,United States,2024-07-11,Month-to-Month,Bank Wire,1,26,1011.9,25235.87,1,4,1
+CUST-0700,Tara Enterprises,Enterprise,EMEA,France,2025-08-28,One-Year,Credit Card,1,12,1994.77,22923.88,3,5,0
+CUST-0701,Julian Dynamics,SMB,APAC,South Korea,2024-06-19,Month-to-Month,Credit Card,1,27,531.13,14273.44,3,5,0
+CUST-0702,Zara Dynamics,SMB,North America,United States,2024-08-12,Two-Year,Credit Card,1,25,486.24,12717.75,1,3,0
+CUST-0703,Yuki Solutions,Startup,North America,Canada,2025-06-01,One-Year,Credit Card,1,15,204.67,2961.91,3,3,1
+CUST-0704,Evelyn Health,Mid-Market,APAC,South Korea,2024-04-28,One-Year,Automated ACH,1,29,1100.62,31238.27,1,5,0
+CUST-0705,Feng Health,Mid-Market,EMEA,Germany,2026-02-16,Month-to-Month,Bank Wire,1,7,1354.11,9299.19,0,5,0
+CUST-0706,Patrick Dynamics,SMB,LATAM,Mexico,2023-10-02,Month-to-Month,Bank Wire,1,36,532.93,19741.23,2,3,0
+CUST-0707,Ingrid Dynamics,Startup,North America,United States,2025-10-07,One-Year,Bank Wire,0,11,280.14,3024.19,4,4,0
+CUST-0708,Julian Enterprises,Startup,APAC,South Korea,2025-02-03,One-Year,Bank Wire,0,19,235.3,4570.95,0,5,0
+CUST-0709,Evelyn Ventures,Mid-Market,North America,United States,2023-09-15,Two-Year,Automated ACH,1,36,963.63,36024.76,3,2,0
+CUST-0710,Hassan Systems,Mid-Market,North America,Canada,2026-02-01,One-Year,Automated ACH,1,7,1177.14,8598.83,2,2,0
+CUST-0711,Gabriella Logistics,Startup,North America,United States,2024-04-16,Month-to-Month,Automated ACH,1,29,323.61,9416.1,0,4,0
+CUST-0712,Xavier Enterprises,Mid-Market,North America,Canada,2023-09-26,Two-Year,Automated ACH,0,36,1077.27,38250.4,1,4,0
+CUST-0713,Xavier Capital,SMB,APAC,Japan,2024-08-09,Month-to-Month,Credit Card,1,25,594.38,14197.77,2,4,1
+CUST-0714,William Ventures,Mid-Market,North America,Canada,2025-12-29,Month-to-Month,Automated ACH,1,8,1366.18,11330.5,2,5,1
+CUST-0715,Olga Media,Startup,North America,Canada,2024-11-18,Month-to-Month,Automated ACH,1,22,262.82,5664.91,0,3,0
+CUST-0716,Feng Solutions,SMB,EMEA,Netherlands,2024-12-18,Two-Year,Automated ACH,0,21,453.47,9495.34,3,4,0
+CUST-0717,Nathan Capital,SMB,EMEA,United Kingdom,2025-03-04,Month-to-Month,Bank Wire,1,18,320.45,5900.32,2,5,0
+CUST-0718,Siddharth Capital,SMB,EMEA,United Kingdom,2024-12-06,One-Year,Credit Card,1,21,509.21,10304.27,4,4,0
+CUST-0719,Mei Ventures,SMB,EMEA,France,2023-09-30,Month-to-Month,Credit Card,0,36,394.38,14667.09,3,5,0
+CUST-0720,Zara Logistics,SMB,APAC,South Korea,2025-06-14,Month-to-Month,Automated ACH,1,15,448.81,6512.33,3,2,0
+CUST-0721,Tara Capital,Enterprise,APAC,Singapore,2024-07-18,Month-to-Month,Automated ACH,0,26,2092.56,56497.63,2,5,1
+CUST-0722,Hassan Technologies,SMB,LATAM,Chile,2024-12-06,Month-to-Month,Bank Wire,1,21,425.28,8718.13,1,5,0
+CUST-0723,Feng Technologies,SMB,North America,Canada,2024-10-23,Month-to-Month,Bank Wire,0,23,468.36,10360.08,2,3,1
+CUST-0724,Xavier Dynamics,SMB,North America,Canada,2026-03-06,Month-to-Month,Credit Card,1,6,387.43,2408.72,6,5,1
+CUST-0725,Ingrid Health,Enterprise,APAC,South Korea,2026-04-14,One-Year,Automated ACH,1,5,2287.71,11641.23,1,5,0
+CUST-0726,Nathan Logistics,Enterprise,North America,United States,2023-09-25,Month-to-Month,Credit Card,1,36,2233.47,81071.5,4,3,1
+CUST-0727,Vivienne Solutions,Enterprise,North America,Canada,2026-02-09,Two-Year,Bank Wire,1,7,2874.82,19889.29,1,4,0
+CUST-0728,Nathan Systems,SMB,North America,United States,2024-10-26,Month-to-Month,Bank Wire,0,23,454.67,10976.87,0,3,0
+CUST-0729,William Systems,Enterprise,EMEA,United Kingdom,2024-02-14,One-Year,Bank Wire,1,31,2671.54,81748.57,5,3,0
+CUST-0730,Siddharth Technologies,Enterprise,EMEA,France,2024-11-11,Two-Year,Automated ACH,1,22,2184.2,47174.57,3,2,0
+CUST-0731,Rania Media,Mid-Market,North America,United States,2025-08-19,One-Year,Automated ACH,1,13,771.97,9895.71,2,3,1
+CUST-0732,Nathan Health,SMB,APAC,Australia,2024-03-07,Two-Year,Credit Card,1,30,497.67,14429.92,3,4,0
+CUST-0733,Yuki Solutions,SMB,APAC,Singapore,2024-07-08,One-Year,Credit Card,1,26,486.74,12091.53,4,3,0
+CUST-0734,Feng Technologies,SMB,EMEA,Germany,2025-08-10,Month-to-Month,Automated ACH,1,13,533.74,6898.04,3,3,1
+CUST-0735,Xavier Dynamics,Enterprise,EMEA,Netherlands,2023-12-09,Two-Year,Bank Wire,1,33,1734.04,59330.13,2,4,0
+CUST-0736,Feng Logistics,SMB,APAC,Australia,2026-03-30,One-Year,Credit Card,0,5,355.42,1781.72,2,4,0
+CUST-0737,Tara Logistics,Mid-Market,North America,United States,2025-10-07,One-Year,Automated ACH,1,11,1378.02,15433.06,3,4,1
+CUST-0738,William Enterprises,SMB,North America,United States,2026-01-16,Month-to-Month,Credit Card,1,8,494.52,3948.19,2,5,1
+CUST-0739,Vivienne Health,Mid-Market,EMEA,United Kingdom,2024-09-26,One-Year,Automated ACH,1,24,1011.63,24841.29,1,5,0
+CUST-0740,Yuki Systems,SMB,North America,United States,2024-10-18,Month-to-Month,Bank Wire,1,23,470.61,11313.17,2,3,1
+CUST-0741,Mei Enterprises,Mid-Market,North America,United States,2025-03-02,Two-Year,Bank Wire,0,18,1384.89,24087.8,3,3,0
+CUST-0742,Zara Media,Enterprise,North America,United States,2025-06-09,One-Year,Credit Card,0,15,3143.16,49050.9,3,5,0
+CUST-0743,Umar Logistics,SMB,North America,United States,2024-01-15,Month-to-Month,Credit Card,1,32,454.95,14221.34,3,4,1
+CUST-0744,Umar Media,SMB,North America,Canada,2025-06-05,Month-to-Month,Credit Card,1,15,594.57,8930.45,1,4,0
+CUST-0745,Olga Ventures,Startup,EMEA,Germany,2023-09-17,One-Year,Credit Card,1,36,257.62,9216.22,4,4,0
+CUST-0746,Patrick Health,SMB,North America,United States,2025-10-13,Two-Year,Credit Card,1,11,504.79,5301.56,1,4,0
+CUST-0747,Carlos Technologies,Mid-Market,EMEA,Netherlands,2024-01-17,One-Year,Credit Card,1,32,1229.58,38382.02,2,5,0
+CUST-0748,Carlos Dynamics,Enterprise,North America,Canada,2024-06-24,Two-Year,Bank Wire,1,27,1817.55,50076.81,1,3,0
+CUST-0749,Kavita Systems,SMB,EMEA,Netherlands,2025-09-14,Month-to-Month,Automated ACH,1,12,417.53,4865.59,2,4,0
+CUST-0750,Carlos Systems,Mid-Market,North America,United States,2024-08-28,Month-to-Month,Bank Wire,1,25,969.63,24185.29,1,4,0
+CUST-0751,Xavier Media,Mid-Market,APAC,South Korea,2026-01-01,Month-to-Month,Credit Card,1,8,1243.38,9842.59,2,3,1
+CUST-0752,Julian Enterprises,Enterprise,North America,United States,2024-01-01,One-Year,Bank Wire,1,33,1617.69,53282.97,1,3,0
+CUST-0753,Evelyn Ventures,Enterprise,North America,United States,2024-02-06,Month-to-Month,Credit Card,1,31,1772.5,53112.83,3,3,1
+CUST-0754,Evelyn Solutions,Enterprise,LATAM,Mexico,2023-10-19,One-Year,Bank Wire,1,35,1607.52,58141.48,6,3,1
+CUST-0755,Beatrice Capital,Startup,North America,Canada,2023-11-17,One-Year,Credit Card,1,34,274.91,9151.38,1,2,0
+CUST-0756,Patrick Media,Mid-Market,EMEA,Netherlands,2025-04-24,One-Year,Credit Card,1,17,1477.64,24023.42,0,2,0
+CUST-0757,Vivienne Media,Mid-Market,APAC,Japan,2025-02-04,Month-to-Month,Credit Card,1,19,1371.55,25507.02,2,4,1
+CUST-0758,Gabriella Solutions,Mid-Market,North America,United States,2024-11-08,Two-Year,Bank Wire,1,22,1134.68,25817.86,4,3,0
+CUST-0759,William Solutions,SMB,North America,Canada,2026-03-09,Two-Year,Automated ACH,1,6,393.52,2416.51,1,4,0
+CUST-0760,Patrick Logistics,SMB,EMEA,France,2023-10-01,One-Year,Bank Wire,1,36,387.49,14097.16,1,3,0
+CUST-0761,Dmitri Media,Mid-Market,LATAM,Mexico,2024-06-23,One-Year,Automated ACH,1,27,1039.52,27395.7,1,3,0
+CUST-0762,William Logistics,SMB,North America,United States,2024-06-19,Month-to-Month,Credit Card,1,27,423.31,11114.03,1,5,0
+CUST-0763,Ingrid Capital,SMB,APAC,Japan,2024-03-14,Month-to-Month,Bank Wire,1,30,159.85,4802.88,7,2,1
+CUST-0764,William Enterprises,SMB,EMEA,Netherlands,2025-09-28,Month-to-Month,Bank Wire,1,11,446.25,5047.25,0,4,0
+CUST-0765,Dmitri Dynamics,Enterprise,North America,United States,2025-03-23,Two-Year,Automated ACH,1,18,1607.01,28324.87,3,5,1
+CUST-0766,Olga Dynamics,Enterprise,EMEA,United Kingdom,2025-08-12,Month-to-Month,Bank Wire,0,13,2155.85,27855.4,1,5,0
+CUST-0767,Nathan Technologies,Mid-Market,North America,Canada,2024-06-13,Month-to-Month,Bank Wire,1,27,1246.46,33368.39,3,3,1
+CUST-0768,Vivienne Ventures,SMB,North America,Canada,2024-04-26,One-Year,Credit Card,1,29,505.62,14602.5,0,4,0
+CUST-0769,Rania Capital,Enterprise,LATAM,Mexico,2025-05-25,One-Year,Credit Card,1,16,1792.06,28209.33,3,2,0
+CUST-0770,Mei Logistics,SMB,North America,Canada,2026-05-29,Two-Year,Bank Wire,1,3,458.33,1440.68,0,4,0
+CUST-0771,Xavier Dynamics,Mid-Market,LATAM,Mexico,2026-01-29,One-Year,Automated ACH,1,7,1259.02,8648.95,1,4,0
+CUST-0772,Liam Technologies,SMB,APAC,Singapore,2025-09-08,One-Year,Automated ACH,1,12,474.75,5764.33,2,3,0
+CUST-0773,Olga Capital,SMB,APAC,South Korea,2023-10-24,Month-to-Month,Credit Card,1,35,416.95,14912.67,1,3,0
+CUST-0774,Evelyn Dynamics,Mid-Market,LATAM,Mexico,2023-11-16,One-Year,Credit Card,1,34,1024.27,33641.22,3,2,1
+CUST-0775,Alexander Dynamics,SMB,EMEA,Germany,2023-12-23,One-Year,Automated ACH,1,33,436.17,13760.21,2,1,0
+CUST-0776,Liam Health,Enterprise,EMEA,France,2026-01-26,One-Year,Bank Wire,1,7,2033.05,14568.43,0,2,1
+CUST-0777,Olga Capital,Startup,LATAM,Chile,2023-12-14,One-Year,Automated ACH,1,33,268.84,9177.35,3,4,0
+CUST-0778,Hassan Capital,SMB,North America,United States,2025-09-06,One-Year,Bank Wire,1,12,406.18,4724.31,4,4,0
+CUST-0779,Zara Capital,SMB,EMEA,Germany,2026-02-06,Month-to-Month,Bank Wire,0,7,588.07,4106.71,3,3,1
+CUST-0780,Olga Enterprises,SMB,North America,Canada,2026-05-04,One-Year,Automated ACH,1,4,428.22,1736.25,3,3,0
+CUST-0781,Olga Solutions,SMB,APAC,South Korea,2024-10-23,One-Year,Credit Card,1,23,419.76,10106.34,1,3,0
+CUST-0782,Rania Dynamics,Mid-Market,North America,United States,2026-07-18,One-Year,Automated ACH,1,2,844.48,1765.27,3,4,0
+CUST-0783,Umar Media,SMB,North America,Canada,2024-12-25,One-Year,Bank Wire,1,21,460.87,9556.77,1,4,0
+CUST-0784,Julian Solutions,Enterprise,North America,United States,2023-09-15,Month-to-Month,Automated ACH,1,36,1721.4,60628.63,2,5,0
+CUST-0785,Feng Solutions,Enterprise,North America,Canada,2026-06-18,Month-to-Month,Credit Card,1,3,2402.66,7496.51,0,4,1
+CUST-0786,Mei Solutions,SMB,APAC,Singapore,2024-01-15,One-Year,Automated ACH,1,32,455.01,14049.23,2,3,1
+CUST-0787,Yuki Capital,Mid-Market,North America,Canada,2025-01-13,Month-to-Month,Bank Wire,1,20,944.21,18776.74,0,3,0
+CUST-0788,Ingrid Enterprises,SMB,APAC,Japan,2023-09-08,One-Year,Bank Wire,1,36,519.57,18973.7,2,4,0
+CUST-0789,Carlos Ventures,SMB,LATAM,Chile,2025-05-24,Two-Year,Credit Card,1,16,499.74,7997.95,0,2,0
+CUST-0790,Alexander Enterprises,Startup,EMEA,Germany,2025-08-15,One-Year,Bank Wire,1,13,214.84,2901.19,1,5,0
+CUST-0791,Olga Enterprises,Mid-Market,APAC,Australia,2024-12-25,One-Year,Automated ACH,1,21,1355.83,27562.76,5,3,1
+CUST-0792,Alexander Dynamics,Enterprise,North America,Canada,2025-01-22,One-Year,Bank Wire,1,20,2247.0,46145.76,3,5,0
+CUST-0793,Evelyn Health,Enterprise,LATAM,Chile,2025-03-07,Two-Year,Bank Wire,1,18,3006.21,53018.85,3,4,0
+CUST-0794,Dmitri Capital,Mid-Market,North America,Canada,2023-09-30,Month-to-Month,Bank Wire,1,36,953.6,33424.98,1,4,0
+CUST-0795,Rania Dynamics,Mid-Market,North America,United States,2023-09-23,Month-to-Month,Credit Card,1,36,892.99,31850.25,5,4,0
+CUST-0796,Hassan Technologies,Mid-Market,North America,United States,2025-05-08,One-Year,Bank Wire,1,16,1166.8,18567.96,0,3,0
+CUST-0797,Vivienne Dynamics,Mid-Market,North America,United States,2024-12-21,One-Year,Credit Card,1,21,1491.2,32603.8,0,3,0
+CUST-0798,Olga Technologies,Startup,North America,Canada,2024-08-09,Month-to-Month,Automated ACH,1,25,192.65,5025.04,3,3,1
+CUST-0799,Patrick Health,Startup,EMEA,Netherlands,2026-07-29,Month-to-Month,Automated ACH,1,1,303.38,293.11,1,5,1
+CUST-0800,Siddharth Systems,Mid-Market,North America,United States,2024-09-24,Two-Year,Credit Card,0,24,1199.35,29873.25,3,4,1
+CUST-0801,Gabriella Systems,Startup,EMEA,France,2025-04-15,One-Year,Automated ACH,1,17,255.1,4238.26,1,4,1
+CUST-0802,William Capital,Startup,North America,Canada,2024-05-20,Month-to-Month,Credit Card,1,28,235.36,6261.93,3,5,0
+CUST-0803,Patrick Technologies,Mid-Market,APAC,Singapore,2024-12-04,One-Year,Automated ACH,1,21,1230.59,26584.86,2,5,0
+CUST-0804,Vivienne Enterprises,SMB,EMEA,Netherlands,2025-06-13,Two-Year,Bank Wire,1,15,243.16,3606.09,1,4,0
+CUST-0805,Zara Technologies,Startup,North America,Canada,2024-10-13,Month-to-Month,Credit Card,1,23,247.74,5800.9,4,3,0
+CUST-0806,Xavier Capital,SMB,North America,Canada,2024-07-22,Month-to-Month,Credit Card,1,26,411.92,10475.11,4,5,1
+CUST-0807,Xavier Systems,Startup,North America,United States,2024-04-10,Month-to-Month,Automated ACH,1,29,235.62,6828.89,3,4,0
+CUST-0808,Siddharth Ventures,Enterprise,EMEA,Germany,2025-07-20,One-Year,Bank Wire,0,14,2821.0,40897.93,2,4,0
+CUST-0809,Rania Health,Startup,North America,United States,2023-09-11,One-Year,Credit Card,1,36,295.46,11044.05,2,4,0
+CUST-0810,Alexander Media,Startup,EMEA,United Kingdom,2024-12-16,Month-to-Month,Automated ACH,1,21,183.47,3922.29,3,4,1
+CUST-0811,Olga Solutions,Startup,North America,United States,2024-01-24,Month-to-Month,Automated ACH,1,32,303.1,9520.97,2,5,0
+CUST-0812,Mei Ventures,Startup,North America,United States,2025-11-14,Two-Year,Credit Card,1,10,255.52,2491.32,3,3,0
+CUST-0813,Feng Capital,Enterprise,North America,United States,2024-12-13,One-Year,Credit Card,1,21,1976.58,40820.4,3,2,1
+CUST-0814,Ingrid Ventures,Startup,North America,United States,2025-12-20,Two-Year,Credit Card,1,9,251.37,2165.71,5,3,0
+CUST-0815,Umar Systems,SMB,North America,United States,2025-08-05,Month-to-Month,Automated ACH,0,13,441.5,5669.13,0,4,0
+CUST-0816,Xavier Enterprises,Startup,APAC,Japan,2024-11-12,Month-to-Month,Credit Card,1,22,222.83,4707.07,4,4,1
+CUST-0817,Beatrice Dynamics,Mid-Market,North America,Canada,2025-11-02,One-Year,Bank Wire,1,10,1269.63,12899.09,3,4,0
+CUST-0818,Alexander Solutions,Startup,North America,Canada,2025-04-06,Month-to-Month,Credit Card,1,17,278.89,4516.39,0,2,1
+CUST-0819,Rania Capital,Enterprise,EMEA,United Kingdom,2025-05-06,One-Year,Credit Card,0,16,2073.24,34513.21,2,1,0
+CUST-0820,Evelyn Dynamics,Mid-Market,North America,Canada,2025-01-06,Month-to-Month,Bank Wire,1,20,1024.25,19584.67,1,4,0
+CUST-0821,Julian Systems,Mid-Market,North America,Canada,2023-09-16,One-Year,Bank Wire,1,36,1166.99,41351.64,1,3,0
+CUST-0822,Liam Technologies,Enterprise,EMEA,Germany,2024-11-10,One-Year,Credit Card,1,22,2177.93,47166.11,1,4,0
+CUST-0823,Gabriella Ventures,Enterprise,APAC,Australia,2025-11-06,One-Year,Automated ACH,1,10,2182.08,21452.35,2,3,0
+CUST-0824,Tara Systems,Mid-Market,LATAM,Chile,2024-04-20,Month-to-Month,Credit Card,1,29,1034.38,28623.73,4,4,1
+CUST-0825,Hassan Technologies,Mid-Market,EMEA,Germany,2024-05-24,Month-to-Month,Credit Card,0,28,1121.23,30865.49,2,3,1
+CUST-0826,Yuki Media,SMB,North America,United States,2023-10-03,Month-to-Month,Bank Wire,1,36,436.7,15116.23,1,3,0
+CUST-0827,Julian Solutions,Enterprise,North America,Canada,2024-03-31,Month-to-Month,Bank Wire,1,30,1334.94,39095.05,1,4,1
+CUST-0828,Feng Capital,Enterprise,APAC,Singapore,2024-06-29,Month-to-Month,Bank Wire,1,27,3030.9,84546.66,3,3,1
+CUST-0829,Evelyn Media,Mid-Market,EMEA,United Kingdom,2026-04-14,Month-to-Month,Bank Wire,1,5,1066.01,5415.82,0,4,1
+CUST-0830,Rania Systems,Enterprise,APAC,Japan,2026-01-16,One-Year,Bank Wire,1,8,2266.73,17905.82,5,5,0
+CUST-0831,Umar Media,Startup,LATAM,Brazil,2024-10-03,One-Year,Bank Wire,1,23,371.64,8795.25,3,4,1
+CUST-0832,Kavita Ventures,Startup,North America,Canada,2025-10-06,Two-Year,Automated ACH,1,11,261.7,2758.2,3,3,0
+CUST-0833,Patrick Systems,SMB,North America,Canada,2025-03-06,One-Year,Bank Wire,1,18,359.7,6266.76,0,5,0
+CUST-0834,Xavier Capital,SMB,EMEA,Netherlands,2025-07-09,Month-to-Month,Credit Card,1,14,314.37,4529.09,0,4,1
+CUST-0835,Vivienne Technologies,Mid-Market,North America,United States,2023-09-26,Month-to-Month,Bank Wire,0,36,881.57,31963.02,0,5,0
+CUST-0836,Liam Health,SMB,EMEA,Germany,2026-05-11,Month-to-Month,Bank Wire,1,4,567.0,2260.12,3,2,1
+CUST-0837,Umar Capital,Mid-Market,North America,Canada,2023-09-22,One-Year,Bank Wire,1,36,1088.25,37921.63,2,5,0
+CUST-0838,Hassan Health,Startup,EMEA,France,2025-10-13,Two-Year,Credit Card,1,11,278.24,3148.14,2,3,0
+CUST-0839,Hassan Enterprises,Enterprise,North America,Canada,2025-03-20,Month-to-Month,Credit Card,1,18,1709.5,31525.54,1,5,1
+CUST-0840,Zara Health,Startup,North America,United States,2025-07-30,One-Year,Credit Card,1,13,218.6,2918.55,1,2,0
+CUST-0841,Julian Capital,Startup,APAC,South Korea,2023-09-15,One-Year,Bank Wire,1,36,285.28,10772.57,1,3,0
+CUST-0842,Evelyn Media,Mid-Market,North America,United States,2024-02-14,One-Year,Credit Card,1,31,802.91,25672.75,3,4,0
+CUST-0843,Kavita Enterprises,Mid-Market,North America,United States,2026-02-27,Month-to-Month,Credit Card,0,6,824.66,4715.46,4,2,1
+CUST-0844,Evelyn Systems,Startup,APAC,Australia,2026-07-19,One-Year,Credit Card,1,2,264.08,513.66,1,4,0
+CUST-0845,Nathan Media,Mid-Market,APAC,Australia,2023-10-03,One-Year,Bank Wire,1,36,1065.13,40174.65,4,1,0
+CUST-0846,Kavita Systems,Startup,EMEA,Netherlands,2025-03-20,Two-Year,Bank Wire,1,18,209.79,3766.7,2,4,0
+CUST-0847,Kavita Systems,Startup,LATAM,Chile,2025-12-19,Month-to-Month,Credit Card,1,9,278.99,2592.88,2,4,0
+CUST-0848,Umar Solutions,Enterprise,North America,United States,2023-09-21,Month-to-Month,Bank Wire,1,36,2359.7,81296.21,2,4,0
+CUST-0849,Beatrice Capital,Mid-Market,EMEA,Germany,2026-06-06,Month-to-Month,Automated ACH,1,3,1342.95,3995.98,3,2,1
+CUST-0850,Yuki Enterprises,Enterprise,North America,United States,2025-04-19,Month-to-Month,Automated ACH,1,17,2040.11,33498.46,4,3,1
+CUST-0851,Tara Health,Mid-Market,EMEA,Netherlands,2025-05-25,Two-Year,Credit Card,0,16,1239.21,20035.25,4,3,0
+CUST-0852,Hassan Dynamics,Mid-Market,North America,Canada,2026-01-02,Month-to-Month,Bank Wire,1,8,1057.05,8810.64,4,4,0
+CUST-0853,Liam Health,Mid-Market,North America,United States,2023-09-28,Two-Year,Credit Card,1,36,1078.48,40420.35,1,3,0
+CUST-0854,Feng Systems,Mid-Market,North America,United States,2023-09-28,Month-to-Month,Credit Card,1,36,1223.37,45874.74,3,4,0
+CUST-0855,Xavier Ventures,Startup,APAC,South Korea,2025-11-04,Month-to-Month,Bank Wire,1,10,257.45,2575.63,0,5,1
+CUST-0856,Zara Capital,Mid-Market,North America,United States,2024-05-14,Month-to-Month,Bank Wire,1,28,1249.24,35593.02,2,5,1
+CUST-0857,Olga Media,Startup,North America,Canada,2025-12-09,Month-to-Month,Bank Wire,1,9,237.18,2057.02,2,4,1
+CUST-0858,William Solutions,Enterprise,EMEA,United Kingdom,2025-08-02,Month-to-Month,Automated ACH,1,13,1793.26,24059.37,2,2,1
+CUST-0859,Feng Logistics,Enterprise,APAC,Japan,2025-07-21,One-Year,Bank Wire,1,14,2635.4,37868.13,1,4,0
+CUST-0860,William Health,Enterprise,North America,Canada,2023-09-11,Month-to-Month,Credit Card,1,36,2276.96,83583.27,4,3,1
+CUST-0861,Vivienne Dynamics,Mid-Market,EMEA,United Kingdom,2024-11-17,Month-to-Month,Credit Card,1,22,710.82,15446.31,2,3,0
+CUST-0862,Gabriella Ventures,Enterprise,North America,United States,2026-02-19,Month-to-Month,Automated ACH,1,7,2227.46,15112.22,1,4,0
+CUST-0863,William Enterprises,SMB,North America,United States,2024-01-10,Month-to-Month,Bank Wire,1,32,427.41,13140.54,1,5,0
+CUST-0864,Kavita Capital,SMB,EMEA,Germany,2024-12-09,Month-to-Month,Credit Card,1,21,574.16,11582.16,3,5,0
+CUST-0865,Kavita Logistics,Enterprise,North America,Canada,2025-08-17,Month-to-Month,Bank Wire,1,13,2899.36,38256.85,3,5,1
+CUST-0866,Liam Technologies,Mid-Market,North America,United States,2024-12-02,One-Year,Automated ACH,1,21,1243.04,26198.29,1,5,0
+CUST-0867,Tara Logistics,SMB,North America,United States,2023-11-12,One-Year,Credit Card,0,34,422.35,14638.08,4,4,0
+CUST-0868,Kavita Logistics,Startup,EMEA,France,2024-01-10,One-Year,Bank Wire,1,32,307.61,9927.23,0,4,0
+CUST-0869,Mei Dynamics,Mid-Market,EMEA,Germany,2025-06-02,Two-Year,Bank Wire,1,15,843.23,13150.31,1,3,0
+CUST-0870,Julian Ventures,SMB,APAC,Singapore,2024-09-26,Month-to-Month,Credit Card,1,24,446.73,10588.3,1,4,1
+CUST-0871,Vivienne Technologies,SMB,North America,Canada,2024-09-17,Month-to-Month,Bank Wire,1,24,506.97,11607.11,2,4,1
+CUST-0872,Nathan Health,SMB,APAC,Singapore,2024-02-20,Month-to-Month,Bank Wire,1,31,468.47,15129.15,1,3,0
+CUST-0873,Hassan Ventures,Mid-Market,EMEA,Netherlands,2024-07-24,Month-to-Month,Bank Wire,0,26,1562.89,38887.77,2,3,0
+CUST-0874,Gabriella Technologies,Startup,EMEA,Germany,2024-05-26,Month-to-Month,Credit Card,0,28,210.72,6154.94,1,3,0
+CUST-0875,Hassan Dynamics,Mid-Market,North America,Canada,2023-10-10,Month-to-Month,Credit Card,1,35,1191.53,40882.41,0,3,0
+CUST-0876,Tara Solutions,Mid-Market,LATAM,Brazil,2023-09-08,One-Year,Automated ACH,1,36,1351.76,48068.29,1,4,0
+CUST-0877,Patrick Solutions,SMB,North America,Canada,2025-06-29,One-Year,Automated ACH,1,14,385.02,5165.63,1,3,0
+CUST-0878,Julian Systems,Mid-Market,EMEA,Germany,2024-12-12,Month-to-Month,Bank Wire,1,21,1104.3,23145.88,1,4,1
+CUST-0879,Kavita Logistics,Enterprise,EMEA,Germany,2024-02-24,Month-to-Month,Automated ACH,1,31,2225.21,68114.12,2,3,0
+CUST-0880,Mei Media,Mid-Market,LATAM,Chile,2025-09-07,Month-to-Month,Automated ACH,1,12,927.6,11559.75,2,5,1
+CUST-0881,Dmitri Media,Enterprise,LATAM,Brazil,2024-06-16,Two-Year,Automated ACH,1,27,2137.22,56831.16,2,3,0
+CUST-0882,Xavier Solutions,SMB,EMEA,France,2024-10-07,Month-to-Month,Credit Card,1,23,520.59,11946.9,3,5,1
+CUST-0883,Liam Technologies,Mid-Market,EMEA,Germany,2026-05-06,Two-Year,Bank Wire,1,4,834.06,3362.38,2,3,0
+CUST-0884,William Logistics,SMB,North America,United States,2025-10-10,Month-to-Month,Credit Card,0,11,573.72,6322.62,2,5,0
+CUST-0885,Gabriella Media,Mid-Market,North America,Canada,2025-02-15,One-Year,Credit Card,0,19,894.15,17135.09,0,4,0
+CUST-0886,Yuki Media,Enterprise,APAC,Japan,2023-09-15,One-Year,Bank Wire,1,36,2465.09,90950.55,2,3,0
+CUST-0887,Yuki Media,Startup,EMEA,United Kingdom,2025-05-10,Month-to-Month,Bank Wire,1,16,183.61,2945.09,2,5,1
+CUST-0888,Vivienne Health,Enterprise,APAC,Singapore,2024-11-21,One-Year,Bank Wire,1,22,2585.67,59435.93,3,4,0
+CUST-0889,Olga Systems,Mid-Market,APAC,Singapore,2025-07-31,Month-to-Month,Automated ACH,1,13,1005.64,13599.22,2,2,1
+CUST-0890,Nathan Solutions,Startup,EMEA,United Kingdom,2025-03-21,Month-to-Month,Bank Wire,1,18,311.65,5365.26,3,4,1
+CUST-0891,Alexander Systems,SMB,North America,Canada,2023-09-30,Month-to-Month,Bank Wire,0,36,413.02,15114.53,3,5,1
+CUST-0892,Beatrice Enterprises,Mid-Market,North America,United States,2025-09-06,Two-Year,Automated ACH,0,12,1171.37,14018.81,3,4,0
+CUST-0893,Kavita Systems,SMB,North America,Canada,2025-05-15,Two-Year,Automated ACH,0,16,481.84,7836.71,3,3,1
+CUST-0894,Mei Systems,Startup,North America,Canada,2023-09-08,Month-to-Month,Credit Card,1,36,263.58,9702.59,2,3,0
+CUST-0895,Evelyn Technologies,Startup,EMEA,France,2025-04-01,One-Year,Bank Wire,1,17,242.9,4194.9,1,4,0
+CUST-0896,Patrick Dynamics,Enterprise,North America,United States,2023-09-13,Two-Year,Automated ACH,1,36,2341.85,83128.04,1,3,0
+CUST-0897,Beatrice Capital,SMB,EMEA,Germany,2024-01-19,One-Year,Automated ACH,1,32,417.33,13940.94,1,4,0
+CUST-0898,Patrick Enterprises,SMB,APAC,Australia,2025-10-30,Month-to-Month,Credit Card,1,10,484.11,5013.83,1,4,0
+CUST-0899,Rania Technologies,Mid-Market,North America,United States,2024-10-06,Two-Year,Automated ACH,1,23,982.35,23489.7,2,3,0
+CUST-0900,Dmitri Solutions,Mid-Market,EMEA,Germany,2025-03-21,One-Year,Credit Card,1,18,1390.42,24864.61,3,3,0
+CUST-0901,Xavier Technologies,Startup,North America,Canada,2025-04-01,Month-to-Month,Credit Card,1,17,289.64,5146.2,0,4,0
+CUST-0902,William Enterprises,Enterprise,EMEA,Netherlands,2025-07-02,Month-to-Month,Bank Wire,1,14,2313.08,33755.67,3,4,0
+CUST-0903,Carlos Capital,SMB,North America,Canada,2024-12-01,One-Year,Automated ACH,1,21,349.59,7138.44,4,4,0
+CUST-0904,Dmitri Health,Mid-Market,North America,United States,2023-09-15,Two-Year,Credit Card,1,36,1098.48,39022.24,1,5,0
+CUST-0905,Kavita Media,Mid-Market,EMEA,United Kingdom,2025-04-07,One-Year,Automated ACH,0,17,993.56,16585.89,2,5,0
+CUST-0906,Liam Logistics,Enterprise,EMEA,Germany,2025-04-25,One-Year,Credit Card,1,17,2005.55,35604.35,3,3,0
+CUST-0907,Hassan Solutions,SMB,EMEA,Germany,2025-02-20,One-Year,Automated ACH,0,19,438.36,7941.0,4,4,0
+CUST-0908,Kavita Health,Mid-Market,EMEA,United Kingdom,2023-09-11,One-Year,Credit Card,1,36,894.48,31529.87,2,2,0
+CUST-0909,Mei Technologies,Enterprise,LATAM,Mexico,2025-03-04,Month-to-Month,Credit Card,1,18,1415.14,25983.01,3,2,1
+CUST-0910,Beatrice Logistics,Mid-Market,APAC,South Korea,2026-03-30,Two-Year,Bank Wire,1,5,1334.15,6598.9,1,4,0
+CUST-0911,Nathan Solutions,Mid-Market,LATAM,Mexico,2025-03-10,One-Year,Bank Wire,0,18,1066.01,19574.07,4,5,0
+CUST-0912,Siddharth Media,SMB,North America,Canada,2023-09-15,Two-Year,Bank Wire,0,36,333.49,11770.42,2,4,0
+CUST-0913,Vivienne Logistics,SMB,EMEA,Netherlands,2023-09-24,Two-Year,Bank Wire,1,36,518.24,18088.83,3,5,0
+CUST-0914,Vivienne Technologies,SMB,North America,United States,2023-09-29,Month-to-Month,Automated ACH,1,36,375.14,13056.97,1,5,1
+CUST-0915,Beatrice Enterprises,Enterprise,North America,Canada,2026-02-18,Month-to-Month,Credit Card,1,7,2055.19,14291.12,5,4,1
+CUST-0916,Evelyn Media,Mid-Market,North America,United States,2024-12-11,Month-to-Month,Credit Card,1,21,1205.59,25938.17,1,3,0
+CUST-0917,Zara Enterprises,Mid-Market,APAC,South Korea,2023-09-13,Month-to-Month,Bank Wire,1,36,1197.31,41474.08,1,4,0
+CUST-0918,Vivienne Dynamics,Mid-Market,North America,Canada,2024-04-07,Month-to-Month,Credit Card,1,29,929.61,28306.5,3,3,1
+CUST-0919,Xavier Media,Enterprise,North America,United States,2026-07-17,One-Year,Automated ACH,1,2,2253.54,4464.41,1,3,0
+CUST-0920,Xavier Technologies,Enterprise,North America,Canada,2025-01-07,One-Year,Automated ACH,1,20,2760.2,56603.47,2,3,0
+CUST-0921,Gabriella Enterprises,Enterprise,North America,United States,2025-07-10,One-Year,Bank Wire,1,14,2557.45,34752.48,2,3,0
+CUST-0922,Feng Enterprises,Enterprise,EMEA,United Kingdom,2023-09-30,One-Year,Bank Wire,1,36,1732.9,61904.36,1,3,0
+CUST-0923,William Technologies,Startup,North America,United States,2026-01-04,Two-Year,Bank Wire,1,8,195.65,1508.83,1,5,0
+CUST-0924,Patrick Capital,SMB,EMEA,France,2025-04-09,Month-to-Month,Bank Wire,1,17,422.21,6988.87,0,2,1
+CUST-0925,Gabriella Logistics,Startup,North America,United States,2023-09-14,One-Year,Credit Card,1,36,198.89,7324.08,3,3,0
+CUST-0926,Nathan Enterprises,Mid-Market,EMEA,France,2024-02-25,Month-to-Month,Bank Wire,1,31,698.52,21492.46,1,2,1
+CUST-0927,Xavier Logistics,SMB,EMEA,United Kingdom,2024-11-18,Two-Year,Credit Card,1,22,380.93,8273.31,4,4,0
+CUST-0928,William Dynamics,SMB,EMEA,Netherlands,2026-04-10,Two-Year,Credit Card,1,5,375.35,1896.19,3,5,0
+CUST-0929,Carlos Health,SMB,North America,United States,2025-03-13,Month-to-Month,Credit Card,1,18,552.76,9784.04,0,4,1
+CUST-0930,Ingrid Logistics,Mid-Market,APAC,Singapore,2025-12-18,Month-to-Month,Automated ACH,1,9,1382.08,11947.39,2,4,1
+CUST-0931,Dmitri Logistics,SMB,EMEA,France,2025-07-29,One-Year,Credit Card,1,13,231.03,3113.13,1,4,0
+CUST-0932,Siddharth Health,Enterprise,EMEA,United Kingdom,2023-10-09,Month-to-Month,Bank Wire,1,35,1510.81,55353.06,1,4,0
+CUST-0933,Siddharth Dynamics,Mid-Market,EMEA,Netherlands,2025-09-18,Month-to-Month,Credit Card,1,12,1214.63,14805.22,2,4,0
+CUST-0934,Evelyn Media,Enterprise,EMEA,France,2025-07-31,One-Year,Bank Wire,1,13,2524.84,33407.87,1,3,0
+CUST-0935,Nathan Solutions,SMB,North America,Canada,2025-06-08,Month-to-Month,Automated ACH,1,15,186.39,2856.93,1,5,0
+CUST-0936,Hassan Health,Startup,EMEA,United Kingdom,2026-03-08,One-Year,Automated ACH,1,6,213.19,1224.99,3,3,0
+CUST-0937,Hassan Enterprises,Enterprise,North America,United States,2024-02-21,One-Year,Credit Card,0,31,2144.64,69556.5,6,4,0
+CUST-0938,Nathan Dynamics,Mid-Market,LATAM,Brazil,2024-02-14,One-Year,Credit Card,1,31,1088.26,32469.92,4,4,0
+CUST-0939,Alexander Systems,SMB,North America,United States,2025-01-03,One-Year,Bank Wire,0,20,447.15,9087.14,2,3,0
+CUST-0940,Rania Systems,Startup,North America,Canada,2026-01-29,Two-Year,Automated ACH,0,7,259.94,1760.41,2,4,1
+CUST-0941,Liam Logistics,Mid-Market,EMEA,United Kingdom,2025-05-13,Month-to-Month,Automated ACH,1,16,1307.41,21293.13,4,1,1
+CUST-0942,Siddharth Enterprises,Mid-Market,North America,Canada,2026-05-14,Month-to-Month,Credit Card,1,4,854.03,3560.64,2,4,1
+CUST-0943,Vivienne Dynamics,Startup,APAC,Japan,2026-01-31,Two-Year,Bank Wire,1,7,272.15,1897.5,2,3,0
+CUST-0944,Julian Capital,Startup,North America,Canada,2023-09-28,Month-to-Month,Bank Wire,1,36,173.49,6056.74,1,4,0
+CUST-0945,Rania Dynamics,Enterprise,APAC,South Korea,2023-09-18,Month-to-Month,Automated ACH,1,36,2503.92,89876.99,3,4,1
+CUST-0946,Liam Health,Mid-Market,North America,United States,2024-11-18,Month-to-Month,Credit Card,0,22,778.75,16553.14,3,4,0
+CUST-0947,Liam Media,Enterprise,North America,United States,2023-09-24,Month-to-Month,Bank Wire,1,36,1579.01,59123.81,1,4,1
+CUST-0948,Feng Ventures,Startup,LATAM,Chile,2025-08-20,Month-to-Month,Credit Card,1,13,234.18,3109.59,1,4,1
+CUST-0949,Kavita Media,Enterprise,EMEA,Netherlands,2026-01-17,One-Year,Bank Wire,1,8,2042.74,15547.13,2,4,0
+CUST-0950,William Ventures,Mid-Market,North America,Canada,2025-11-02,One-Year,Credit Card,1,10,1456.1,14540.51,3,4,1
+CUST-0951,Zara Media,SMB,North America,United States,2023-09-28,Month-to-Month,Automated ACH,0,36,502.79,18995.07,1,4,0
+CUST-0952,Hassan Media,SMB,North America,United States,2025-02-08,One-Year,Bank Wire,0,19,474.23,9126.52,4,5,0
+CUST-0953,Evelyn Ventures,Enterprise,North America,Canada,2026-08-12,Two-Year,Credit Card,1,1,1914.88,1836.55,1,3,0
+CUST-0954,Beatrice Media,SMB,North America,Canada,2025-06-17,Month-to-Month,Credit Card,1,15,469.99,6998.44,2,4,0
+CUST-0955,Beatrice Health,Mid-Market,North America,Canada,2025-01-14,One-Year,Bank Wire,0,20,1046.88,20271.26,2,4,0
+CUST-0956,Alexander Technologies,Mid-Market,EMEA,France,2025-01-10,Month-to-Month,Credit Card,1,20,879.92,17162.42,3,3,1
+CUST-0957,Patrick Capital,Enterprise,North America,United States,2025-10-22,One-Year,Automated ACH,1,11,2387.37,25894.91,0,3,0
+CUST-0958,Liam Systems,Mid-Market,EMEA,France,2025-03-18,Month-to-Month,Bank Wire,0,18,1192.35,20669.24,3,4,0
+CUST-0959,Yuki Systems,Enterprise,North America,United States,2023-12-18,Two-Year,Bank Wire,1,33,1740.79,56543.58,2,4,0
+CUST-0960,Yuki Solutions,Mid-Market,LATAM,Brazil,2024-02-26,Month-to-Month,Bank Wire,1,31,1311.84,39660.63,1,5,0
+CUST-0961,Zara Dynamics,Mid-Market,LATAM,Mexico,2024-08-06,Month-to-Month,Credit Card,1,25,1307.58,32767.18,4,4,1
+CUST-0962,Rania Technologies,SMB,North America,Canada,2025-06-20,Month-to-Month,Automated ACH,1,15,546.97,8592.19,0,3,1
+CUST-0963,Gabriella Media,Enterprise,EMEA,United Kingdom,2023-09-09,One-Year,Credit Card,1,36,2258.33,82171.56,2,3,0
+CUST-0964,Gabriella Logistics,SMB,North America,United States,2024-01-01,Two-Year,Automated ACH,1,33,476.89,16064.32,4,2,0
+CUST-0965,Rania Health,Mid-Market,North America,United States,2026-02-11,One-Year,Bank Wire,1,7,910.99,6209.99,1,4,0
+CUST-0966,Beatrice Logistics,Startup,LATAM,Mexico,2024-06-21,Two-Year,Bank Wire,0,27,262.95,7447.2,4,5,1
+CUST-0967,Gabriella Dynamics,SMB,North America,Canada,2024-06-18,Month-to-Month,Automated ACH,0,27,469.45,12376.06,2,4,0
+CUST-0968,Evelyn Media,Mid-Market,APAC,Australia,2025-10-21,One-Year,Bank Wire,1,11,1458.68,16415.29,2,5,0
+CUST-0969,Ingrid Logistics,Mid-Market,North America,United States,2025-08-29,Two-Year,Credit Card,1,12,1057.36,12927.01,2,5,0
+CUST-0970,Vivienne Health,SMB,APAC,Singapore,2024-12-19,Month-to-Month,Bank Wire,1,21,341.78,7434.49,0,2,0
+CUST-0971,Mei Logistics,Mid-Market,North America,Canada,2024-01-16,Month-to-Month,Bank Wire,1,32,1321.4,43817.0,1,5,0
+CUST-0972,Gabriella Systems,SMB,EMEA,Germany,2023-11-02,Month-to-Month,Automated ACH,1,35,400.81,14291.19,4,3,1
+CUST-0973,Gabriella Enterprises,Mid-Market,North America,Canada,2025-10-02,Two-Year,Bank Wire,1,11,928.93,10449.94,2,4,0
+CUST-0974,Alexander Systems,Enterprise,North America,Canada,2024-06-29,One-Year,Credit Card,1,27,1632.24,42961.42,2,2,1
+CUST-0975,Carlos Health,SMB,North America,United States,2026-02-19,Two-Year,Bank Wire,1,7,611.35,4210.29,2,5,0
+CUST-0976,Xavier Enterprises,SMB,North America,Canada,2026-02-05,One-Year,Bank Wire,1,7,449.0,3062.48,1,4,0
+CUST-0977,Siddharth Health,Enterprise,EMEA,United Kingdom,2023-10-02,Month-to-Month,Bank Wire,1,36,2007.96,74718.88,3,4,1
+CUST-0978,Evelyn Technologies,Mid-Market,LATAM,Brazil,2025-07-12,Month-to-Month,Credit Card,1,14,988.12,14357.96,2,5,0
+CUST-0979,Mei Enterprises,Mid-Market,EMEA,United Kingdom,2024-06-20,Month-to-Month,Credit Card,1,27,1600.93,45054.91,3,3,1
+CUST-0980,Carlos Technologies,Mid-Market,EMEA,Germany,2023-09-23,One-Year,Credit Card,1,36,1106.07,40484.58,0,5,0
+CUST-0981,Julian Systems,Startup,APAC,Australia,2024-03-23,Two-Year,Credit Card,0,30,292.71,9054.15,5,4,0
+CUST-0982,Xavier Enterprises,SMB,APAC,Singapore,2025-06-20,Month-to-Month,Bank Wire,1,15,342.89,5290.22,2,2,1
+CUST-0983,Patrick Enterprises,Startup,North America,Canada,2025-10-14,Month-to-Month,Bank Wire,1,11,236.46,2670.65,3,2,1
+CUST-0984,Liam Capital,SMB,EMEA,Netherlands,2023-09-20,One-Year,Credit Card,1,36,575.16,21625.16,1,5,0
+CUST-0985,Hassan Media,Mid-Market,North America,Canada,2023-09-18,One-Year,Automated ACH,1,36,853.59,30978.04,1,4,0
+CUST-0986,Nathan Dynamics,SMB,EMEA,Germany,2025-05-18,Month-to-Month,Bank Wire,0,16,493.86,7793.03,1,5,1
+CUST-0987,Patrick Logistics,Startup,LATAM,Brazil,2024-11-15,Two-Year,Automated ACH,1,22,233.48,5031.11,1,4,0
+CUST-0988,Evelyn Dynamics,Mid-Market,LATAM,Mexico,2024-07-22,Month-to-Month,Bank Wire,0,26,773.05,20509.25,3,3,1
+CUST-0989,Mei Technologies,Mid-Market,EMEA,Netherlands,2023-09-11,Month-to-Month,Credit Card,1,36,1311.62,47661.82,3,3,1
+CUST-0990,Feng Technologies,Enterprise,North America,United States,2024-01-29,Month-to-Month,Automated ACH,1,32,2320.23,76218.02,1,2,1
+CUST-0991,Patrick Logistics,Mid-Market,APAC,Australia,2025-12-28,Month-to-Month,Automated ACH,1,8,1086.68,8508.07,2,3,0
+CUST-0992,Evelyn Technologies,SMB,APAC,Japan,2023-11-27,One-Year,Bank Wire,0,34,488.93,16922.68,1,4,0
+CUST-0993,Olga Dynamics,Startup,EMEA,France,2025-04-09,Month-to-Month,Bank Wire,0,17,308.14,5118.85,3,3,1
+CUST-0994,Carlos Dynamics,SMB,North America,United States,2025-05-13,One-Year,Bank Wire,1,16,506.91,8310.08,2,3,0
+CUST-0995,Siddharth Systems,Mid-Market,APAC,South Korea,2026-03-31,One-Year,Automated ACH,1,5,1628.05,8387.18,1,4,0
+CUST-0996,Vivienne Media,Enterprise,North America,United States,2025-05-14,One-Year,Automated ACH,1,16,2433.21,38083.46,0,4,0
+CUST-0997,Siddharth Enterprises,SMB,North America,United States,2024-11-17,Month-to-Month,Bank Wire,0,22,411.14,8810.21,2,4,1
+CUST-0998,Carlos Systems,Enterprise,EMEA,Netherlands,2024-11-16,Month-to-Month,Bank Wire,0,22,1925.36,43423.98,4,3,1
+CUST-0999,Mei Dynamics,SMB,North America,Canada,2023-09-29,One-Year,Bank Wire,1,36,502.96,18543.75,1,4,1
+CUST-1000,Dmitri Dynamics,Enterprise,APAC,Singapore,2025-03-31,Month-to-Month,Credit Card,0,17,1934.0,32187.95,2,4,0
+CUST-1001,Evelyn Solutions,Startup,North America,United States,2025-01-18,Two-Year,Automated ACH,1,20,292.56,6008.5,1,5,0
+CUST-1002,Feng Dynamics,Mid-Market,EMEA,France,2025-04-21,Month-to-Month,Bank Wire,0,17,1099.31,18559.14,2,4,0
+CUST-1003,Xavier Media,Startup,North America,United States,2024-05-12,One-Year,Credit Card,1,28,276.68,7470.18,5,5,0
+CUST-1004,Julian Dynamics,Mid-Market,APAC,Japan,2025-04-11,Month-to-Month,Automated ACH,1,17,1180.16,19621.58,3,5,1
+CUST-1005,Liam Capital,SMB,North America,United States,2023-09-19,Month-to-Month,Credit Card,1,36,423.1,15805.31,2,4,1
+CUST-1006,Vivienne Logistics,Mid-Market,LATAM,Chile,2025-01-14,Two-Year,Credit Card,0,20,1150.1,23961.51,2,3,0
+CUST-1007,Evelyn Solutions,Mid-Market,North America,Canada,2024-09-06,Month-to-Month,Credit Card,0,24,1023.07,25759.87,3,2,0
+CUST-1008,Beatrice Systems,SMB,LATAM,Brazil,2024-06-22,One-Year,Credit Card,1,27,326.69,8472.48,1,2,0
+CUST-1009,Mei Logistics,Mid-Market,EMEA,United Kingdom,2023-12-18,One-Year,Bank Wire,1,33,1165.03,38581.0,3,5,1
+CUST-1010,Olga Enterprises,Startup,North America,United States,2023-09-21,One-Year,Bank Wire,1,36,280.91,9927.98,2,4,0
+CUST-1011,Umar Solutions,Enterprise,North America,Canada,2025-10-08,Month-to-Month,Bank Wire,1,11,2835.83,31631.52,3,2,1
+CUST-1012,Kavita Systems,Enterprise,North America,Canada,2023-09-08,Month-to-Month,Credit Card,1,36,2752.95,94686.83,0,3,0
+CUST-1013,Alexander Media,Enterprise,North America,United States,2023-10-01,Month-to-Month,Bank Wire,0,36,1601.33,57367.83,1,4,0
+CUST-1014,Nathan Dynamics,Enterprise,North America,Canada,2024-10-26,Month-to-Month,Automated ACH,1,23,1453.09,34267.21,1,5,0
+CUST-1015,Feng Ventures,Mid-Market,North America,Canada,2024-09-10,One-Year,Bank Wire,1,24,846.37,20017.72,3,3,0
+CUST-1016,Xavier Systems,SMB,North America,United States,2025-03-07,Month-to-Month,Credit Card,1,18,439.68,7632.98,1,3,0
+CUST-1017,William Capital,Startup,North America,Canada,2023-10-18,Two-Year,Bank Wire,0,35,257.89,8941.65,2,2,0
+CUST-1018,Rania Technologies,SMB,LATAM,Brazil,2026-03-31,Two-Year,Bank Wire,1,5,375.71,1968.54,3,3,1
+CUST-1019,Nathan Dynamics,Mid-Market,APAC,South Korea,2024-02-24,Two-Year,Automated ACH,1,31,1005.39,29653.53,4,4,0
+CUST-1020,Liam Technologies,Mid-Market,North America,Canada,2025-01-22,One-Year,Credit Card,1,20,1063.46,21078.6,3,4,0
+CUST-1021,Liam Dynamics,Enterprise,North America,Canada,2024-05-25,Month-to-Month,Bank Wire,1,28,1545.84,41823.38,1,4,1
+CUST-1022,Nathan Media,SMB,North America,Canada,2024-08-06,One-Year,Automated ACH,0,25,488.54,12818.51,4,3,0
+CUST-1023,Dmitri Enterprises,Enterprise,EMEA,Netherlands,2024-02-07,One-Year,Automated ACH,1,31,2662.43,82073.99,1,3,0
+CUST-1024,Tara Technologies,Mid-Market,EMEA,Netherlands,2025-11-27,Month-to-Month,Bank Wire,1,9,1493.79,13403.21,4,5,0
+CUST-1025,Dmitri Capital,Mid-Market,LATAM,Mexico,2026-04-30,One-Year,Credit Card,1,4,961.54,3797.95,1,4,0
+CUST-1026,Hassan Dynamics,Mid-Market,North America,Canada,2024-01-06,Two-Year,Credit Card,1,32,915.66,30499.71,3,5,0
+CUST-1027,Beatrice Technologies,SMB,North America,Canada,2025-07-08,Two-Year,Credit Card,1,14,619.11,9065.52,4,3,0
+CUST-1028,Nathan Ventures,Enterprise,EMEA,Netherlands,2024-10-07,Month-to-Month,Bank Wire,0,23,2862.72,65375.75,3,5,1
+CUST-1029,Vivienne Media,Mid-Market,LATAM,Brazil,2025-05-15,One-Year,Credit Card,1,16,1102.77,18175.72,2,4,0
+CUST-1030,Rania Enterprises,SMB,EMEA,Netherlands,2023-09-13,Two-Year,Automated ACH,1,36,265.76,9397.45,1,3,0
+CUST-1031,Carlos Enterprises,SMB,North America,United States,2024-12-08,Month-to-Month,Credit Card,1,21,582.78,12816.52,4,5,0
+CUST-1032,Tara Media,Startup,North America,United States,2024-08-08,One-Year,Bank Wire,1,25,262.97,6835.85,1,4,1
+CUST-1033,Julian Ventures,SMB,EMEA,Germany,2025-04-30,One-Year,Automated ACH,1,16,380.84,5956.32,2,3,1
+CUST-1034,Evelyn Technologies,Enterprise,EMEA,United Kingdom,2026-05-01,Month-to-Month,Bank Wire,1,4,1617.43,6263.1,4,5,0
+CUST-1035,Carlos Solutions,Mid-Market,APAC,Singapore,2023-09-18,One-Year,Credit Card,1,36,984.29,35879.79,1,5,0
+CUST-1036,Gabriella Media,SMB,North America,Canada,2023-09-19,One-Year,Bank Wire,1,36,502.88,17521.97,2,3,0
+CUST-1037,Tara Systems,Startup,APAC,Japan,2025-01-14,One-Year,Credit Card,1,20,289.28,5587.96,3,5,0
+CUST-1038,Yuki Health,SMB,LATAM,Brazil,2023-09-16,Month-to-Month,Credit Card,1,36,392.98,14666.31,2,3,1
+CUST-1039,Dmitri Ventures,Mid-Market,North America,United States,2023-09-10,One-Year,Bank Wire,1,36,1489.45,52007.51,4,4,0
+CUST-1040,Carlos Capital,Mid-Market,EMEA,France,2026-07-24,One-Year,Credit Card,1,1,972.94,943.08,1,2,1
+CUST-1041,Feng Ventures,Startup,EMEA,France,2024-02-27,One-Year,Automated ACH,1,31,198.37,6330.33,2,3,0
+CUST-1042,Yuki Solutions,Mid-Market,North America,Canada,2023-09-10,Month-to-Month,Bank Wire,1,36,1114.49,39652.4,1,3,1
+CUST-1043,Gabriella Systems,Mid-Market,North America,United States,2025-11-20,Two-Year,Bank Wire,1,10,1144.34,11562.28,3,2,1
+CUST-1044,Vivienne Dynamics,Enterprise,North America,United States,2025-04-30,Month-to-Month,Automated ACH,1,16,2214.45,33917.01,3,4,1
+CUST-1045,William Capital,Enterprise,North America,Canada,2024-02-20,One-Year,Credit Card,1,31,1655.25,51658.95,3,3,0
+CUST-1046,Kavita Ventures,Mid-Market,EMEA,Netherlands,2025-04-19,One-Year,Bank Wire,1,17,1008.14,17323.31,3,5,0
+CUST-1047,William Enterprises,SMB,EMEA,Netherlands,2025-10-09,Month-to-Month,Bank Wire,1,11,383.4,4345.07,3,3,0
+CUST-1048,Patrick Technologies,Enterprise,LATAM,Mexico,2023-09-19,Month-to-Month,Bank Wire,1,36,1696.99,61558.46,3,3,1
+CUST-1049,Julian Technologies,Startup,EMEA,United Kingdom,2024-02-21,Month-to-Month,Automated ACH,1,31,296.71,9228.79,3,5,0
+CUST-1050,Rania Technologies,Enterprise,North America,United States,2023-09-30,Two-Year,Credit Card,1,36,2023.99,71531.62,2,4,0
+CUST-1051,Liam Media,Mid-Market,North America,Canada,2023-11-01,Month-to-Month,Credit Card,1,35,1267.48,45908.57,1,3,0
+CUST-1052,Dmitri Capital,Enterprise,LATAM,Brazil,2025-04-24,Two-Year,Bank Wire,0,17,2324.48,40944.23,4,4,0
+CUST-1053,Yuki Media,Enterprise,North America,United States,2026-03-26,Month-to-Month,Automated ACH,0,5,2351.02,12265.4,2,5,0
+CUST-1054,Beatrice Health,Enterprise,APAC,Japan,2025-02-15,Month-to-Month,Bank Wire,1,19,2127.1,41677.81,2,2,1
+CUST-1055,Ingrid Logistics,Mid-Market,LATAM,Chile,2023-09-29,Month-to-Month,Bank Wire,1,36,1055.07,39312.49,4,4,0
+CUST-1056,Nathan Solutions,SMB,EMEA,Germany,2024-12-05,One-Year,Bank Wire,1,21,429.92,9012.71,0,3,0
+CUST-1057,Carlos Health,Mid-Market,APAC,Japan,2023-09-26,One-Year,Credit Card,1,36,1035.35,35699.76,2,3,0
+CUST-1058,Patrick Technologies,Mid-Market,North America,United States,2024-06-17,Month-to-Month,Bank Wire,1,27,916.98,24982.58,0,3,0
+CUST-1059,Rania Dynamics,SMB,APAC,Australia,2025-01-05,Month-to-Month,Credit Card,0,20,592.96,11525.7,5,5,1
+CUST-1060,Liam Media,Mid-Market,LATAM,Chile,2025-03-02,Month-to-Month,Bank Wire,1,18,1331.34,24410.49,2,3,1
+CUST-1061,Tara Enterprises,SMB,North America,United States,2025-11-14,Month-to-Month,Credit Card,1,10,383.49,3825.79,0,4,1
+CUST-1062,Rania Solutions,Startup,North America,United States,2025-06-22,Month-to-Month,Bank Wire,1,15,149.0,2219.54,3,5,1
+CUST-1063,Kavita Technologies,Enterprise,North America,Canada,2025-10-02,Month-to-Month,Automated ACH,1,11,2033.14,21670.01,3,4,1
+CUST-1064,Feng Systems,Mid-Market,North America,Canada,2023-09-30,One-Year,Credit Card,0,36,1088.79,38097.29,4,5,0
+CUST-1065,Beatrice Technologies,Enterprise,EMEA,Germany,2024-07-26,Month-to-Month,Automated ACH,1,26,2057.33,52980.06,0,4,1
+CUST-1066,Mei Enterprises,Mid-Market,North America,Canada,2023-11-27,One-Year,Bank Wire,1,34,800.62,27483.26,2,4,1
+CUST-1067,Yuki Technologies,SMB,North America,Canada,2026-05-28,Month-to-Month,Bank Wire,1,3,489.84,1423.57,2,3,0
+CUST-1068,Olga Logistics,Mid-Market,LATAM,Chile,2024-11-16,Month-to-Month,Automated ACH,0,22,804.3,17111.96,3,4,1
+CUST-1069,Zara Technologies,SMB,EMEA,Netherlands,2025-09-07,Two-Year,Credit Card,1,12,591.33,6753.5,0,5,0
+CUST-1070,William Health,SMB,APAC,Singapore,2025-11-27,Month-to-Month,Bank Wire,1,9,487.95,4370.74,3,4,1
+CUST-1071,Yuki Capital,SMB,LATAM,Mexico,2024-10-19,Month-to-Month,Bank Wire,1,23,529.18,12426.93,0,4,0
+CUST-1072,Rania Systems,SMB,EMEA,France,2025-03-03,One-Year,Bank Wire,1,18,497.71,8708.16,3,4,0
+CUST-1073,Evelyn Capital,SMB,EMEA,Germany,2025-05-03,Two-Year,Bank Wire,1,16,415.05,6437.49,1,2,1
+CUST-1074,Mei Enterprises,SMB,LATAM,Chile,2025-01-11,Two-Year,Automated ACH,1,20,408.09,8496.7,1,5,0
+CUST-1075,Liam Capital,Startup,North America,Canada,2023-09-25,Month-to-Month,Bank Wire,1,36,250.53,8877.73,3,3,0
+CUST-1076,Umar Enterprises,SMB,North America,Canada,2026-05-25,One-Year,Bank Wire,0,3,501.62,1504.7,4,4,0
+CUST-1077,William Logistics,Mid-Market,EMEA,Germany,2025-06-15,One-Year,Credit Card,1,15,956.47,14043.27,1,3,1
+CUST-1078,Julian Technologies,Mid-Market,EMEA,Germany,2025-05-07,Month-to-Month,Credit Card,1,16,857.45,13516.51,2,3,1
+CUST-1079,Alexander Technologies,Startup,North America,Canada,2023-09-08,Two-Year,Credit Card,1,36,153.12,5322.17,1,4,1
+CUST-1080,Carlos Health,Mid-Market,North America,United States,2025-07-22,Month-to-Month,Bank Wire,0,14,1200.16,16380.05,4,5,1
+CUST-1081,William Media,Startup,North America,United States,2023-09-24,One-Year,Bank Wire,1,36,268.96,10046.56,3,5,0
+CUST-1082,Tara Logistics,Mid-Market,EMEA,Germany,2023-09-20,One-Year,Bank Wire,1,36,969.15,35121.99,3,3,0
+CUST-1083,Vivienne Solutions,SMB,EMEA,Netherlands,2025-05-12,Month-to-Month,Credit Card,1,16,349.27,5590.45,2,5,0
+CUST-1084,William Capital,Mid-Market,EMEA,Netherlands,2024-12-13,Month-to-Month,Automated ACH,1,21,1017.33,21933.85,1,5,0
+CUST-1085,Carlos Logistics,SMB,EMEA,France,2025-11-03,One-Year,Bank Wire,1,10,343.65,3459.03,1,4,0
+CUST-1086,Julian Technologies,Enterprise,APAC,South Korea,2024-11-05,Month-to-Month,Automated ACH,0,22,1590.64,34854.88,3,2,1
+CUST-1087,Beatrice Enterprises,Mid-Market,North America,United States,2024-07-26,Two-Year,Credit Card,1,26,1312.44,35366.61,0,3,0
+CUST-1088,Dmitri Systems,SMB,EMEA,United Kingdom,2023-09-17,Month-to-Month,Credit Card,1,36,507.05,17749.16,2,5,0
+CUST-1089,William Logistics,SMB,North America,Canada,2026-04-20,One-Year,Credit Card,1,5,282.46,1351.17,1,4,0
+CUST-1090,Evelyn Systems,Mid-Market,APAC,Japan,2024-09-24,Month-to-Month,Automated ACH,1,24,1356.86,31117.64,1,5,0
+CUST-1091,Dmitri Health,SMB,North America,United States,2025-05-08,Month-to-Month,Credit Card,1,16,537.77,8740.41,2,3,0
+CUST-1092,Dmitri Media,Enterprise,North America,United States,2023-09-10,One-Year,Bank Wire,1,36,2256.25,81604.17,3,2,0
+CUST-1093,Patrick Solutions,Startup,North America,United States,2025-08-08,Month-to-Month,Bank Wire,1,13,231.03,3093.45,1,4,1
+CUST-1094,Olga Media,Enterprise,APAC,Singapore,2025-08-09,Month-to-Month,Bank Wire,1,13,1853.18,22968.88,5,3,1
+CUST-1095,Vivienne Systems,Startup,North America,Canada,2025-06-10,Two-Year,Credit Card,1,15,240.91,3490.18,4,5,0
+CUST-1096,Rania Dynamics,Mid-Market,North America,Canada,2025-12-16,One-Year,Bank Wire,1,9,1275.7,11296.79,2,4,1
+CUST-1097,Xavier Logistics,Startup,North America,Canada,2024-04-28,Two-Year,Credit Card,1,29,217.17,6280.14,1,5,0
+CUST-1098,William Logistics,Enterprise,EMEA,France,2024-08-18,One-Year,Credit Card,1,25,1672.07,43180.73,4,5,0
+CUST-1099,Carlos Technologies,Mid-Market,North America,United States,2024-02-09,Month-to-Month,Automated ACH,1,31,958.62,30489.6,1,5,0
+CUST-1100,Zara Ventures,SMB,North America,United States,2026-05-08,One-Year,Credit Card,1,4,324.75,1313.54,4,5,1
+CUST-1101,Dmitri Technologies,Mid-Market,APAC,Japan,2024-12-15,One-Year,Automated ACH,0,21,806.67,16637.11,2,4,0
+CUST-1102,Xavier Solutions,Enterprise,North America,United States,2026-04-05,Month-to-Month,Bank Wire,1,5,1782.07,8609.26,3,5,0
+CUST-1103,Rania Ventures,SMB,North America,United States,2023-09-12,Month-to-Month,Bank Wire,1,36,473.76,16211.52,3,3,0
+CUST-1104,Zara Media,Mid-Market,EMEA,United Kingdom,2024-02-09,One-Year,Automated ACH,1,31,1257.8,38976.89,2,5,0
+CUST-1105,Gabriella Systems,Mid-Market,APAC,Australia,2023-12-15,Two-Year,Automated ACH,1,33,1324.53,44257.92,3,4,0
+CUST-1106,Carlos Systems,Enterprise,North America,Canada,2023-09-18,Month-to-Month,Credit Card,1,36,2084.99,72988.15,5,4,1
+CUST-1107,Julian Health,Enterprise,North America,Canada,2023-09-28,Two-Year,Bank Wire,1,36,2082.69,77624.99,4,5,0
+CUST-1108,Umar Dynamics,Mid-Market,North America,United States,2024-09-24,One-Year,Automated ACH,0,24,721.92,17591.57,2,4,0
+CUST-1109,Beatrice Capital,Mid-Market,North America,United States,2024-03-07,Month-to-Month,Bank Wire,1,30,1290.54,38056.51,1,4,1
+CUST-1110,Zara Technologies,SMB,North America,United States,2026-04-02,Two-Year,Credit Card,1,5,385.53,1838.08,0,4,0
+CUST-1111,Carlos Media,Startup,EMEA,United Kingdom,2024-06-14,Two-Year,Bank Wire,1,27,327.54,8432.88,3,5,0
+CUST-1112,Rania Ventures,Mid-Market,EMEA,Netherlands,2024-08-03,Two-Year,Automated ACH,1,25,1307.6,31236.46,0,3,0
+CUST-1113,Zara Ventures,SMB,EMEA,Netherlands,2023-09-10,Month-to-Month,Credit Card,1,36,525.4,18682.18,3,4,1
+CUST-1114,Evelyn Media,Enterprise,EMEA,Germany,2025-03-23,Two-Year,Automated ACH,1,18,2123.33,37049.06,1,5,0
+CUST-1115,Nathan Technologies,SMB,North America,United States,2025-11-14,Month-to-Month,Automated ACH,1,10,627.68,6299.53,1,4,1
+CUST-1116,Beatrice Technologies,SMB,APAC,Singapore,2025-05-23,Month-to-Month,Credit Card,1,16,579.03,9092.28,1,5,0
+CUST-1117,Umar Ventures,SMB,LATAM,Brazil,2025-03-11,One-Year,Credit Card,1,18,424.08,7968.07,1,5,0
+CUST-1118,Gabriella Solutions,Startup,EMEA,France,2025-04-18,Month-to-Month,Bank Wire,1,17,204.97,3502.4,1,3,1
+CUST-1119,Vivienne Ventures,Mid-Market,EMEA,France,2024-04-13,One-Year,Bank Wire,0,29,537.91,15919.96,1,3,0
+CUST-1120,Umar Solutions,Startup,North America,United States,2025-11-05,Month-to-Month,Credit Card,1,10,198.0,1954.73,3,5,1
+CUST-1121,Evelyn Technologies,Mid-Market,LATAM,Chile,2023-09-09,Month-to-Month,Bank Wire,1,36,1202.78,41281.24,1,2,1
+CUST-1122,Ingrid Systems,Enterprise,North America,United States,2025-03-07,Month-to-Month,Bank Wire,1,18,2256.07,40381.93,2,4,0
+CUST-1123,Hassan Ventures,Mid-Market,North America,Canada,2024-10-06,Month-to-Month,Credit Card,1,23,1309.87,28698.97,1,4,1
+CUST-1124,Umar Capital,SMB,LATAM,Mexico,2023-09-15,Month-to-Month,Bank Wire,1,36,434.77,15841.94,4,4,1
+CUST-1125,Nathan Technologies,Startup,APAC,South Korea,2025-10-31,Month-to-Month,Automated ACH,1,10,226.79,2250.63,2,5,0
+CUST-1126,Yuki Systems,Enterprise,APAC,Australia,2024-02-18,Month-to-Month,Automated ACH,1,31,2320.78,74877.43,2,4,1
+CUST-1127,Ingrid Health,SMB,North America,United States,2025-05-16,Month-to-Month,Bank Wire,1,16,430.54,6793.37,1,3,0
+CUST-1128,William Health,Enterprise,APAC,Japan,2024-05-12,One-Year,Automated ACH,0,28,2719.0,75704.2,0,5,0
+CUST-1129,Alexander Solutions,Startup,North America,United States,2026-01-05,One-Year,Credit Card,1,8,308.01,2483.69,2,4,0
+CUST-1130,Carlos Health,Startup,APAC,Australia,2026-02-05,Month-to-Month,Automated ACH,1,7,242.14,1757.53,3,5,1
+CUST-1131,Evelyn Ventures,Startup,EMEA,Germany,2024-10-07,Month-to-Month,Bank Wire,1,23,318.95,7471.15,1,2,1
+CUST-1132,Olga Systems,Enterprise,North America,United States,2024-06-07,Two-Year,Automated ACH,1,27,2643.9,73847.6,5,5,0
+CUST-1133,Liam Dynamics,Mid-Market,EMEA,Germany,2025-10-20,One-Year,Bank Wire,1,11,970.57,10360.3,0,4,0
+CUST-1134,Tara Capital,Enterprise,APAC,South Korea,2024-08-15,Two-Year,Bank Wire,1,25,1996.14,51341.54,4,4,0
+CUST-1135,Kavita Media,Mid-Market,APAC,Australia,2025-05-16,One-Year,Bank Wire,1,16,889.47,14843.91,4,4,0
+CUST-1136,Tara Technologies,SMB,North America,United States,2024-12-10,One-Year,Credit Card,1,21,390.97,8385.12,2,3,0
+CUST-1137,Gabriella Media,SMB,APAC,Japan,2025-10-18,Month-to-Month,Automated ACH,1,11,448.56,4725.6,0,3,0
+CUST-1138,Hassan Systems,Mid-Market,EMEA,Netherlands,2024-09-24,Two-Year,Credit Card,1,24,1190.92,28502.99,1,4,0
+CUST-1139,Rania Dynamics,Enterprise,North America,Canada,2023-09-15,Month-to-Month,Bank Wire,1,36,2190.38,80964.15,3,3,1
+CUST-1140,Liam Ventures,SMB,EMEA,United Kingdom,2025-01-11,One-Year,Automated ACH,1,20,520.34,10252.76,1,5,0
+CUST-1141,Rania Enterprises,Mid-Market,LATAM,Chile,2025-02-17,Month-to-Month,Credit Card,1,19,1241.52,24359.73,4,4,1
+CUST-1142,Evelyn Dynamics,SMB,North America,Canada,2024-06-08,Month-to-Month,Bank Wire,1,27,419.43,11113.8,1,5,0
+CUST-1143,Carlos Media,SMB,North America,United States,2024-09-07,Two-Year,Bank Wire,1,24,550.03,13140.09,3,2,0
+CUST-1144,Feng Enterprises,SMB,North America,Canada,2025-10-18,Two-Year,Automated ACH,1,11,357.5,3801.52,2,4,1
+CUST-1145,Carlos Logistics,Startup,EMEA,Netherlands,2025-05-14,Month-to-Month,Credit Card,1,16,317.59,4976.45,3,5,1
+CUST-1146,Kavita Capital,Startup,EMEA,United Kingdom,2026-01-19,Month-to-Month,Automated ACH,0,8,247.25,2059.23,1,4,1
+CUST-1147,Vivienne Solutions,Mid-Market,APAC,South Korea,2023-09-18,One-Year,Credit Card,1,36,1256.24,45629.66,2,3,0
+CUST-1148,Rania Enterprises,SMB,North America,United States,2025-12-10,One-Year,Credit Card,1,9,406.42,3539.53,0,4,0
+CUST-1149,Yuki Systems,Mid-Market,North America,United States,2024-10-12,Month-to-Month,Credit Card,0,23,903.68,20950.56,3,4,0
+CUST-1150,Nathan Health,SMB,North America,Canada,2025-07-20,Month-to-Month,Automated ACH,0,14,596.63,8545.76,2,4,1
+CUST-1151,Nathan Dynamics,Enterprise,North America,Canada,2023-11-23,Month-to-Month,Bank Wire,1,34,2039.41,67423.62,4,4,1
+CUST-1152,Feng Health,Startup,LATAM,Mexico,2026-03-27,Month-to-Month,Bank Wire,1,5,198.57,952.74,4,3,1
+CUST-1153,Siddharth Dynamics,SMB,APAC,Japan,2024-02-29,Two-Year,Credit Card,1,31,438.06,12909.92,3,5,0
+CUST-1154,Alexander Capital,SMB,North America,Canada,2023-09-17,Month-to-Month,Credit Card,0,36,255.92,9412.35,2,3,1
+CUST-1155,Dmitri Solutions,Mid-Market,APAC,South Korea,2025-01-21,Two-Year,Credit Card,1,20,1262.12,24873.16,3,4,0
+CUST-1156,Carlos Ventures,Enterprise,EMEA,France,2025-03-16,Month-to-Month,Credit Card,1,18,2131.69,39433.46,0,3,0
+CUST-1157,Xavier Capital,Mid-Market,APAC,Japan,2024-11-04,One-Year,Bank Wire,0,22,870.62,19462.26,2,3,0
+CUST-1158,Vivienne Technologies,Enterprise,LATAM,Chile,2025-02-20,One-Year,Automated ACH,1,19,2119.8,39050.51,4,4,0
+CUST-1159,Patrick Logistics,SMB,EMEA,Germany,2024-11-17,Month-to-Month,Credit Card,1,22,432.67,9534.26,1,3,0
+CUST-1160,Yuki Ventures,Mid-Market,North America,United States,2024-03-12,Month-to-Month,Bank Wire,1,30,975.25,28564.31,1,3,0
+CUST-1161,Mei Systems,Mid-Market,North America,Canada,2024-07-08,Two-Year,Automated ACH,0,26,1235.08,33316.41,0,3,0
+CUST-1162,William Solutions,SMB,EMEA,Netherlands,2024-05-13,One-Year,Bank Wire,1,28,303.26,8814.71,1,3,0
+CUST-1163,Zara Health,Mid-Market,North America,Canada,2024-06-08,Month-to-Month,Bank Wire,0,27,949.14,26038.38,3,5,0
+CUST-1164,Liam Media,SMB,EMEA,Netherlands,2025-05-10,One-Year,Credit Card,1,16,429.25,6708.61,0,5,0
+CUST-1165,Gabriella Media,Mid-Market,North America,Canada,2025-09-12,Month-to-Month,Automated ACH,1,12,1050.73,12307.03,4,5,1
+CUST-1166,Beatrice Health,Mid-Market,EMEA,Germany,2025-05-24,Month-to-Month,Credit Card,1,16,778.49,12040.48,4,5,1
+CUST-1167,Gabriella Enterprises,SMB,LATAM,Chile,2023-09-29,One-Year,Bank Wire,1,36,454.59,16860.15,4,3,0
+CUST-1168,Carlos Capital,Enterprise,LATAM,Chile,2025-03-25,One-Year,Bank Wire,1,18,3030.69,52681.23,1,4,0
+CUST-1169,Siddharth Media,Mid-Market,APAC,Singapore,2023-09-28,Two-Year,Bank Wire,1,36,1115.77,41104.97,1,3,0
+CUST-1170,Alexander Technologies,Mid-Market,APAC,Japan,2025-05-30,One-Year,Bank Wire,1,15,1006.32,14687.25,2,3,0
+CUST-1171,Zara Ventures,SMB,North America,United States,2025-08-11,One-Year,Bank Wire,1,13,510.09,6478.65,3,5,0
+CUST-1172,Carlos Enterprises,Enterprise,North America,Canada,2026-04-27,Two-Year,Credit Card,1,4,1545.71,6328.68,4,5,0
+CUST-1173,Mei Ventures,SMB,APAC,Australia,2025-05-12,One-Year,Bank Wire,1,16,627.04,9734.34,1,1,0
+CUST-1174,Ingrid Systems,Mid-Market,EMEA,France,2024-11-19,Two-Year,Credit Card,1,22,1215.94,27841.21,3,4,0
+CUST-1175,Siddharth Dynamics,Startup,North America,United States,2024-09-04,Month-to-Month,Bank Wire,1,24,249.53,5754.14,5,4,1
+CUST-1176,Hassan Systems,SMB,LATAM,Mexico,2025-01-11,Month-to-Month,Credit Card,1,20,486.86,9574.04,2,4,1
+CUST-1177,Vivienne Enterprises,Mid-Market,North America,United States,2023-09-18,One-Year,Bank Wire,1,36,991.74,36909.64,3,3,0
+CUST-1178,Rania Systems,SMB,APAC,Japan,2023-09-25,Month-to-Month,Credit Card,0,36,270.52,9287.34,3,4,1
+CUST-1179,Xavier Systems,Mid-Market,EMEA,United Kingdom,2024-10-21,One-Year,Automated ACH,1,23,1216.25,27450.69,1,3,0
+CUST-1180,Vivienne Ventures,Mid-Market,North America,Canada,2025-05-02,Two-Year,Bank Wire,1,16,1587.05,25898.77,1,5,1
+CUST-1181,Mei Logistics,Mid-Market,APAC,Singapore,2023-09-30,Month-to-Month,Credit Card,0,36,975.1,33485.54,3,4,1
+CUST-1182,Nathan Solutions,Enterprise,North America,Canada,2025-11-04,Month-to-Month,Bank Wire,1,10,2165.0,22723.29,4,5,1
+CUST-1183,Yuki Health,SMB,EMEA,France,2025-03-21,Month-to-Month,Credit Card,1,18,533.65,9715.2,2,5,0
+CUST-1184,Xavier Capital,Mid-Market,EMEA,France,2023-12-26,Two-Year,Automated ACH,1,33,818.01,27945.6,1,5,0
+CUST-1185,Evelyn Logistics,Enterprise,EMEA,Netherlands,2025-10-09,Month-to-Month,Credit Card,0,11,2179.76,22791.93,6,4,1
+CUST-1186,Xavier Ventures,Mid-Market,North America,United States,2025-12-11,Month-to-Month,Credit Card,1,9,1400.63,12059.56,1,4,0
+CUST-1187,Vivienne Dynamics,SMB,APAC,Australia,2025-02-18,Month-to-Month,Automated ACH,0,19,430.28,8244.38,5,3,1
+CUST-1188,Julian Capital,Startup,EMEA,Netherlands,2023-12-15,One-Year,Credit Card,1,33,234.78,7478.45,4,5,0
+CUST-1189,Yuki Ventures,SMB,North America,Canada,2024-11-22,One-Year,Credit Card,1,22,457.84,9901.41,3,4,0
+CUST-1190,Zara Systems,Mid-Market,EMEA,Netherlands,2024-01-01,One-Year,Automated ACH,1,33,1088.76,37019.0,1,3,0
+CUST-1191,Evelyn Logistics,Mid-Market,North America,United States,2025-03-25,Month-to-Month,Automated ACH,1,18,1258.39,22586.89,6,3,1
+CUST-1192,Julian Dynamics,SMB,APAC,Singapore,2026-03-09,One-Year,Credit Card,1,6,412.46,2558.57,4,3,0
+CUST-1193,Kavita Dynamics,Startup,North America,United States,2026-01-30,Two-Year,Credit Card,0,7,255.67,1800.52,2,2,0
+CUST-1194,Patrick Health,SMB,EMEA,Netherlands,2026-02-14,Month-to-Month,Bank Wire,1,7,515.72,3671.42,3,5,0
+CUST-1195,Yuki Media,Mid-Market,North America,United States,2024-09-22,Two-Year,Automated ACH,1,24,1330.67,31492.14,3,3,1
+CUST-1196,Gabriella Technologies,Enterprise,EMEA,France,2023-09-22,Two-Year,Credit Card,1,36,3039.22,106928.57,1,2,0
+CUST-1197,Vivienne Health,Enterprise,EMEA,Netherlands,2025-07-02,One-Year,Bank Wire,1,14,2316.88,32670.45,1,4,0
+CUST-1198,Alexander Solutions,Mid-Market,LATAM,Chile,2024-08-23,Month-to-Month,Automated ACH,1,25,1059.59,27304.13,3,2,1
+CUST-1199,Beatrice Capital,SMB,North America,United States,2025-09-17,Two-Year,Bank Wire,1,12,443.62,5507.53,2,4,0
+CUST-1200,Beatrice Solutions,Mid-Market,EMEA,United Kingdom,2024-10-10,Month-to-Month,Automated ACH,1,23,942.46,22191.3,1,5,1

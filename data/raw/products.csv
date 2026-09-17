@@ -1,0 +1,13 @@
+product_id,product_name,category,unit_cost,unit_price,margin_pct,is_active
+PROD-01,Insight Cloud Enterprise,Cloud Analytics,450.0,1499.0,0.6998,1
+PROD-02,DataFlow Realtime ETL,Data Engineering,220.0,799.0,0.7247,1
+PROD-03,Predictive AI Studio,Machine Learning,650.0,2199.0,0.7044,1
+PROD-04,Executive Dashboard Pro,Business Intelligence,120.0,499.0,0.7595,1
+PROD-05,SecureVault Data Shield,Security & Governance,180.0,599.0,0.6995,1
+PROD-06,Customer 360 CDP,Customer Intelligence,310.0,1099.0,0.7179,1
+PROD-07,Automated SQL Lakehouse,Data Engineering,500.0,1699.0,0.7057,1
+PROD-08,Revenue Operations Suite,Business Intelligence,200.0,699.0,0.7139,1
+PROD-09,Edge Inference Engine,Machine Learning,390.0,1299.0,0.6998,1
+PROD-10,Compliance Audit Sentinel,Security & Governance,150.0,449.0,0.6659,1
+PROD-11,Micro-Service API Gateway,Cloud Analytics,90.0,299.0,0.699,1
+PROD-12,Anomaly Watchdog Realtime,Security & Governance,280.0,899.0,0.6885,1
