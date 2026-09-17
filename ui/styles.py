@@ -223,13 +223,13 @@ PLOTLY_TEMPLATE = {
             "gridcolor": "#F1F5F9",
             "zerolinecolor": "#E2E8F0",
             "tickfont": {"size": 11, "color": "#64748B"},
-            "titlefont": {"size": 12, "color": "#475569"}
+            "title": {"font": {"size": 12, "color": "#475569"}}
         },
         "yaxis": {
             "gridcolor": "#F1F5F9",
             "zerolinecolor": "#E2E8F0",
             "tickfont": {"size": 11, "color": "#64748B"},
-            "titlefont": {"size": 12, "color": "#475569"}
+            "title": {"font": {"size": 12, "color": "#475569"}}
         },
         "margin": {"l": 40, "r": 20, "t": 40, "b": 40},
         "colorway": ["#1E293B", "#2563EB", "#059669", "#D97706", "#BE123C", "#8B5CF6", "#0D9488"]
