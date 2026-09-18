@@ -1,7 +1,7 @@
 """
 InsightOS - Modern, Human-Centered UI Styling System
 Warm, welcoming, clean, and intuitive design inspired by modern SaaS (Linear, Notion, Stripe).
-Free from generic dark neon AI cliches; optimized for readability, warmth, and business clarity.
+Guarantees 100% text contrast and readability regardless of OS/browser dark mode settings.
 """
 
 CUSTOM_CSS = """
@@ -11,258 +11,82 @@ CUSTOM_CSS = """
 
 html, body, [class*="css"] {
     font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    color: #1E293B;
+    color: #0F172A !important;
 }
 
-/* Background canvas */
-.stApp {
-    background-color: #F8FAFC;
+/* Force light background on all Streamlit containers to prevent theme mixing */
+.stApp,
+[data-testid="stAppViewContainer"],
+[data-testid="stHeader"],
+[data-testid="stToolbar"],
+[data-testid="stMain"],
+[data-testid="stMainBlockContainer"],
+[data-testid="stVerticalBlock"] {
+    background-color: #F8FAFC !important;
+    color: #0F172A !important;
 }
 
-/* Clean, friendly sidebar */
-[data-testid="stSidebar"] {
-    background-color: #FFFFFF;
-    border-right: 1px solid #E2E8F0;
-    padding-top: 1.5rem;
-}
-
-/* User Greeting Banner */
-.welcome-banner {
-    background: linear-gradient(135deg, #FFFFFF 0%, #F1F5F9 100%);
-    border: 1px solid #E2E8F0;
-    border-radius: 16px;
-    padding: 24px 28px;
-    margin-bottom: 24px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.03), 0 2px 4px -2px rgba(0, 0, 0, 0.03);
-}
-
-.welcome-title {
-    font-size: 24px;
-    font-weight: 800;
-    color: #0F172A;
-    margin: 0;
-    letter-spacing: -0.02em;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.welcome-desc {
-    font-size: 14px;
-    color: #64748B;
-    margin-top: 6px;
-    margin-bottom: 0;
-    line-height: 1.5;
-}
-
-/* Friendly KPI Metric Card */
-.metric-card {
-    background: #FFFFFF;
-    border: 1px solid #E2E8F0;
-    border-radius: 14px;
-    padding: 18px 20px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
-    transition: all 0.2s ease-in-out;
-}
-
-.metric-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px -2px rgba(15, 23, 42, 0.08);
-    border-color: #CBD5E1;
-}
-
-.metric-icon-wrap {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 36px;
-    height: 36px;
-    border-radius: 10px;
-    background: #F1F5F9;
-    font-size: 18px;
-    margin-bottom: 12px;
-}
-
-.metric-title {
-    font-size: 13px;
-    font-weight: 600;
-    color: #64748B;
-    margin-bottom: 4px;
-}
-
-.metric-num {
-    font-size: 26px;
-    font-weight: 800;
-    color: #0F172A;
-    letter-spacing: -0.03em;
-}
-
-.metric-badge-good {
-    display: inline-flex;
-    align-items: center;
-    gap: 3px;
-    font-size: 12px;
-    font-weight: 700;
-    color: #059669;
-    background: #ECFDF5;
-    padding: 2px 8px;
-    border-radius: 9999px;
-    margin-top: 6px;
-}
-
-.metric-badge-warning {
-    display: inline-flex;
-    align-items: center;
-    gap: 3px;
-    font-size: 12px;
-    font-weight: 700;
-    color: #E11D48;
-    background: #FFF1F2;
-    padding: 2px 8px;
-    border-radius: 9999px;
-    margin-top: 6px;
-}
-
-.metric-subtext {
-    font-size: 12px;
-    color: #94A3B8;
-    margin-top: 6px;
-}
-
-/* Human Insight Box (Explains WHY in plain English) */
-.human-insight-box {
-    background: #F8FAFC;
-    border-left: 4px solid #3B82F6;
-    border-radius: 0 12px 12px 0;
-    padding: 14px 18px;
-    margin: 14px 0;
-    border-top: 1px solid #E2E8F0;
-    border-right: 1px solid #E2E8F0;
-    border-bottom: 1px solid #E2E8F0;
-}
-
-.human-insight-title {
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: #2563EB;
-    margin-bottom: 4px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-}
-
-.human-insight-body {
-    font-size: 13.5px;
-    color: #334155;
-    line-height: 1.5;
-}
-
-/* Card Container */
-.human-card {
-    background: #FFFFFF;
-    border: 1px solid #E2E8F0;
-    border-radius: 14px;
-    padding: 20px 24px;
-    margin-bottom: 20px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
-}
-
-.human-card-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 14px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #F1F5F9;
-}
-
-.human-card-title {
-    font-size: 16px;
-    font-weight: 700;
-    color: #0F172A;
-    margin: 0;
-}
-
-/* Persona Badge */
-.persona-pill {
-    display: inline-block;
-    padding: 4px 12px;
-    border-radius: 9999px;
-    font-size: 12px;
-    font-weight: 600;
-}
-.persona-champion { background: #FEF3C7; color: #92400E; border: 1px solid #FDE68A; }
-.persona-loyal { background: #EFF6FF; color: #1E40AF; border: 1px solid #DBEAFE; }
-.persona-atrisk { background: #FFF1F2; color: #9F1239; border: 1px solid #FECDD3; }
-.persona-hibernating { background: #F1F5F9; color: #475569; border: 1px solid #E2E8F0; }
-
-/* Friendly Navigation Buttons */
-.stTabs [data-baseweb="tab-list"] {
-    gap: 6px;
-    background-color: transparent;
-    border-bottom: 2px solid #E2E8F0;
-    padding-bottom: 2px;
-}
-
-.stTabs [data-baseweb="tab"] {
-    border-radius: 8px 8px 0 0;
-    padding: 10px 18px;
-    font-size: 14px;
-    font-weight: 600;
-    color: #64748B;
-    background-color: transparent;
-    border: none;
-}
-
-.stTabs [aria-selected="true"] {
-    background-color: #FFFFFF !important;
-    color: #2563EB !important;
-    border-bottom: 2px solid #2563EB !important;
+/* Force dark slate text for all headings and markdown text across the entire app */
+h1, h2, h3, h4, h5, h6,
+[data-testid="stMarkdownContainer"] h1,
+[data-testid="stMarkdownContainer"] h2,
+[data-testid="stMarkdownContainer"] h3,
+[data-testid="stMarkdownContainer"] h4,
+[data-testid="stMarkdownContainer"] h5,
+[data-testid="stMarkdownContainer"] h6 {
+    color: #0F172A !important;
     font-weight: 700 !important;
 }
 
-/* Button override */
-.stButton > button {
-    border-radius: 8px;
-    font-weight: 600;
-    font-size: 13.5px;
-    border: 1px solid #CBD5E1;
-    background-color: #FFFFFF;
-    color: #1E293B;
-    padding: 8px 18px;
-    transition: all 0.15s ease;
+[data-testid="stMarkdownContainer"] p,
+[data-testid="stMarkdownContainer"] li {
+    color: #334155 !important;
 }
 
-.stButton > button:hover {
-    background-color: #F8FAFC;
-    border-color: #94A3B8;
-    color: #0F172A;
-    transform: translateY(-1px);
+/* Form labels and selectbox headers */
+label[data-testid="stWidgetLabel"] p,
+label[data-testid="stWidgetLabel"] span {
+    color: #0F172A !important;
+    font-weight: 600 !important;
+    font-size: 13.5px !important;
 }
 
-.stButton > button[kind="primary"] {
-    background: #0F172A;
-    color: #FFFFFF;
-    border-color: #0F172A;
+/* Inputs and Selectboxes */
+div[data-baseweb="select"] > div,
+div[data-baseweb="input"] > div,
+.stTextInput input,
+.stSelectbox div {
+    background-color: #FFFFFF !important;
+    color: #0F172A !important;
+    border-color: #CBD5E1 !important;
 }
 
-.stButton > button[kind="primary"]:hover {
-    background: #1E293B;
-    border-color: #1E293B;
+/* Clean, friendly sidebar */
+[data-testid="stSidebar"],
+[data-testid="stSidebarContent"],
+[data-testid="stSidebarUserContent"] {
+    background-color: #FFFFFF !important;
+    border-right: 1.5px solid #E2E8F0 !important;
 }
 
-/* Dataframe clean styling */
-[data-testid="stDataFrame"] {
-    border-radius: 10px;
-    border: 1px solid #E2E8F0;
-    overflow: hidden;
+[data-testid="stSidebar"] p,
+[data-testid="stSidebar"] span,
+[data-testid="stSidebar"] div,
+[data-testid="stSidebar"] label {
+    color: #0F172A !important;
 }
 
-/* Sidebar Nav Radio Styling - Clear Text & High Visibility */
+/* Hide circular radio buttons to make menu look like modern SaaS tabs */
+div[data-testid="stRadio"] div[data-testid="stRadioBtn"] {
+    display: none !important;
+}
+div[data-testid="stRadio"] input[type="radio"] {
+    display: none !important;
+}
+
+/* Sidebar Nav Radio Styling - Modern SaaS Menu */
 div[data-testid="stRadio"] > div[role="radiogroup"] {
-    gap: 8px !important;
+    gap: 6px !important;
 }
 
 div[data-testid="stRadio"] label {
@@ -272,7 +96,7 @@ div[data-testid="stRadio"] label {
     border: 1.5px solid #E2E8F0 !important;
     border-radius: 10px !important;
     padding: 10px 14px !important;
-    margin-bottom: 6px !important;
+    margin-bottom: 4px !important;
     cursor: pointer !important;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02) !important;
     transition: all 0.15s ease-in-out !important;
@@ -283,23 +107,20 @@ div[data-testid="stRadio"] label:hover {
     border-color: #94A3B8 !important;
 }
 
-/* Radio text visibility guarantee */
 div[data-testid="stRadio"] label p,
 div[data-testid="stRadio"] label span,
 div[data-testid="stRadio"] label div {
-    font-size: 14px !important;
+    font-size: 13.5px !important;
     font-weight: 700 !important;
-    color: #0F172A !important;
-    opacity: 1 !important;
-    visibility: visible !important;
+    color: #1E293B !important;
+    margin: 0 !important;
     line-height: 1.4 !important;
 }
 
-/* Selected item styling */
 div[data-testid="stRadio"] label:has(input:checked) {
     background-color: #EFF6FF !important;
     border-color: #2563EB !important;
-    box-shadow: 0 2px 4px rgba(37, 99, 235, 0.15) !important;
+    box-shadow: 0 2px 4px rgba(37, 99, 235, 0.12) !important;
 }
 
 div[data-testid="stRadio"] label:has(input:checked) p,
@@ -328,13 +149,238 @@ div[data-testid="stRadio"] label:has(input:checked) span {
     margin-top: 2px !important;
 }
 
-/* Sidebar universal text contrast without overriding brand colors */
-[data-testid="stSidebar"] p,
-[data-testid="stSidebar"] label,
-[data-testid="stSidebar"] h1,
-[data-testid="stSidebar"] h2,
-[data-testid="stSidebar"] h3 {
+/* User Greeting Banner */
+.welcome-banner {
+    background: #FFFFFF !important;
+    border: 1.5px solid #E2E8F0 !important;
+    border-radius: 16px !important;
+    padding: 22px 26px !important;
+    margin-bottom: 22px !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03) !important;
+}
+
+.welcome-title {
+    font-size: 24px !important;
+    font-weight: 800 !important;
     color: #0F172A !important;
+    margin: 0 !important;
+    letter-spacing: -0.02em !important;
+}
+
+.welcome-desc {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #475569 !important;
+    margin-top: 6px !important;
+    margin-bottom: 0 !important;
+    line-height: 1.5 !important;
+}
+
+/* Friendly KPI Metric Card */
+.metric-card {
+    background: #FFFFFF !important;
+    border: 1.5px solid #E2E8F0 !important;
+    border-radius: 14px !important;
+    padding: 18px 20px !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03) !important;
+    transition: all 0.2s ease-in-out !important;
+}
+
+.metric-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px -2px rgba(15, 23, 42, 0.08) !important;
+    border-color: #CBD5E1 !important;
+}
+
+.metric-icon-wrap {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 10px !important;
+    background: #F1F5F9 !important;
+    font-size: 18px !important;
+    margin-bottom: 10px !important;
+}
+
+.metric-title {
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    color: #64748B !important;
+    margin-bottom: 4px !important;
+}
+
+.metric-num {
+    font-size: 26px !important;
+    font-weight: 800 !important;
+    color: #0F172A !important;
+    letter-spacing: -0.03em !important;
+}
+
+.metric-badge-good {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 3px !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    color: #059669 !important;
+    background: #ECFDF5 !important;
+    padding: 2px 8px !important;
+    border-radius: 9999px !important;
+    border: 1px solid #A7F3D0 !important;
+    margin-top: 6px !important;
+}
+
+.metric-badge-warning {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 3px !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    color: #E11D48 !important;
+    background: #FFF1F2 !important;
+    padding: 2px 8px !important;
+    border-radius: 9999px !important;
+    border: 1px solid #FECDD3 !important;
+    margin-top: 6px !important;
+}
+
+.metric-subtext {
+    font-size: 12px !important;
+    color: #64748B !important;
+    margin-top: 6px !important;
+}
+
+/* Human Insight Box (Explains WHY in plain English) */
+.human-insight-box {
+    background: #F8FAFC !important;
+    border-left: 4px solid #2563EB !important;
+    border-radius: 0 12px 12px 0 !important;
+    padding: 14px 18px !important;
+    margin: 16px 0 !important;
+    border-top: 1.5px solid #E2E8F0 !important;
+    border-right: 1.5px solid #E2E8F0 !important;
+    border-bottom: 1.5px solid #E2E8F0 !important;
+}
+
+.human-insight-title {
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
+    color: #2563EB !important;
+    margin-bottom: 4px !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+}
+
+.human-insight-body {
+    font-size: 13.5px !important;
+    color: #1E293B !important;
+    line-height: 1.6 !important;
+}
+
+/* Card Container */
+.human-card {
+    background: #FFFFFF !important;
+    border: 1.5px solid #E2E8F0 !important;
+    border-radius: 14px !important;
+    padding: 20px 24px !important;
+    margin-bottom: 20px !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03) !important;
+}
+
+.human-card-header {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-bottom: 14px !important;
+    padding-bottom: 10px !important;
+    border-bottom: 1px solid #F1F5F9 !important;
+}
+
+.human-card-title {
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    color: #0F172A !important;
+    margin: 0 !important;
+}
+
+/* Persona Badge */
+.persona-pill {
+    display: inline-block !important;
+    padding: 4px 12px !important;
+    border-radius: 9999px !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+}
+.persona-champion { background: #FEF3C7 !important; color: #92400E !important; border: 1px solid #FDE68A !important; }
+.persona-loyal { background: #EFF6FF !important; color: #1E40AF !important; border: 1px solid #DBEAFE !important; }
+.persona-atrisk { background: #FFF1F2 !important; color: #9F1239 !important; border: 1px solid #FECDD3 !important; }
+.persona-hibernating { background: #F1F5F9 !important; color: #475569 !important; border: 1px solid #E2E8F0 !important; }
+
+/* Friendly Navigation Buttons */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 6px !important;
+    background-color: transparent !important;
+    border-bottom: 2px solid #E2E8F0 !important;
+    padding-bottom: 2px !important;
+}
+
+.stTabs [data-baseweb="tab"] {
+    border-radius: 8px 8px 0 0 !important;
+    padding: 10px 18px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: #64748B !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #FFFFFF !important;
+    color: #2563EB !important;
+    border-bottom: 2px solid #2563EB !important;
+    font-weight: 700 !important;
+}
+
+/* Button override */
+.stButton > button {
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    font-size: 13.5px !important;
+    border: 1.5px solid #CBD5E1 !important;
+    background-color: #FFFFFF !important;
+    color: #0F172A !important;
+    padding: 8px 18px !important;
+    transition: all 0.15s ease !important;
+}
+
+.stButton > button:hover {
+    background-color: #F8FAFC !important;
+    border-color: #94A3B8 !important;
+    color: #0F172A !important;
+    transform: translateY(-1px) !important;
+}
+
+.stButton > button[kind="primary"] {
+    background: #0F172A !important;
+    color: #FFFFFF !important;
+    border-color: #0F172A !important;
+}
+
+.stButton > button[kind="primary"]:hover {
+    background: #1E293B !important;
+    border-color: #1E293B !important;
+}
+
+/* Dataframe clean styling */
+[data-testid="stDataFrame"] {
+    border-radius: 10px !important;
+    border: 1px solid #E2E8F0 !important;
+    overflow: hidden !important;
 }
 </style>
 """

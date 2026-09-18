@@ -20,9 +20,9 @@ from ui.styles import PLOTLY_TEMPLATE
 def render_ml_studio_view(db: DatabaseManager):
     """Render friendly machine learning studio."""
     render_welcome_banner(
-        title="🤖 Machine Learning Lab (Predictive Decisions)",
-        subtitle="Four smart predictive models looking into your future: Who will cancel? Who are your best clients? How much will you make next month? And did an order lose money?",
-        badge_text="Predictive Scikit-Learn Models"
+        title="Predictive Decision Studio 🧠",
+        subtitle="Four machine learning models forecasting your business: customer churn risk, RFM personas, revenue projections, and transaction anomalies.",
+        badge_text="● 4 Scikit-Learn Models Active"
     )
 
     tab_churn, tab_seg, tab_forecast, tab_anom = st.tabs([

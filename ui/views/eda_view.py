@@ -9,60 +9,28 @@ import plotly.express as px
 from database.db_manager import DatabaseManager
 from ingestion.validator import DataValidator
 from ingestion.eda_engine import EDAEngine
-from ui.components import render_welcome_banner, render_insight_takeaway
+from ui.components import render_welcome_banner, render_insight_takeaway, render_human_kpi
 from ui.styles import PLOTLY_TEMPLATE
 
 
 def render_eda_view(db: DatabaseManager):
     """Render friendly data health and exploration workbench."""
     render_welcome_banner(
-        title="🔍 Data Health & Explorer",
-        subtitle="We automatically checked all your business records for missing info, duplicates, and weird values. Here is what we found.",
-        badge_text="Automated Quality Audit"
+        title="Data Quality & Health Audit 🔍",
+        subtitle="Automated audit across 1,200 customer accounts, 12,000 transactions, and 12 product lines with zero missing records.",
+        badge_text="● 100% Data Integrity"
     )
 
     # 1. Traffic Light Health Cards
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-        st.markdown("""
-        <div class="metric-card">
-            <div style="font-size: 22px;">🟢</div>
-            <div class="metric-title">Customer Records</div>
-            <div class="metric-num">1,200</div>
-            <div class="metric-badge-good">100% Validated</div>
-            <div class="metric-subtext">Zero duplicate IDs found</div>
-        </div>
-        """, unsafe_allow_html=True)
+        render_human_kpi("👥", "Customer Records", "1,200", "100% Validated", "good", "Zero duplicate IDs found")
     with col2:
-        st.markdown("""
-        <div class="metric-card">
-            <div style="font-size: 22px;">🟢</div>
-            <div class="metric-title">Transaction Records</div>
-            <div class="metric-num">12,000</div>
-            <div class="metric-badge-good">Verified Purchases</div>
-            <div class="metric-subtext">All prices & dates clean</div>
-        </div>
-        """, unsafe_allow_html=True)
+        render_human_kpi("💳", "Transaction Records", "12,000", "Verified Purchases", "good", "All prices & dates clean")
     with col3:
-        st.markdown("""
-        <div class="metric-card">
-            <div style="font-size: 22px;">🟢</div>
-            <div class="metric-title">Product Catalog</div>
-            <div class="metric-num">12 Products</div>
-            <div class="metric-badge-good">Margins Accurate</div>
-            <div class="metric-subtext">Costs & list prices balanced</div>
-        </div>
-        """, unsafe_allow_html=True)
+        render_human_kpi("📦", "Product Catalog", "12 Products", "Margins Accurate", "good", "Costs & list prices balanced")
     with col4:
-        st.markdown("""
-        <div class="metric-card">
-            <div style="font-size: 22px;">🟢</div>
-            <div class="metric-title">Sales Representatives</div>
-            <div class="metric-num">8 Reps</div>
-            <div class="metric-badge-good">Quotas Assigned</div>
-            <div class="metric-subtext">Across 4 global regions</div>
-        </div>
-        """, unsafe_allow_html=True)
+        render_human_kpi("👔", "Sales Representatives", "8 Reps", "Quotas Assigned", "good", "Across 4 global regions")
 
     st.markdown("<div style='height: 20px;'></div>", unsafe_allow_html=True)
 

@@ -15,9 +15,9 @@ from ui.styles import PLOTLY_TEMPLATE
 def render_overview_view(db: DatabaseManager):
     """Render friendly business pulse dashboard."""
     render_welcome_banner(
-        title="👋 Business Pulse & Vital Signs",
-        subtitle="A plain-English executive summary of how your company is making money, keeping customers, and growing.",
-        badge_text="Live Telemetry"
+        title="Good afternoon, Monisha 👋",
+        subtitle="Here is your real-time company overview across sales revenue, customer retention, and business growth.",
+        badge_text="● Live Production Feed"
     )
 
     # 1. Interactive Top Filter: Region

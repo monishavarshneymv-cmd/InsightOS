@@ -14,9 +14,9 @@ from ui.components import render_welcome_banner, render_insight_takeaway
 def render_sql_analytics_view(db: DatabaseManager):
     """Render friendly SQL analytics view."""
     render_welcome_banner(
-        title="⚡ Smart SQL Business Insights",
-        subtitle="We turned complex PostgreSQL queries (Window Functions, CTEs, and Joins) into instant answers to critical business questions.",
-        badge_text="PostgreSQL Analytics Engine"
+        title="Executive SQL Intelligence 📈",
+        subtitle="Instant answers to critical business questions powered by optimized PostgreSQL window functions, CTEs, and joins.",
+        badge_text="● PostgreSQL Analytics Engine"
     )
 
     tab_answers, tab_sandbox = st.tabs([

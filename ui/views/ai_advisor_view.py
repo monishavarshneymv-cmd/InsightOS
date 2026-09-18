@@ -14,9 +14,9 @@ from ui.components import render_welcome_banner
 def render_ai_advisor_view(db: DatabaseManager):
     """Render friendly conversational AI business advisor view."""
     render_welcome_banner(
-        title="💬 Ask InsightOS (Your AI Business Partner)",
-        subtitle="Ask any question about your sales, profits, customer cancellations, or growth. We crunch the database numbers and give you plain-English answers.",
-        badge_text="Executive Decision Advisor"
+        title="AI Executive Advisor 💬",
+        subtitle="Ask strategic business questions in plain English to receive data-backed executive briefings and action plans.",
+        badge_text="● Decision Intelligence RAG"
     )
 
     # Initialize RAG in session state
