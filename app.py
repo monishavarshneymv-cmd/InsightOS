@@ -62,7 +62,7 @@ with st.sidebar:
         options=[
             "📊 Business Pulse",
             "🔍 Data Health & Explorer",
-            "⚡ Smart SQL Insights",
+            "📈 Smart SQL Insights",
             "🤖 Predictive Machine Learning",
             "💬 Ask InsightOS (AI Advisor)"
         ],

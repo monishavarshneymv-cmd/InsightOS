@@ -259,6 +259,64 @@ html, body, [class*="css"] {
     border: 1px solid #E2E8F0;
     overflow: hidden;
 }
+
+/* Sidebar Nav Radio Styling - Clear Text & High Visibility */
+div[data-testid="stRadio"] > div[role="radiogroup"] {
+    gap: 8px !important;
+}
+
+div[data-testid="stRadio"] label {
+    display: flex !important;
+    align-items: center !important;
+    background-color: #F8FAFC !important;
+    border: 1.5px solid #E2E8F0 !important;
+    border-radius: 10px !important;
+    padding: 10px 14px !important;
+    margin-bottom: 6px !important;
+    cursor: pointer !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02) !important;
+    transition: all 0.15s ease-in-out !important;
+}
+
+div[data-testid="stRadio"] label:hover {
+    background-color: #F1F5F9 !important;
+    border-color: #94A3B8 !important;
+}
+
+/* Radio text visibility guarantee */
+div[data-testid="stRadio"] label p,
+div[data-testid="stRadio"] label span,
+div[data-testid="stRadio"] label div {
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    color: #0F172A !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    line-height: 1.4 !important;
+}
+
+/* Selected item styling */
+div[data-testid="stRadio"] label:has(input:checked) {
+    background-color: #EFF6FF !important;
+    border-color: #2563EB !important;
+    box-shadow: 0 2px 4px rgba(37, 99, 235, 0.15) !important;
+}
+
+div[data-testid="stRadio"] label:has(input:checked) p,
+div[data-testid="stRadio"] label:has(input:checked) span {
+    color: #1D4ED8 !important;
+    font-weight: 800 !important;
+}
+
+/* Sidebar universal text contrast */
+[data-testid="stSidebar"] p,
+[data-testid="stSidebar"] span,
+[data-testid="stSidebar"] label,
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3 {
+    color: #0F172A !important;
+}
 </style>
 """
 
