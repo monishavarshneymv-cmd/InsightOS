@@ -45,17 +45,24 @@ db = get_database_connection()
 # 4. Sidebar Navigation
 with st.sidebar:
     st.markdown("""
-    <div style="padding: 4px 0 16px 0; border-bottom: 1px solid #E2E8F0; margin-bottom: 16px;">
-        <div style="font-size: 22px; font-weight: 800; color: #0F172A; letter-spacing: -0.03em;">
-            Insight<span style="color: #2563EB;">OS</span>
-        </div>
-        <div style="font-size: 12px; font-weight: 500; color: #64748B; margin-top: 2px;">
-            AI Business Intelligence Platform
+    <div style="padding: 6px 0 16px 0; border-bottom: 1.5px solid #E2E8F0; margin-bottom: 16px;">
+        <div style="display: flex; align-items: center; gap: 10px;">
+            <div style="background: #0F172A; color: #FFFFFF; font-size: 16px; font-weight: 800; width: 34px; height: 34px; border-radius: 8px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                ⚡
+            </div>
+            <div>
+                <div class="brand-title" style="font-size: 22px !important;">
+                    Insight<span class="brand-blue">OS</span>
+                </div>
+                <div class="brand-subtitle">
+                    AI Business Intelligence Platform
+                </div>
+            </div>
         </div>
     </div>
     """, unsafe_allow_html=True)
 
-    st.markdown("<div style='font-size: 11px; font-weight: 700; text-transform: uppercase; color: #94A3B8; letter-spacing: 0.05em; margin-bottom: 8px;'>Main Menu</div>", unsafe_allow_html=True)
+    st.markdown("<div style='font-size: 11px; font-weight: 700; text-transform: uppercase; color: #64748B; letter-spacing: 0.05em; margin-bottom: 8px;'>Main Navigation Menu</div>", unsafe_allow_html=True)
 
     nav_selection = st.radio(
         "Menu",
@@ -110,7 +117,35 @@ with st.sidebar:
     """, unsafe_allow_html=True)
 
 
-# 5. Route to Selected View
+# 5. Top Brand Navbar (Visible on Main Screen)
+st.markdown("""
+<div style="display: flex; align-items: center; justify-content: space-between; padding: 4px 0 16px 0; margin-bottom: 20px; border-bottom: 1.5px solid #E2E8F0;">
+    <div style="display: flex; align-items: center; gap: 12px;">
+        <div style="background: #0F172A; color: #FFFFFF; font-size: 18px; font-weight: 800; width: 38px; height: 38px; border-radius: 9px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 5px rgba(15,23,42,0.12);">
+            ⚡
+        </div>
+        <div>
+            <div class="brand-title">
+                Insight<span class="brand-blue">OS</span>
+            </div>
+            <div class="brand-subtitle">
+                AI-Powered Business Intelligence & Decision Platform
+            </div>
+        </div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px;">
+        <span style="background: #ECFDF5; color: #047857; font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 9999px; border: 1px solid #A7F3D0;">
+            ● Engine Online
+        </span>
+        <span style="background: #F1F5F9; color: #334155; font-size: 11px; font-weight: 600; padding: 4px 10px; border-radius: 9999px; border: 1px solid #E2E8F0;">
+            Enterprise Edition
+        </span>
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
+
+# 6. Route to Selected View
 if "Business Pulse" in nav_selection:
     render_overview_view(db)
 elif "Data Health" in nav_selection:

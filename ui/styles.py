@@ -308,9 +308,28 @@ div[data-testid="stRadio"] label:has(input:checked) span {
     font-weight: 800 !important;
 }
 
-/* Sidebar universal text contrast */
+/* Brand Header & Logo Styling */
+.brand-title {
+    font-size: 24px !important;
+    font-weight: 800 !important;
+    color: #0F172A !important;
+    letter-spacing: -0.03em !important;
+    line-height: 1.2 !important;
+}
+
+.brand-blue {
+    color: #2563EB !important;
+}
+
+.brand-subtitle {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    color: #64748B !important;
+    margin-top: 2px !important;
+}
+
+/* Sidebar universal text contrast without overriding brand colors */
 [data-testid="stSidebar"] p,
-[data-testid="stSidebar"] span,
 [data-testid="stSidebar"] label,
 [data-testid="stSidebar"] h1,
 [data-testid="stSidebar"] h2,
