@@ -110,6 +110,18 @@ with st.sidebar:
             st.cache_resource.clear()
             st.rerun()
 
+    # Download 10-Day Study Plan PDF
+    pdf_path = Path("InsightOS_10_Day_Master_Study_Plan.pdf")
+    if pdf_path.exists():
+        with open(pdf_path, "rb") as f_pdf:
+            st.download_button(
+                label="📥 Download Study Plan (PDF)",
+                data=f_pdf.read(),
+                file_name="InsightOS_10_Day_Master_Study_Plan.pdf",
+                mime="application/pdf",
+                use_container_width=True
+            )
+
     st.markdown("""
     <div style="margin-top: 28px; font-size: 11px; color: #94A3B8 !important; text-align: center; line-height: 1.4;">
         InsightOS Platform • Built by Monisha Varshney<br>Python • Pandas • Scikit-Learn • PostgreSQL • GenAI
