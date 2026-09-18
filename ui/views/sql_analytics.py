@@ -100,7 +100,7 @@ GROUP BY c.segment
 ORDER BY total_revenue DESC;"""
 
         user_sql = st.text_area("SQL Editor:", value=sample_sql, height=180)
-        if st.button("Run My Query", type="primary"):
+        if st.button("▶️ Run My Query", type="primary"):
             try:
                 t0 = time.perf_counter()
                 custom_df = db.execute_query(user_sql)

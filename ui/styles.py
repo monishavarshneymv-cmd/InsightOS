@@ -38,7 +38,8 @@ h1, h2, h3, h4, h5, h6,
     font-weight: 700 !important;
 }
 
-[data-testid="stMarkdownContainer"] p,
+/* All paragraphs, labels, and text elements (excluding buttons) */
+[data-testid="stMarkdownContainer"]:not(button *) p,
 [data-testid="stMarkdownContainer"] li {
     color: #334155 !important;
 }
@@ -346,9 +347,11 @@ div[data-testid="stRadio"] label:has(input:checked) span {
     font-weight: 700 !important;
 }
 
-/* Button override */
-.stButton > button {
-    border-radius: 8px !important;
+/* Button override - Secondary / Standard Buttons */
+.stButton > button,
+button[data-testid="baseButton-secondary"],
+[data-testid="stDownloadButton"] > button {
+    border-radius: 9px !important;
     font-weight: 600 !important;
     font-size: 13.5px !important;
     border: 1.5px solid #CBD5E1 !important;
@@ -358,22 +361,69 @@ div[data-testid="stRadio"] label:has(input:checked) span {
     transition: all 0.15s ease !important;
 }
 
-.stButton > button:hover {
+.stButton > button:hover,
+button[data-testid="baseButton-secondary"]:hover,
+[data-testid="stDownloadButton"] > button:hover {
     background-color: #F8FAFC !important;
     border-color: #94A3B8 !important;
     color: #0F172A !important;
     transform: translateY(-1px) !important;
 }
 
-.stButton > button[kind="primary"] {
-    background: #0F172A !important;
-    color: #FFFFFF !important;
-    border-color: #0F172A !important;
+.stButton > button *,
+button[data-testid="baseButton-secondary"] *,
+[data-testid="stDownloadButton"] > button * {
+    color: #0F172A !important;
+    font-weight: 600 !important;
 }
 
-.stButton > button[kind="primary"]:hover {
-    background: #1E293B !important;
-    border-color: #1E293B !important;
+/* Primary Button override - High Contrast Royal Blue with 100% White Text */
+.stButton > button[kind="primary"],
+.stButton > button[data-testid="baseButton-primary"],
+button[kind="primary"],
+button[data-testid="baseButton-primary"] {
+    background-color: #2563EB !important;
+    background: linear-gradient(135deg, #1D4ED8 0%, #2563EB 100%) !important;
+    border: 1.5px solid #1D4ED8 !important;
+    color: #FFFFFF !important;
+    border-radius: 10px !important;
+    font-weight: 700 !important;
+    font-size: 14.5px !important;
+    padding: 10px 22px !important;
+    box-shadow: 0 2px 6px rgba(37, 99, 235, 0.3) !important;
+}
+
+.stButton > button[kind="primary"]:hover,
+.stButton > button[data-testid="baseButton-primary"]:hover,
+button[kind="primary"]:hover,
+button[data-testid="baseButton-primary"]:hover {
+    background-color: #1D4ED8 !important;
+    background: #1D4ED8 !important;
+    border-color: #1E40AF !important;
+    color: #FFFFFF !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 10px rgba(37, 99, 235, 0.4) !important;
+}
+
+/* Force 100% WHITE text on all inner elements of Primary Buttons */
+.stButton > button[kind="primary"] *,
+.stButton > button[data-testid="baseButton-primary"] *,
+button[kind="primary"] *,
+button[data-testid="baseButton-primary"] *,
+.stButton > button[kind="primary"] p,
+.stButton > button[data-testid="baseButton-primary"] p,
+button[kind="primary"] p,
+button[data-testid="baseButton-primary"] p,
+.stButton > button[kind="primary"] span,
+.stButton > button[data-testid="baseButton-primary"] span,
+button[kind="primary"] span,
+button[data-testid="baseButton-primary"] span,
+.stButton > button[kind="primary"] div,
+.stButton > button[data-testid="baseButton-primary"] div,
+button[kind="primary"] div,
+button[data-testid="baseButton-primary"] div {
+    color: #FFFFFF !important;
+    font-weight: 700 !important;
 }
 
 /* Dataframe clean styling */

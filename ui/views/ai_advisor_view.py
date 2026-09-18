@@ -73,7 +73,7 @@ def render_ai_advisor_view(db: DatabaseManager):
     default_text = clicked_prompt if clicked_prompt else "Why are customers canceling and how do we stop them?"
     user_q = st.text_input("Ask a question about your business:", value=default_text)
 
-    if st.button("Get Plain-English Answer", type="primary") or clicked_prompt:
+    if st.button("✨ Get Plain-English Answer", type="primary") or clicked_prompt:
         with st.spinner("Analyzing numbers and formulating advice..."):
             ans = advisor.answer_question(
                 question=user_q,
